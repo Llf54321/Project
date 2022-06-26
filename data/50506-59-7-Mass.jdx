@@ -1,0 +1,29 @@
+##TITLE=2-Cyclopenten-1-one, 4-acetyl-2,3,4,5,5-pentamethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=50506-59-7
+##$NIST MASS SPEC NO=30008
+##MOLFORM=C12 H18 O2
+##MW=194
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=53
+##LASTX=194
+##FIRSTY=1200
+##MAXX=194
+##MINX=53
+##MAXY=9999
+##MINY=100
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+53,1200 55,1200 67,1200 81,3500
+91,1200 93,900 95,800 109,900
+123,5299 137,5999 152,9999 166,100
+179,100 194,150
+##END=

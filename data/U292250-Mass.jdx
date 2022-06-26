@@ -1,0 +1,32 @@
+##TITLE=m-Anisic acid, cyclobutyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=292250
+##MOLFORM=C12 H14 O3
+##MW=206
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=206
+##FIRSTY=50
+##MAXX=206
+##MINX=27
+##MAXY=9999
+##MINY=10
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+27,50 28,10 29,30 39,50
+50,50 51,30 53,40 55,100
+63,120 64,190 65,30 76,80
+77,591 78,50 79,30 92,490
+93,40 107,1151 108,90 135,9999
+136,701 137,60 150,50 152,90
+178,230 206,430
+##END=

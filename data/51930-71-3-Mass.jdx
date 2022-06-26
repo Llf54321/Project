@@ -1,0 +1,31 @@
+##TITLE=N,N-Diethylamphetamine
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Finnigan MAT: Toxicological Library (LIBR-TX)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=51930-71-3
+##$NIST MASS SPEC NO=119389
+##MOLFORM=C13 H21 N
+##MW=191
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=56
+##LASTX=191
+##FIRSTY=355
+##MAXX=191
+##MINX=56
+##MAXY=9999
+##MINY=9
+##NPOINTS=19
+##PEAK TABLE=(XY..XY)
+56,355 65,851 72,3445 73,273
+77,441 89,398 90,287 91,2119
+92,323 100,9999 101,477 103,193
+115,618 117,607 118,772 119,206
+132,119 148,120 191,9
+##END=

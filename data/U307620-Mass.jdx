@@ -1,0 +1,31 @@
+##TITLE=6-Bromohexanoic acid, 2-naphthyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307620
+##MOLFORM=C16 H17 Br O2
+##MW=320
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=322
+##FIRSTY=40
+##MAXX=322
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=23
+##PEAK TABLE=(XY..XY)
+28,40 36,40 41,250 43,40
+44,40 55,110 69,581 91,60
+97,30 115,591 116,150 127,140
+144,9999 145,1201 146,70 155,50
+172,60 177,110 179,100 200,30
+320,250 321,30 322,250
+##END=

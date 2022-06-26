@@ -1,0 +1,33 @@
+##TITLE=2-Furoic acid, 4-chlorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307993
+##MOLFORM=C11 H7 Cl O3
+##MW=222
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=36
+##LASTX=225
+##FIRSTY=10
+##MAXX=225
+##MINX=36
+##MAXY=9999
+##MINY=10
+##NPOINTS=29
+##PEAK TABLE=(XY..XY)
+36,10 38,40 39,330 50,10
+51,30 53,10 63,40 64,10
+65,10 66,10 67,180 73,60
+75,50 95,9999 96,581 97,50
+99,110 101,30 111,70 112,10
+113,10 127,30 128,40 129,10
+130,10 222,1942 223,230 224,671
+225,70
+##END=

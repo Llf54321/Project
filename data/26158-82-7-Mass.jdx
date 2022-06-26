@@ -1,0 +1,29 @@
+##TITLE=Pyrrolidine, 2-ethyl-1-methyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=26158-82-7
+##$NIST MASS SPEC NO=1715
+##MOLFORM=C7 H15 N
+##MW=113
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=55
+##LASTX=113
+##FIRSTY=400
+##MAXX=113
+##MINX=55
+##MAXY=9999
+##MINY=50
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+55,400 57,250 70,851 82,1001
+83,100 84,9999 85,801 94,50
+95,50 98,120 109,140 110,250
+111,150 112,240 113,200
+##END=

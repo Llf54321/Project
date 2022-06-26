@@ -1,0 +1,33 @@
+##TITLE=Phenylacetic acid, 4-chlorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307531
+##MOLFORM=C14 H11 Cl O2
+##MW=246
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=246
+##FIRSTY=10
+##MAXX=246
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=30
+##PEAK TABLE=(XY..XY)
+28,10 38,40 39,250 41,70
+50,60 51,110 62,50 63,260
+64,110 65,921 66,50 73,110
+75,90 89,330 90,771 91,7907
+92,621 93,30 99,200 100,40
+101,60 111,30 118,9999 119,991
+120,60 127,110 128,520 129,70
+130,160 246,50
+##END=

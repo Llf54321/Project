@@ -1,0 +1,31 @@
+##TITLE=4-Chlorobenzoic acid, 2-naphthyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307763
+##MOLFORM=C17 H11 Cl O2
+##MW=282
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=285
+##FIRSTY=10
+##MAXX=285
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+28,10 50,30 63,30 75,260
+76,90 89,60 104,80 111,1631
+112,120 113,540 114,50 115,510
+116,50 127,30 139,9999 140,781
+141,3403 142,240 143,30 144,50
+282,2122 283,390 284,721 285,110
+##END=

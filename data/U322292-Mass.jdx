@@ -1,0 +1,33 @@
+##TITLE=S-1-Propenylpropanethiosulfonate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=S. Volkovich, Institute of Nutrition, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=322292
+##MOLFORM=C6 H12 O2 S2
+##MW=180
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=15
+##LASTX=182
+##FIRSTY=210
+##MAXX=182
+##MINX=15
+##MAXY=9999
+##MINY=60
+##NPOINTS=30
+##PEAK TABLE=(XY..XY)
+15,210 16,80 29,310 30,60
+39,4014 40,210 41,9108 42,310
+43,9999 44,110 45,7507 46,210
+58,711 59,210 72,2813 73,2913
+74,6306 75,210 89,611 90,210
+137,290 138,80 147,430 148,110
+151,410 165,210 166,110 180,611
+181,110 182,110
+##END=

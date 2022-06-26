@@ -1,0 +1,33 @@
+##TITLE=2-Hydrazinoethanol
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=NIST Mass Spectrometry Data Center
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=109-84-2
+##$NIST MASS SPEC NO=341054
+##MOLFORM=C2 H8 N2 O
+##MW=76
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=15
+##LASTX=77
+##FIRSTY=20
+##MAXX=77
+##MINX=15
+##MAXY=9999
+##MINY=10
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+15,20 17,40 18,340 19,20
+26,40 27,220 28,591 29,530
+30,370 31,791 32,190 39,10
+40,30 41,100 42,270 43,581
+44,170 45,9999 46,190 55,10
+56,10 57,140 58,50 59,60
+76,811 77,30
+##END=

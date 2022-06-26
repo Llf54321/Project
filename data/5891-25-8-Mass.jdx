@@ -1,0 +1,31 @@
+##TITLE=Pent-4-yn-3-one, 2,2-dimethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.Pleshkova, Nesmeyanov Inst.Org.Elem.Cpds, Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=5891-25-8
+##$NIST MASS SPEC NO=283681
+##MOLFORM=C7 H10 O
+##MW=110
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=96
+##FIRSTY=701
+##MAXX=96
+##MINX=27
+##MAXY=9999
+##MINY=20
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+27,701 29,3203 30,70 39,1101
+40,200 41,4704 42,200 53,1501
+54,200 55,500 56,400 57,9999
+58,400 67,601 68,20 95,601
+96,20
+##END=

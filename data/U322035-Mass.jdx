@@ -1,0 +1,34 @@
+##TITLE=l-Leucine, N-benzyloxycarbonyl-N-methyl-, propyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=322035
+##MOLFORM=C18 H27 N O4
+##MW=321
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=321
+##FIRSTY=30
+##MAXX=321
+##MINX=27
+##MAXY=9999
+##MINY=10
+##NPOINTS=34
+##PEAK TABLE=(XY..XY)
+27,30 39,50 41,50 42,190
+43,40 44,30 51,20 57,100
+63,20 65,300 73,20 77,10
+88,60 89,90 90,70 91,9999
+92,721 93,20 98,110 108,20
+117,30 130,40 144,40 146,20
+190,6396 191,871 192,50 220,40
+234,3603 235,550 236,50 262,20
+265,20 321,60
+##END=

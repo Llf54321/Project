@@ -1,0 +1,33 @@
+##TITLE=1,5-Methano-8H-pyrido[1,2-a][1,5]diazocin-8-one, decahydro-4-(2-propenyl)-, [1S-(1.alpha.,4.alpha.,5.alpha.,11a.alpha.)]-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=550-43-6
+##$NIST MASS SPEC NO=11244
+##MOLFORM=C14 H22 N2 O
+##MW=234
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=53
+##LASTX=234
+##FIRSTY=250
+##MAXX=234
+##MINX=53
+##MAXY=9999
+##MINY=10
+##NPOINTS=32
+##PEAK TABLE=(XY..XY)
+53,250 54,250 55,1041 56,350
+58,150 67,330 68,350 69,110
+70,130 77,110 79,110 80,430
+81,180 82,300 84,400 93,140
+94,591 95,140 96,210 98,110
+108,100 112,8508 113,380 120,120
+122,140 134,130 150,901 151,110
+193,9999 194,1391 195,110 234,10
+##END=

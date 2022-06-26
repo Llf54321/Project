@@ -1,0 +1,31 @@
+##TITLE=Trifluoroacetic acid, 2-naphthyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307657
+##MOLFORM=C12 H7 F3 O2
+##MW=240
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=242
+##FIRSTY=40
+##MAXX=242
+##MINX=39
+##MAXY=9999
+##MINY=30
+##NPOINTS=22
+##PEAK TABLE=(XY..XY)
+39,40 63,150 65,100 69,210
+75,50 77,30 88,60 89,230
+113,90 114,220 115,4374 116,420
+126,50 127,500 128,50 143,1531
+144,170 212,170 239,50 240,9999
+241,1371 242,110
+##END=

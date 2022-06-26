@@ -1,0 +1,29 @@
+##TITLE=Silanol, dimethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.A.Kutin, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=5906-76-3
+##$NIST MASS SPEC NO=261757
+##MOLFORM=C2 H8 O Si
+##MW=76
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=43
+##LASTX=77
+##FIRSTY=1771
+##MAXX=77
+##MINX=43
+##MAXY=9999
+##MINY=101
+##NPOINTS=11
+##PEAK TABLE=(XY..XY)
+43,1771 45,5394 47,1771 59,1383
+60,101 61,9999 62,615 63,340
+75,8549 76,623 77,298
+##END=

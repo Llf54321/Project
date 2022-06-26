@@ -1,0 +1,30 @@
+##TITLE=Quinoline, decahydro-, trans-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=767-92-0
+##$NIST MASS SPEC NO=3613
+##MOLFORM=C9 H17 N
+##MW=139
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=140
+##FIRSTY=500
+##MAXX=140
+##MINX=39
+##MAXY=9999
+##MINY=200
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+39,500 41,901 53,400 54,500
+55,500 56,601 67,500 68,601
+81,300 82,901 83,801 96,9999
+97,901 110,400 138,701 139,1702
+140,200
+##END=

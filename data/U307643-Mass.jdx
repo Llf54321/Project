@@ -1,0 +1,32 @@
+##TITLE=5-Bromovaleric acid, 3,5-dimethylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307643
+##MOLFORM=C13 H17 Br O2
+##MW=284
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=287
+##FIRSTY=70
+##MAXX=287
+##MINX=27
+##MAXY=9999
+##MINY=40
+##NPOINTS=28
+##PEAK TABLE=(XY..XY)
+27,70 29,70 39,50 41,50
+53,60 55,741 65,40 77,240
+78,50 79,90 91,160 93,50
+103,40 105,70 107,661 108,50
+121,330 122,9999 123,1071 124,70
+135,280 137,260 163,150 165,150
+284,310 285,40 286,310 287,40
+##END=

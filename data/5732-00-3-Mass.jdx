@@ -1,0 +1,28 @@
+##TITLE=Benzene, 2-(1,3-butadienyl)-1,3,5-trimethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=5732-00-3
+##$NIST MASS SPEC NO=28641
+##MOLFORM=C13 H16
+##MW=172
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=77
+##LASTX=172
+##FIRSTY=1400
+##MAXX=172
+##MINX=77
+##MAXY=9999
+##MINY=1100
+##NPOINTS=10
+##PEAK TABLE=(XY..XY)
+77,1400 91,1100 115,2200 128,2200
+129,1600 141,2700 142,5499 143,1400
+157,9999 172,3600
+##END=

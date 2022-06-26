@@ -1,0 +1,38 @@
+##TITLE=Silanol, trimethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=James Shoemaker, St. Louis Online Library of Metabolic Mass Spectra
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1066-40-6
+##$NIST MASS SPEC NO=141238
+##MOLFORM=C3 H10 O Si
+##MW=90
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=15
+##LASTX=92
+##FIRSTY=689
+##MAXX=92
+##MINX=15
+##MAXY=9999
+##MINY=10
+##NPOINTS=46
+##PEAK TABLE=(XY..XY)
+15,689 28,369 29,269 30,50
+31,99 41,70 42,149 43,449
+44,99 45,2459 46,199 47,1269
+48,60 49,40 50,10 51,10
+52,10 53,60 54,20 55,50
+56,30 57,60 58,30 59,299
+60,149 61,269 62,20 63,10
+64,10 65,10 66,10 67,10
+68,10 69,10 70,10 71,10
+72,40 73,139 74,99 75,9999
+76,639 77,359 89,10 90,40
+91,10 92,10
+##END=

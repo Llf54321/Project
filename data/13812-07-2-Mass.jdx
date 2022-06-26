@@ -1,0 +1,30 @@
+##TITLE=Diphosphorous tetrafluoride
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.Pleshkova, Nesmeyanov Inst.Org.Elem.Cpds, Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=13812-07-2
+##$NIST MASS SPEC NO=284320
+##MOLFORM=F4 O P2
+##MW=154
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=16
+##LASTX=155
+##FIRSTY=40
+##MAXX=155
+##MINX=16
+##MAXY=9999
+##MINY=10
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+16,40 19,120 25,40 31,591
+47,2772 48,120 50,1682 51,120
+66,430 69,9999 85,330 88,250
+135,260 154,2042 155,10
+##END=

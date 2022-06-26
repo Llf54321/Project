@@ -1,0 +1,31 @@
+##TITLE=3-Phenylpropionic acid, 2- naphthyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307787
+##MOLFORM=C19 H16 O2
+##MW=276
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=277
+##FIRSTY=20
+##MAXX=277
+##MINX=28
+##MAXY=9999
+##MINY=20
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+28,20 65,70 77,130 78,40
+79,130 89,30 91,1121 92,60
+103,110 104,90 105,681 106,40
+115,430 116,120 127,40 131,50
+133,100 135,50 143,30 144,9999
+145,1101 146,50 276,781 277,140
+##END=

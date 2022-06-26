@@ -1,0 +1,32 @@
+##TITLE=Hydrocinnamic acid, p-methoxy-.beta.-methyl-, methyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=6555-29-9
+##$NIST MASS SPEC NO=9552
+##MOLFORM=C12 H16 O3
+##MW=208
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=79
+##LASTX=210
+##FIRSTY=20
+##MAXX=210
+##MINX=79
+##MAXY=9999
+##MINY=10
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+79,20 85,90 87,30 91,20
+101,30 103,30 105,130 118,50
+119,10 120,20 121,30 131,110
+133,30 134,90 135,9999 136,1001
+137,70 148,460 149,60 151,601
+177,30 193,210 208,3623 209,500
+210,30
+##END=

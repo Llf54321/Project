@@ -1,0 +1,30 @@
+##TITLE=Diethyl 4-methylphenyl phosphate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=4877-08-1
+##$NIST MASS SPEC NO=145502
+##MOLFORM=C11 H17 O4 P
+##MW=244
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=77
+##LASTX=244
+##FIRSTY=2402
+##MAXX=244
+##MINX=77
+##MAXY=9999
+##MINY=490
+##NPOINTS=16
+##PEAK TABLE=(XY..XY)
+77,2402 81,2232 91,2822 99,1901
+107,4333 108,9999 109,1621 118,6916
+119,1010 127,1201 155,1111 188,2091
+201,1090 216,2111 229,490 244,6225
+##END=

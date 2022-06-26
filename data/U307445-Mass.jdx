@@ -1,0 +1,31 @@
+##TITLE=4-Fluorobenzoic acid, 3-methylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307445
+##MOLFORM=C14 H11 F O2
+##MW=230
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=231
+##FIRSTY=20
+##MAXX=231
+##MINX=28
+##MAXY=9999
+##MINY=20
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+28,20 39,60 50,50 51,70
+52,20 53,30 63,30 65,40
+69,40 75,320 76,30 77,150
+78,50 79,70 94,80 95,1902
+96,140 107,90 108,50 123,9999
+124,691 125,40 230,1071 231,160
+##END=

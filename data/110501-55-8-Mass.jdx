@@ -1,0 +1,33 @@
+##TITLE=S-Ethyl S-(2-diisopropylaminoethyl) methylphosphonodithioate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Dennis Rohrbaugh, CBDCOM/ERDEC, Edgewood, MD
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=110501-55-8
+##$NIST MASS SPEC NO=226562
+##MOLFORM=C11 H26 N O P S2
+##MW=283
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=30
+##LASTX=199
+##FIRSTY=4529
+##MAXX=199
+##MINX=30
+##MAXY=9999
+##MINY=40
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+30,4529 41,1809 42,1449 43,2229
+44,1429 56,879 58,409 63,669
+70,1409 72,2999 73,309 84,629
+85,349 86,339 98,209 111,799
+114,9999 115,809 127,799 128,249
+139,619 144,119 158,40 171,70
+199,179
+##END=

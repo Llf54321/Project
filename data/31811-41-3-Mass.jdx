@@ -1,0 +1,28 @@
+##TITLE=Tungsten, dicarbonyl(.eta.5-2,4-cyclopentadien-1-yl)(.eta.3-2-propenyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=R.B.KING DEPT. CHEM., UNIV. OF GEORGIA, ATHENS, GEORGIA, USA
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=31811-41-3
+##$NIST MASS SPEC NO=67419
+##MOLFORM=C10 H10 O2 W
+##MW=346
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=223
+##LASTX=346
+##FIRSTY=600
+##MAXX=346
+##MINX=223
+##MAXY=9999
+##MINY=400
+##NPOINTS=8
+##PEAK TABLE=(XY..XY)
+223,600 249,1000 260,2000 262,400
+288,9999 290,2000 318,2500 346,2000
+##END=

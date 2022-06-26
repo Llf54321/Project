@@ -1,0 +1,33 @@
+##TITLE=p-Methoxybenzoic acid, 2-chlorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=7465-89-6
+##$NIST MASS SPEC NO=292650
+##MOLFORM=C14 H11 Cl O3
+##MW=262
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=262
+##FIRSTY=10
+##MAXX=262
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+28,10 38,30 39,30 50,50
+51,30 63,170 64,220 65,30
+73,40 75,40 76,80 77,591
+78,50 92,500 93,30 99,70
+104,30 107,340 108,30 128,30
+135,9999 136,731 137,60 152,260
+262,70
+##END=

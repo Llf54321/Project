@@ -1,0 +1,34 @@
+##TITLE=D-Alanine, N-propargyloxycarbonyl-, isohexyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=V.G. Zaikin, R.S.Borisov, TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=347741
+##MOLFORM=C13 H21 N O4
+##MW=255
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=26
+##LASTX=172
+##FIRSTY=40
+##MAXX=172
+##MINX=26
+##MAXY=9999
+##MINY=20
+##NPOINTS=36
+##PEAK TABLE=(XY..XY)
+26,40 27,130 28,60 29,170
+30,50 38,30 39,961 40,80
+41,340 42,380 43,1141 44,330
+45,20 53,60 54,50 55,380
+56,150 57,80 65,40 67,170
+69,80 70,120 80,50 82,330
+83,40 84,90 85,170 88,160
+116,40 125,30 126,9999 127,611
+128,60 154,30 171,20 172,50
+##END=

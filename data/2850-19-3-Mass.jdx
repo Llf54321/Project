@@ -1,0 +1,29 @@
+##TITLE=Acetic acid, [(4-methylphenyl)sulfonyl]-, ethyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=2850-19-3
+##$NIST MASS SPEC NO=33768
+##MOLFORM=C11 H14 O4 S
+##MW=242
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=77
+##LASTX=242
+##FIRSTY=420
+##MAXX=242
+##MINX=77
+##MAXY=9999
+##MINY=310
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+77,420 89,380 90,310 91,9999
+92,1140 105,375 106,390 107,400
+108,720 139,420 155,3400 156,350
+178,1600 197,430 242,440
+##END=

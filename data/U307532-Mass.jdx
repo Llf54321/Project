@@ -1,0 +1,33 @@
+##TITLE=Phenylacetic acid, 3,5-dimethylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307532
+##MOLFORM=C16 H16 O2
+##MW=240
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=241
+##FIRSTY=50
+##MAXX=241
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=32
+##PEAK TABLE=(XY..XY)
+27,50 28,80 39,220 41,90
+50,40 51,120 52,50 53,80
+63,130 64,40 65,721 66,40
+77,350 78,90 79,90 89,250
+90,681 91,4944 92,400 93,80
+103,40 105,40 107,510 108,30
+118,9999 119,851 120,70 121,400
+122,3753 123,330 240,240 241,30
+##END=

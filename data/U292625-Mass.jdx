@@ -1,0 +1,32 @@
+##TITLE=2,6-Difluorobenzoic acid, 2-bromo-4-fluorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=292625
+##MOLFORM=C13 H6 Br F3 O2
+##MW=330
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=332
+##FIRSTY=10
+##MAXX=332
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=27
+##PEAK TABLE=(XY..XY)
+28,10 56,30 57,50 62,50
+63,360 68,30 74,30 81,110
+82,100 93,70 94,70 110,30
+112,70 113,1001 114,80 140,30
+141,9999 142,711 143,40 161,130
+163,120 189,30 190,40 191,30
+192,40 330,120 332,120
+##END=

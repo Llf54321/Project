@@ -1,0 +1,33 @@
+##TITLE=2,2-Dimethylpropanoic acid, 4-methoxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308042
+##MOLFORM=C12 H16 O3
+##MW=208
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=29
+##LASTX=209
+##FIRSTY=150
+##MAXX=209
+##MINX=29
+##MAXY=9999
+##MINY=30
+##NPOINTS=29
+##PEAK TABLE=(XY..XY)
+29,150 39,70 41,370 42,30
+52,40 53,40 55,30 57,2372
+58,90 64,30 65,60 69,30
+77,70 79,30 81,170 85,440
+92,40 95,130 107,40 108,30
+109,2342 110,160 123,340 124,9999
+125,831 126,60 165,110 208,1992
+209,230
+##END=

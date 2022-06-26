@@ -1,0 +1,30 @@
+##TITLE=Benzenemethanol, .alpha.-[1-(ethylmethylamino)ethyl]-, [R-(R*,S*)]-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Finnigan MAT: Toxicological Library (LIBR-TX)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=48141-64-6
+##$NIST MASS SPEC NO=120684
+##MOLFORM=C12 H19 N O
+##MW=193
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=40
+##LASTX=87
+##FIRSTY=84
+##MAXX=87
+##MINX=40
+##MAXY=9999
+##MINY=84
+##NPOINTS=13
+##PEAK TABLE=(XY..XY)
+40,84 42,283 43,111 44,108
+51,93 56,212 57,112 58,1533
+70,91 77,187 79,104 86,9999
+87,511
+##END=

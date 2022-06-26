@@ -1,0 +1,31 @@
+##TITLE=Dichloroacetaldehyde
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Susan Richardson
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=79-02-7
+##$NIST MASS SPEC NO=288202
+##MOLFORM=C2 H2 Cl2 O
+##MW=112
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=47
+##LASTX=116
+##FIRSTY=1461
+##MAXX=116
+##MINX=47
+##MAXY=9999
+##MINY=80
+##NPOINTS=18
+##PEAK TABLE=(XY..XY)
+47,1461 48,7467 49,9999 50,2232
+51,3553 76,681 77,260 78,220
+79,80 83,1521 84,6486 85,871
+86,4334 87,150 88,200 112,991
+114,360 116,100
+##END=

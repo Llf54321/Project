@@ -1,0 +1,30 @@
+##TITLE=Chromate(1-), (.eta.7-cycloheptatrienylium)(.eta.5-2,4-cyclopentadien-1-yl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=R.B.KING UNIVERSITY OF GEORGIA, ATHENS, GEORGIA, USA
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=42612-76-0
+##$NIST MASS SPEC NO=9557
+##MOLFORM=C12 H12 Cr
+##MW=208
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=208
+##FIRSTY=640
+##MAXX=208
+##MINX=39
+##MAXY=9999
+##MINY=50
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+39,640 52,9999 65,640 66,320
+76,50 77,430 78,570 91,3000
+117,3400 129,360 130,180 141,100
+143,210 182,820 208,9999
+##END=

@@ -1,0 +1,32 @@
+##TITLE=2-Methylpropionic acid, 4-cyanophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308018
+##MOLFORM=C11 H11 N O2
+##MW=189
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=189
+##FIRSTY=380
+##MAXX=189
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+27,380 28,110 39,290 41,891
+42,200 43,8818 44,220 51,50
+55,50 63,160 64,350 65,40
+70,230 71,9999 72,390 75,80
+76,30 90,370 91,410 92,30
+102,330 118,40 119,6906 120,641
+189,370
+##END=

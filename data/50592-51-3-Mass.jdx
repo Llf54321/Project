@@ -1,0 +1,29 @@
+##TITLE=Cyclohexanone, 6-[(butylthio)methylene]-2,2-diphenyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=50592-51-3
+##$NIST MASS SPEC NO=34098
+##MOLFORM=C23 H26 O S
+##MW=350
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=91
+##LASTX=350
+##FIRSTY=1900
+##MAXX=350
+##MINX=91
+##MAXY=9999
+##MINY=320
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+91,1900 103,400 115,3370 128,320
+129,410 152,320 165,900 167,580
+178,1220 179,480 180,360 193,9999
+293,1130 350,1860
+##END=

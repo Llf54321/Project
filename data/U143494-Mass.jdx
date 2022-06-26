@@ -1,0 +1,31 @@
+##TITLE=2-Butanone,3-oxo-,(2,4-dinitrophenyl)hydrazone
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=143494
+##MOLFORM=C10 H10 N4 O5
+##MW=266
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=30
+##LASTX=267
+##FIRSTY=1371
+##MAXX=267
+##MINX=30
+##MAXY=9999
+##MINY=190
+##NPOINTS=22
+##PEAK TABLE=(XY..XY)
+30,1371 42,2592 43,9999 62,590
+63,800 75,700 78,600 79,490
+88,390 90,300 106,300 135,500
+136,200 137,190 152,390 153,200
+165,290 181,2201 182,800 183,300
+266,1791 267,380
+##END=

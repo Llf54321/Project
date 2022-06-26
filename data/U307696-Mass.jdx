@@ -1,0 +1,33 @@
+##TITLE=Octanoic acid, 3,5-dimethylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307696
+##MOLFORM=C16 H24 O2
+##MW=248
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=249
+##FIRSTY=60
+##MAXX=249
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=30
+##PEAK TABLE=(XY..XY)
+27,60 29,110 39,50 41,230
+42,40 43,280 53,40 55,190
+57,841 58,30 65,30 67,40
+77,190 78,40 79,90 83,30
+91,120 93,40 103,30 105,70
+107,410 108,50 109,30 121,280
+122,9999 123,1031 124,70 127,190
+248,470 249,70
+##END=

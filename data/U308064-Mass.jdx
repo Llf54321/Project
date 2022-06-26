@@ -1,0 +1,29 @@
+##TITLE=2-Thiophenecarboxylic acid, 4-methoxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308064
+##MOLFORM=C12 H10 O3 S
+##MW=234
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=236
+##FIRSTY=360
+##MAXX=236
+##MINX=39
+##MAXY=9999
+##MINY=30
+##NPOINTS=16
+##PEAK TABLE=(XY..XY)
+39,360 41,50 52,30 80,30
+82,30 83,330 95,120 109,50
+111,9999 112,621 113,480 123,220
+124,40 234,2592 235,350 236,150
+##END=

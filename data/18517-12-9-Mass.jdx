@@ -1,0 +1,29 @@
+##TITLE=Rhodium, dicarbonyl(1,1,1,5,5,5-hexafluoro-2,4-pentanedionato-O,O')-, (SP-4-2)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=S. PIGNATARO MONOISOIDPIC SPEC.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=18517-12-9
+##$NIST MASS SPEC NO=41253
+##MOLFORM=C7 H F6 O4 Rh
+##MW=366
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=103
+##LASTX=366
+##FIRSTY=8774
+##MAXX=366
+##MINX=103
+##MAXY=9999
+##MINY=283
+##NPOINTS=11
+##PEAK TABLE=(XY..XY)
+103,8774 131,9999 144,283 159,566
+172,377 213,2642 241,5943 282,943
+310,7453 338,6321 366,9433
+##END=

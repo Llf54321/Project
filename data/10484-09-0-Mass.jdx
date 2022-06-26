@@ -1,0 +1,31 @@
+##TITLE=Benzoic acid, 2-hydroxy-, 2-propenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=W.Jennings, T.Shibamoto
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=10484-09-0
+##$NIST MASS SPEC NO=284937
+##MOLFORM=C10 H10 O3
+##MW=178
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=179
+##FIRSTY=851
+##MAXX=179
+##MINX=39
+##MAXY=9999
+##MINY=90
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+39,851 41,8187 64,190 65,1381
+81,120 92,3653 93,851 105,320
+120,9999 121,6786 122,530 131,90
+132,300 133,90 160,230 178,2823
+179,220
+##END=

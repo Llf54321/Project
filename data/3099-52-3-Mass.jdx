@@ -1,0 +1,33 @@
+##TITLE=Nicametate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Patti Price, Georgia Bureau of Investigation, Decatur, Georgia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=3099-52-3
+##$NIST MASS SPEC NO=248469
+##MOLFORM=C12 H18 N2 O2
+##MW=222
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=44
+##LASTX=222
+##FIRSTY=160
+##MAXX=222
+##MINX=44
+##MAXY=9999
+##MINY=10
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+44,160 50,270 51,910 56,390
+57,150 58,740 68,10 69,30
+70,130 71,220 78,1301 82,30
+84,200 85,40 86,9999 87,580
+98,30 99,470 105,40 106,860
+115,30 123,50 150,720 207,80
+208,20 222,60
+##END=

@@ -1,0 +1,33 @@
+##TITLE=l-Proline, N-(2-fluorobenzoyl)-, methyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=299622
+##MOLFORM=C13 H14 F N O3
+##MW=251
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=252
+##FIRSTY=50
+##MAXX=252
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=31
+##PEAK TABLE=(XY..XY)
+27,50 28,30 39,90 40,30
+41,290 42,130 44,50 50,60
+51,50 59,50 68,120 69,110
+70,30 74,40 75,480 76,50
+94,140 95,1512 96,190 109,30
+122,70 123,9999 124,631 125,30
+128,80 163,30 192,3473 193,410
+194,30 251,250 252,40
+##END=

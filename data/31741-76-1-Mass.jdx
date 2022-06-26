@@ -1,0 +1,32 @@
+##TITLE=Cyclopentadienylmanganesedicarbonylthiocarbonyl
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Institute of Organic Chemistry, Novosibirsk, USSR 1988
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=31741-76-1
+##$NIST MASS SPEC NO=102413
+##MOLFORM=C8 H5 Mn O2 S
+##MW=220
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=55
+##LASTX=222
+##FIRSTY=9999
+##MAXX=222
+##MINX=55
+##MAXY=9999
+##MINY=99
+##NPOINTS=21
+##PEAK TABLE=(XY..XY)
+55,9999 56,399 65,399 66,499
+80,899 81,99 82,399 83,99
+92,99 93,599 99,899 100,99
+120,9999 121,699 164,4899 165,499
+166,299 192,299 220,2499 221,299
+222,99
+##END=

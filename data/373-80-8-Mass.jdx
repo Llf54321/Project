@@ -1,0 +1,32 @@
+##TITLE=Sulfur, pentafluoro(trifluoromethyl)-, (OC-6-21)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=373-80-8
+##$NIST MASS SPEC NO=8740
+##MOLFORM=C F8 S
+##MW=196
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=12
+##LASTX=196
+##FIRSTY=50
+##MAXX=196
+##MINX=12
+##MAXY=9999
+##MINY=10
+##NPOINTS=27
+##PEAK TABLE=(XY..XY)
+12,50 13,10 19,60 31,330
+32,180 34,10 44,30 50,200
+51,450 53,20 63,70 69,9999
+70,641 71,10 72,30 82,40
+89,3413 90,30 91,160 101,10
+108,140 110,10 120,10 127,1061
+128,10 129,50 196,10
+##END=

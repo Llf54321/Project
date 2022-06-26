@@ -1,0 +1,33 @@
+##TITLE=Octanoic acid, 4-benzyloxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307702
+##MOLFORM=C21 H26 O3
+##MW=326
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=327
+##FIRSTY=70
+##MAXX=327
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=32
+##PEAK TABLE=(XY..XY)
+27,70 29,150 39,80 41,330
+42,70 43,420 55,250 56,40
+57,1001 58,30 63,30 65,290
+67,40 69,40 81,50 83,50
+89,50 90,40 91,9999 92,791
+93,30 98,30 109,80 110,170
+127,250 128,30 159,30 200,5405
+201,761 202,70 326,160 327,30
+##END=

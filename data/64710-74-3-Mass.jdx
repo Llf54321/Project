@@ -1,0 +1,32 @@
+##TITLE=Malononitrile, benzyl 4-bromophenyldiazenyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=64710-74-3
+##$NIST MASS SPEC NO=146736
+##MOLFORM=C16 H11 Br N4
+##MW=338
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=38
+##LASTX=250
+##FIRSTY=300
+##MAXX=250
+##MINX=38
+##MAXY=9999
+##MINY=90
+##NPOINTS=23
+##PEAK TABLE=(XY..XY)
+38,300 39,1070 42,410 50,2972
+51,1681 63,480 65,910 75,380
+76,3583 77,4013 89,290 90,300
+91,6365 92,390 128,390 155,9999
+157,9408 183,3493 185,3373 221,90
+223,100 248,200 250,200
+##END=

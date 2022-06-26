@@ -1,0 +1,32 @@
+##TITLE=d-Proline, N-methoxycarbonyl-, octyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=320792
+##MOLFORM=C15 H27 N O4
+##MW=285
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=285
+##FIRSTY=40
+##MAXX=285
+##MINX=27
+##MAXY=9999
+##MINY=20
+##NPOINTS=28
+##PEAK TABLE=(XY..XY)
+27,40 29,80 39,30 41,240
+42,370 43,130 55,100 56,30
+57,70 59,140 67,20 68,60
+69,80 70,30 71,20 82,150
+84,150 85,20 101,40 114,110
+126,20 127,30 128,9999 129,601
+130,50 142,20 226,40 285,40
+##END=

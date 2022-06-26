@@ -1,0 +1,29 @@
+##TITLE=Chloromethyl chloroacetate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=6135-23-5
+##$NIST MASS SPEC NO=144395
+##MOLFORM=C3 H4 Cl2 O2
+##MW=142
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=36
+##LASTX=79
+##FIRSTY=400
+##MAXX=79
+##MINX=36
+##MAXY=9999
+##MINY=100
+##NPOINTS=11
+##PEAK TABLE=(XY..XY)
+36,400 41,2492 42,8627 48,1611
+49,8347 50,500 51,2702 57,100
+76,690 77,9999 79,3503
+##END=

@@ -1,0 +1,30 @@
+##TITLE=Diethyl,3-nitrophenyl phosphate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=4532-06-3
+##$NIST MASS SPEC NO=145522
+##MOLFORM=C10 H14 N O6 P
+##MW=275
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=81
+##LASTX=275
+##FIRSTY=7396
+##MAXX=275
+##MINX=81
+##MAXY=9999
+##MINY=880
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+81,7396 91,1791 99,2512 109,9999
+127,2682 139,5184 149,3092 155,1101
+173,2782 201,1901 219,1611 232,880
+247,2302 275,5895
+##END=

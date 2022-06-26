@@ -1,0 +1,31 @@
+##TITLE=Bis(trifluoromethyl)iodophosphine
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.Pleshkova, Nesmeyanov Inst.Org.Elem.Cpds, Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=359-64-8
+##$NIST MASS SPEC NO=284340
+##MOLFORM=C2 F6 I P
+##MW=296
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=31
+##LASTX=297
+##FIRSTY=520
+##MAXX=297
+##MINX=31
+##MAXY=9999
+##MINY=10
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+31,520 32,10 50,390 69,5235
+70,60 81,290 100,490 101,10
+119,260 127,961 158,911 169,911
+170,20 177,3543 208,731 209,10
+227,2002 228,20 296,9999 297,220
+##END=

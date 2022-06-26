@@ -1,0 +1,30 @@
+##TITLE=4-tert-Butyl-1(1-thioxo-2,2-dimethyl-propyl)-benzene
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=72194-24-2
+##$NIST MASS SPEC NO=147128
+##MOLFORM=C15 H22 S
+##MW=234
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=29
+##LASTX=234
+##FIRSTY=580
+##MAXX=234
+##MINX=29
+##MAXY=9999
+##MINY=300
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+29,580 39,400 41,1221 57,1000
+91,300 115,300 147,900 161,1491
+162,1291 163,500 177,9999 178,1291
+179,600 234,1000
+##END=

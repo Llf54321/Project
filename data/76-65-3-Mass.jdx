@@ -1,0 +1,34 @@
+##TITLE=2(3H)-Benzofuranone, 3-(.beta.-diethylaminoethyl)-3-phenyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Finnigan MAT: Toxicological Library (LIBR-TX)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=76-65-3
+##$NIST MASS SPEC NO=119073
+##MOLFORM=C20 H23 N O2
+##MW=309
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=56
+##LASTX=310
+##FIRSTY=614
+##MAXX=310
+##MINX=56
+##MAXY=9999
+##MINY=9
+##NPOINTS=29
+##PEAK TABLE=(XY..XY)
+56,614 58,876 71,215 84,347
+86,9999 87,766 99,213 100,152
+115,243 126,76 131,97 152,502
+153,233 165,318 166,81 178,294
+181,190 194,61 195,49 207,349
+209,468 237,76 238,14 278,9
+279,9 294,515 295,112 309,203
+310,43
+##END=

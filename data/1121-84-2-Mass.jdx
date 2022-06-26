@@ -1,0 +1,35 @@
+##TITLE=2H-Pyran-2-one, tetrahydro-4-methyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=L.E. Slivon, Battelle Columbus Laboratories, Columbus, Ohio 43201
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1121-84-2
+##$NIST MASS SPEC NO=70715
+##MOLFORM=C6 H10 O2
+##MW=114
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=40
+##LASTX=115
+##FIRSTY=503
+##MAXX=115
+##MINX=40
+##MAXY=9999
+##MINY=3
+##NPOINTS=35
+##PEAK TABLE=(XY..XY)
+40,503 41,4030 42,9999 43,1152
+45,59 48,3 49,18 50,66
+52,3 53,395 54,248 55,8741
+56,4102 57,313 58,32 60,3
+67,127 68,90 69,1124 70,1569
+71,140 81,25 82,27 83,22
+84,210 85,60 86,3 95,9
+96,5 97,3 99,13 112,8
+113,35 114,1497 115,56
+##END=

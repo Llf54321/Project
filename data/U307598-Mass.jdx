@@ -1,0 +1,31 @@
+##TITLE=3-Methylbut-2-enoic acid, 4-nitrophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307598
+##MOLFORM=C11 H11 N O4
+##MW=221
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=139
+##FIRSTY=210
+##MAXX=139
+##MINX=27
+##MAXY=9999
+##MINY=20
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+27,210 28,220 29,550 30,60
+38,40 39,390 40,30 50,40
+51,40 52,20 53,230 54,90
+55,1972 56,80 63,110 64,80
+65,50 67,50 82,130 83,9999
+84,520 85,20 109,60 139,30
+##END=

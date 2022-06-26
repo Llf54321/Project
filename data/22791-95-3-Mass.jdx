@@ -1,0 +1,30 @@
+##TITLE=2-(1,1-Dimethylethyl)-6-(1-methylethyl)phenol
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Organic Synthesis Lab, MSU, Moscow.TRC 1501
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=22791-95-3
+##$NIST MASS SPEC NO=327142
+##MOLFORM=C13 H20 O
+##MW=192
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=57
+##LASTX=193
+##FIRSTY=499
+##MAXX=193
+##MINX=57
+##MAXY=9999
+##MINY=199
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+57,499 77,229 91,549 107,429
+115,359 117,499 131,269 133,219
+135,259 149,1049 161,199 177,9999
+178,1509 192,4269 193,749
+##END=

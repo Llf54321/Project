@@ -1,0 +1,31 @@
+##TITLE=Thiazolo[3,2-a]pyridinium, 2,3-dihydro-8-hydroxy-, hydroxide, inner salt
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=23003-45-4
+##$NIST MASS SPEC NO=33271
+##MOLFORM=C7 H7 N O S
+##MW=153
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=38
+##LASTX=155
+##FIRSTY=1258
+##MAXX=155
+##MINX=38
+##MAXY=9999
+##MINY=331
+##NPOINTS=23
+##PEAK TABLE=(XY..XY)
+38,1258 39,8608 44,464 45,861
+51,464 52,695 53,497 58,430
+59,430 60,331 70,1854 80,894
+81,662 97,2417 110,1887 124,1291
+125,4900 126,397 127,364 152,927
+153,9999 154,1192 155,795
+##END=

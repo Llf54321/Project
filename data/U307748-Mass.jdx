@@ -1,0 +1,31 @@
+##TITLE=2-Bromobenzoic acid, 4-nitrophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307748
+##MOLFORM=C13 H8 Br N O4
+##MW=321
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=30
+##LASTX=187
+##FIRSTY=100
+##MAXX=187
+##MINX=30
+##MAXY=9999
+##MINY=30
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+30,100 38,40 50,300 51,50
+62,30 63,150 64,100 65,30
+74,100 75,661 76,851 77,70
+80,30 104,140 139,30 155,1641
+156,140 157,1581 158,110 183,9999
+184,741 185,9649 186,711 187,40
+##END=

@@ -1,0 +1,27 @@
+##TITLE=1H-1,2,4-Triazole, 3-bromo-5-methyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=26557-90-4
+##$NIST MASS SPEC NO=5835
+##MOLFORM=C3 H4 Br N3
+##MW=161
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=42
+##LASTX=163
+##FIRSTY=5999
+##MAXX=163
+##MINX=42
+##MAXY=9999
+##MINY=1000
+##NPOINTS=6
+##PEAK TABLE=(XY..XY)
+42,5999 56,9999 120,1000 122,1000
+161,2400 163,2400
+##END=

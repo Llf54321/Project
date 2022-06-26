@@ -1,0 +1,30 @@
+##TITLE=2,3,4-Trifluorobenzoic acid, 2-naphthyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308037
+##MOLFORM=C17 H9 F3 O2
+##MW=302
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=62
+##LASTX=304
+##FIRSTY=30
+##MAXX=304
+##MINX=62
+##MAXY=9999
+##MINY=30
+##NPOINTS=18
+##PEAK TABLE=(XY..XY)
+62,30 63,70 65,40 81,270
+89,80 113,30 114,40 115,510
+116,60 131,1211 132,100 144,80
+159,9999 160,721 161,40 302,2622
+303,490 304,50
+##END=

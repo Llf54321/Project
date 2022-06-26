@@ -1,0 +1,28 @@
+##TITLE=1H-Phenanthro[9,10-d]imidazole
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=236-02-2
+##$NIST MASS SPEC NO=10193
+##MOLFORM=C15 H10 N2
+##MW=218
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=63
+##LASTX=219
+##FIRSTY=200
+##MAXX=219
+##MINX=63
+##MAXY=9999
+##MINY=200
+##NPOINTS=11
+##PEAK TABLE=(XY..XY)
+63,200 163,1001 164,801 165,200
+188,300 189,200 190,2102 191,400
+217,500 218,9999 219,1501
+##END=

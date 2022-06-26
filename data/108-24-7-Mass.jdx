@@ -1,0 +1,31 @@
+##TITLE=Acetic anhydride
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=NIST Mass Spectrometry Data Center, 1998.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=108-24-7
+##$NIST MASS SPEC NO=291302
+##MOLFORM=C4 H6 O3
+##MW=102
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=13
+##LASTX=103
+##FIRSTY=30
+##MAXX=103
+##MINX=13
+##MAXY=9999
+##MINY=10
+##NPOINTS=19
+##PEAK TABLE=(XY..XY)
+13,30 14,150 15,550 16,10
+25,20 26,30 27,20 29,190
+30,10 31,10 40,30 41,210
+42,1030 43,9999 44,460 45,200
+60,20 87,60 103,10
+##END=

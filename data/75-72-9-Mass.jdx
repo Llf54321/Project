@@ -1,0 +1,31 @@
+##TITLE=Chlorotrifluoromethane
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=75-72-9
+##$NIST MASS SPEC NO=20034
+##MOLFORM=C Cl F3
+##MW=104
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=12
+##LASTX=106
+##FIRSTY=30
+##MAXX=106
+##MINX=12
+##MAXY=9999
+##MINY=10
+##NPOINTS=22
+##PEAK TABLE=(XY..XY)
+12,30 19,20 31,180 32,10
+33,70 35,310 37,100 47,50
+49,20 50,641 51,10 66,30
+68,20 69,9999 70,120 85,1802
+86,20 87,571 88,10 104,70
+105,10 106,20
+##END=

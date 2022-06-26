@@ -1,0 +1,32 @@
+##TITLE=Bis(N,N-dimethyl) O-ethyl phosphorodiamidate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Dennis Rohrbaugh, CBDCOM/ERDEC, Edgewood, MD
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=2404-65-1
+##$NIST MASS SPEC NO=226836
+##MOLFORM=C6 H17 N2 O2 P
+##MW=180
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=40
+##LASTX=181
+##FIRSTY=369
+##MAXX=181
+##MINX=40
+##MAXY=9999
+##MINY=50
+##NPOINTS=21
+##PEAK TABLE=(XY..XY)
+40,369 42,2849 43,1419 44,9999
+45,5149 47,389 58,259 65,199
+88,279 90,99 92,219 93,199
+106,119 108,3229 109,629 135,629
+136,379 137,909 152,50 180,2259
+181,99
+##END=

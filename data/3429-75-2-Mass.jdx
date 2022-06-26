@@ -1,0 +1,30 @@
+##TITLE=Dimethyl-dioctyl-silane
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=3429-75-2
+##$NIST MASS SPEC NO=147026
+##MOLFORM=C18 H40 Si
+##MW=284
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=59
+##LASTX=269
+##FIRSTY=5384
+##MAXX=269
+##MINX=59
+##MAXY=9999
+##MINY=100
+##NPOINTS=13
+##PEAK TABLE=(XY..XY)
+59,5384 73,2302 85,710 87,1791
+99,1301 101,1090 111,690 113,490
+115,590 157,700 171,9999 172,1581
+269,100
+##END=

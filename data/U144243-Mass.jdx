@@ -1,0 +1,28 @@
+##TITLE=Prop-1-enyl dithiopropanonate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=144243
+##MOLFORM=C6 H10 S2
+##MW=146
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=146
+##FIRSTY=1611
+##MAXX=146
+##MINX=39
+##MAXY=9999
+##MINY=300
+##NPOINTS=12
+##PEAK TABLE=(XY..XY)
+39,1611 41,1571 45,4083 59,300
+69,400 71,1611 72,1681 73,9999
+74,890 76,490 131,2502 146,3012
+##END=

@@ -1,0 +1,28 @@
+##TITLE=2-Pyridinamine, N-nitro-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=26482-54-2
+##$NIST MASS SPEC NO=3649
+##MOLFORM=C5 H5 N3 O2
+##MW=139
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=30
+##LASTX=140
+##FIRSTY=601
+##MAXX=140
+##MINX=30
+##MAXY=9999
+##MINY=100
+##NPOINTS=9
+##PEAK TABLE=(XY..XY)
+30,601 39,5205 40,1501 66,5205
+67,1802 93,9999 94,1501 139,1802
+140,100
+##END=

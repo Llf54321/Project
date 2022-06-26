@@ -1,0 +1,31 @@
+##TITLE=p-(Adamantyl-1)toluene
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=B. Derendyaev, Novosibirsk Institute of Organic Chemistry
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1459-55-8
+##$NIST MASS SPEC NO=140249
+##MOLFORM=C17 H22
+##MW=226
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=41
+##LASTX=227
+##FIRSTY=709
+##MAXX=227
+##MINX=41
+##MAXY=9999
+##MINY=209
+##NPOINTS=19
+##PEAK TABLE=(XY..XY)
+41,709 77,499 79,599 91,909
+94,419 105,989 115,479 117,209
+128,359 129,289 132,1429 141,349
+149,359 150,259 160,9999 161,1349
+183,459 226,4239 227,499
+##END=

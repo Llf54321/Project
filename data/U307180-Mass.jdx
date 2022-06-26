@@ -1,0 +1,32 @@
+##TITLE=Benzamide, N-(3-nitrophenyl)-2,3,4-trifluoro-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307180
+##MOLFORM=C13 H7 F3 N2 O3
+##MW=296
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=298
+##FIRSTY=10
+##MAXX=298
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+28,10 39,30 62,40 63,90
+64,80 65,50 75,30 81,360
+91,50 92,30 112,50 130,40
+131,1431 132,110 135,30 138,30
+159,9999 160,661 161,30 249,30
+250,70 266,50 296,2082 297,310
+298,30
+##END=

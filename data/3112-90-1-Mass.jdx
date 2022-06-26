@@ -1,0 +1,35 @@
+##TITLE=Benzene, [(methylsulfonyl)methyl]-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=NIST Mass Spectrometry Data Center, 1990.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=3112-90-1
+##$NIST MASS SPEC NO=118626
+##MOLFORM=C8 H10 O2 S
+##MW=170
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=15
+##LASTX=171
+##FIRSTY=296
+##MAXX=171
+##MINX=15
+##MAXY=9999
+##MINY=5
+##NPOINTS=35
+##PEAK TABLE=(XY..XY)
+15,296 17,5 18,50 26,25
+27,50 28,9 32,18 37,27
+38,109 39,591 40,48 41,128
+45,59 48,40 49,23 50,127
+51,294 52,81 61,39 62,137
+63,455 64,197 65,1387 66,71
+76,27 77,66 78,35 79,59
+87,38 89,370 91,9999 92,720
+93,30 170,283 171,35
+##END=

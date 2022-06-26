@@ -1,0 +1,31 @@
+##TITLE=4-Penten-2-ol, 3-methyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=NIST Mass Spectrometry Data Center, 1990.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1569-59-1
+##$NIST MASS SPEC NO=113649
+##MOLFORM=C6 H12 O
+##MW=100
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=15
+##LASTX=57
+##FIRSTY=536
+##MAXX=57
+##MINX=15
+##MAXY=9999
+##MINY=331
+##NPOINTS=18
+##PEAK TABLE=(XY..XY)
+15,536 26,385 27,2122 28,1055
+29,1613 39,1860 40,637 41,3757
+42,416 43,3028 45,7851 50,331
+51,442 53,630 54,404 55,1840
+56,9999 57,899
+##END=

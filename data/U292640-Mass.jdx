@@ -1,0 +1,31 @@
+##TITLE=p-Toluic acid, 3,5-difluorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=292640
+##MOLFORM=C14 H10 F2 O2
+##MW=248
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=130
+##FIRSTY=20
+##MAXX=130
+##MINX=28
+##MAXY=9999
+##MINY=20
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+28,20 39,160 41,50 50,50
+51,110 57,30 62,40 63,190
+64,50 65,681 66,40 75,50
+89,230 90,160 91,2682 92,200
+101,170 102,30 118,60 119,9999
+120,731 121,40 129,30 130,60
+##END=

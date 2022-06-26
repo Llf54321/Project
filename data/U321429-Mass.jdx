@@ -1,0 +1,33 @@
+##TITLE=Sarcosine, N-(4-methoxybenzoyl)-, undecyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=321429
+##MOLFORM=C22 H35 N O4
+##MW=377
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=29
+##LASTX=378
+##FIRSTY=20
+##MAXX=378
+##MINX=29
+##MAXY=9999
+##MINY=20
+##NPOINTS=32
+##PEAK TABLE=(XY..XY)
+29,20 41,70 42,50 43,140
+44,90 55,60 57,60 64,40
+69,20 77,300 78,20 88,20
+92,230 104,20 107,160 120,20
+121,30 135,9999 136,841 137,60
+150,130 173,20 178,1191 179,210
+205,140 206,70 207,20 224,30
+242,220 376,470 377,681 378,150
+##END=

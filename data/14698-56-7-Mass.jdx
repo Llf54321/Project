@@ -1,0 +1,30 @@
+##TITLE=.beta.-D-Glucopyranoside, 4-(acetyloxy)phenyl, tetraacetate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=14698-56-7
+##$NIST MASS SPEC NO=18020
+##MOLFORM=C22 H26 O12
+##MW=482
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=73
+##LASTX=331
+##FIRSTY=417
+##MAXX=331
+##MINX=73
+##MAXY=9999
+##MINY=417
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+73,417 97,833 103,833 109,9791
+110,5000 115,875 127,3958 139,1875
+145,1667 157,625 169,9999 187,833
+211,750 229,500 271,583 289,417
+331,2500
+##END=

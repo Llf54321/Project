@@ -1,0 +1,31 @@
+##TITLE=Manganese, tricarbonyl[(1,2,3,4,5-.eta.)-1H-pyrrol-1-yl]-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=R B. KING
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=32761-36-7
+##$NIST MASS SPEC NO=39500
+##MOLFORM=C7 H4 Mn N O3
+##MW=205
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=46
+##LASTX=205
+##FIRSTY=100
+##MAXX=205
+##MINX=46
+##MAXY=9999
+##MINY=100
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+46,100 47,100 55,9999 67,200
+68,600 80,200 81,400 82,100
+83,100 92,100 93,200 94,300
+95,200 121,6000 149,1800 177,1000
+205,1300
+##END=

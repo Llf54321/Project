@@ -1,0 +1,31 @@
+##TITLE=2,2-Dimethylpropanoic acid, 2-naphthyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308046
+##MOLFORM=C15 H16 O2
+##MW=228
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=229
+##FIRSTY=30
+##MAXX=229
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=23
+##PEAK TABLE=(XY..XY)
+28,30 29,80 36,130 41,210
+57,2192 58,60 63,30 79,50
+85,440 89,50 115,1181 116,330
+119,270 127,150 128,30 143,30
+144,9999 145,1111 146,30 162,40
+185,80 228,2542 229,370
+##END=

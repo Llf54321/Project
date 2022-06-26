@@ -1,0 +1,35 @@
+##TITLE=l-Leucine, N-ethoxycarbonyl-N-methyl-, octadecyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=321931
+##MOLFORM=C28 H55 N O4
+##MW=469
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=29
+##LASTX=412
+##FIRSTY=100
+##MAXX=412
+##MINX=29
+##MAXY=9999
+##MINY=10
+##NPOINTS=38
+##PEAK TABLE=(XY..XY)
+29,100 41,60 42,80 43,220
+44,50 55,100 56,60 57,260
+58,150 69,70 70,30 71,90
+72,20 82,30 83,40 84,40
+85,50 86,50 88,150 97,30
+98,30 100,200 102,30 115,20
+116,160 128,80 129,20 143,20
+144,230 156,40 172,9999 173,951
+174,80 199,10 200,170 201,50
+218,20 412,20
+##END=

@@ -1,0 +1,33 @@
+##TITLE=4-Methoxyphenylacetic acid ethyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Dr. Jiri Zamecnik, DCIEM, North York, Canada, GP Library
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=14062-18-1
+##$NIST MASS SPEC NO=123001
+##MOLFORM=C11 H14 O3
+##MW=194
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=195
+##FIRSTY=230
+##MAXX=195
+##MINX=39
+##MAXY=9999
+##MINY=0
+##NPOINTS=28
+##PEAK TABLE=(XY..XY)
+39,230 50,110 51,400 52,320
+63,140 65,160 77,780 78,920
+79,100 89,240 90,140 91,430
+105,50 106,140 107,70 121,9999
+122,950 123,50 135,20 137,10
+148,20 149,10 163,0 165,10
+166,10 179,0 194,2390 195,270
+##END=

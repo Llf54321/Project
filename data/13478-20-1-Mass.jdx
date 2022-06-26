@@ -1,0 +1,28 @@
+##TITLE=Phosphoryl fluoride
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=13478-20-1
+##$NIST MASS SPEC NO=1337
+##MOLFORM=F3 O P
+##MW=104
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=16
+##LASTX=104
+##FIRSTY=30
+##MAXX=104
+##MINX=16
+##MAXY=9999
+##MINY=30
+##NPOINTS=11
+##PEAK TABLE=(XY..XY)
+16,30 31,260 32,40 36,30
+47,220 50,410 66,70 69,1692
+85,8538 88,230 104,9999
+##END=

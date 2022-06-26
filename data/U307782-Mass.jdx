@@ -1,0 +1,32 @@
+##TITLE=3-Phenylpropionic acid, 3,5-dimethylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307782
+##MOLFORM=C17 H18 O2
+##MW=254
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=255
+##FIRSTY=10
+##MAXX=255
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+28,10 51,30 65,110 77,290
+78,80 79,220 91,1651 92,120
+93,30 103,170 104,180 105,1291
+106,110 107,480 108,40 121,280
+122,9999 123,951 124,50 128,60
+131,110 132,70 133,220 254,1241
+255,230
+##END=

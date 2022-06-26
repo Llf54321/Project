@@ -1,0 +1,33 @@
+##TITLE=(.eta.5-cyclopentadienyl)dicarbonylrhodium
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Institute of Organic Chemistry, Novosibirsk, USSR 1988
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=12192-97-1
+##$NIST MASS SPEC NO=102417
+##MOLFORM=C7 H5 O2 Rh
+##MW=224
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=65
+##LASTX=225
+##FIRSTY=149
+##MAXX=225
+##MINX=65
+##MAXY=9999
+##MINY=49
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+65,149 66,199 103,2529 104,49
+112,499 115,1299 116,199 128,99
+129,99 131,549 132,49 140,899
+141,499 142,2949 143,99 164,199
+165,49 166,149 167,149 168,9999
+169,599 195,49 196,3199 197,199
+224,2219 225,209
+##END=

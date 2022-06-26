@@ -1,0 +1,35 @@
+##TITLE=Butanedioic acid, methyl phenylmethyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=E. Dziwinski, Inst. Heavy Org. Synth. Blachownia, Kedzierzyn-Kozle, Poland
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=119450-11-2
+##$NIST MASS SPEC NO=115096
+##MOLFORM=C12 H14 O4
+##MW=222
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=222
+##FIRSTY=700
+##MAXX=222
+##MINX=39
+##MAXY=9999
+##MINY=100
+##NPOINTS=33
+##PEAK TABLE=(XY..XY)
+39,700 41,300 50,200 51,400
+55,2000 56,900 57,300 59,800
+63,300 65,1400 77,700 78,600
+79,700 87,400 88,700 89,500
+90,700 91,9999 92,2000 107,4000
+108,500 115,500 116,300 121,100
+122,100 148,300 162,300 163,300
+177,100 190,100 191,100 194,400
+222,200
+##END=

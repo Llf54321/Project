@@ -1,0 +1,27 @@
+##TITLE=Benzene, [(methylsulfinyl)methyl]-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=824-86-2
+##$NIST MASS SPEC NO=5176
+##MOLFORM=C8 H10 O S
+##MW=154
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=63
+##LASTX=155
+##FIRSTY=591
+##MAXX=155
+##MINX=63
+##MAXY=9999
+##MINY=200
+##NPOINTS=8
+##PEAK TABLE=(XY..XY)
+63,591 65,1181 66,200 77,390
+91,9999 92,781 154,390 155,200
+##END=

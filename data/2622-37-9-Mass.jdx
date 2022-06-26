@@ -1,0 +1,30 @@
+##TITLE=Trifluomeprazine
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Finnigan MAT: Toxicological Library (LIBR-TX)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=2622-37-9
+##$NIST MASS SPEC NO=121031
+##MOLFORM=C19 H21 F3 N2 S
+##MW=366
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=42
+##LASTX=367
+##FIRSTY=191
+##MAXX=367
+##MINX=42
+##MAXY=9999
+##MINY=87
+##NPOINTS=16
+##PEAK TABLE=(XY..XY)
+42,191 44,182 54,87 58,9999
+59,377 69,94 84,205 86,93
+100,289 248,196 266,198 280,103
+320,100 321,100 366,505 367,99
+##END=

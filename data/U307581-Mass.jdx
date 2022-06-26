@@ -1,0 +1,33 @@
+##TITLE=Cyclopentanecarboxylic acid, 2-naphthyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307581
+##MOLFORM=C16 H16 O2
+##MW=240
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=241
+##FIRSTY=50
+##MAXX=241
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=31
+##PEAK TABLE=(XY..XY)
+27,50 28,50 39,130 40,30
+41,661 42,30 55,150 63,70
+65,70 67,170 68,80 69,2913
+70,160 77,30 89,110 96,110
+97,540 98,30 113,30 114,50
+115,1101 116,270 126,40 127,220
+128,30 143,50 144,9999 145,1091
+146,70 240,1281 241,220
+##END=

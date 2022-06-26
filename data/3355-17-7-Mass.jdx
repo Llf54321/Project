@@ -1,0 +1,29 @@
+##TITLE=2-Butyne, 1-chloro-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=B. Derendyaev, Novosibirsk Institute of Organic Chemistry
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=3355-17-7
+##$NIST MASS SPEC NO=139425
+##MOLFORM=C4 H5 Cl
+##MW=88
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=91
+##FIRSTY=3899
+##MAXX=91
+##MINX=39
+##MAXY=9999
+##MINY=91
+##NPOINTS=11
+##PEAK TABLE=(XY..XY)
+39,3899 49,709 50,2099 51,3699
+52,1799 53,9999 54,429 88,6099
+89,271 90,1899 91,91
+##END=

@@ -1,0 +1,32 @@
+##TITLE=3-Methylbut-2-enoic acid, 3,4-dichlorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307597
+##MOLFORM=C11 H10 Cl2 O2
+##MW=244
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=246
+##FIRSTY=190
+##MAXX=246
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=28
+##PEAK TABLE=(XY..XY)
+27,190 28,190 29,480 39,310
+40,30 53,190 54,80 55,1732
+56,70 62,30 63,130 67,50
+73,70 75,30 82,180 83,9999
+84,510 98,30 99,60 109,40
+133,140 135,90 161,30 162,170
+163,30 164,110 244,100 246,60
+##END=

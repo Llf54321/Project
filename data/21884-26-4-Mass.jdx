@@ -1,0 +1,33 @@
+##TITLE=Pentanoic acid, 4-oxo-, 1-methylethyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=W.Jennings, T.Shibamoto
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=21884-26-4
+##$NIST MASS SPEC NO=285527
+##MOLFORM=C8 H14 O3
+##MW=158
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=143
+##FIRSTY=190
+##MAXX=143
+##MINX=27
+##MAXY=9999
+##MINY=70
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+27,190 28,190 41,651 42,70
+43,9999 44,70 55,270 56,1151
+57,270 59,270 61,270 71,681
+72,260 73,450 74,2282 75,190
+98,180 99,6486 100,370 101,1181
+103,70 116,591 117,480 130,70
+143,190
+##END=

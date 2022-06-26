@@ -1,0 +1,31 @@
+##TITLE=3-Buten-2-one, 4-(3-trifluoromethylphenyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=80992-92-3
+##$NIST MASS SPEC NO=147536
+##MOLFORM=C11 H9 F3 O
+##MW=214
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=51
+##LASTX=215
+##FIRSTY=1000
+##MAXX=215
+##MINX=51
+##MAXY=9999
+##MINY=370
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+51,1000 75,1141 76,550 101,370
+102,1221 145,4253 146,460 151,5374
+152,770 171,6115 172,990 173,530
+199,9999 200,1070 213,850 214,3082
+215,380
+##END=

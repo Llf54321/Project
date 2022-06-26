@@ -1,0 +1,33 @@
+##TITLE=Acetoxyacetic acid, but-3-yn-2-yl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=299202
+##MOLFORM=C8 H10 O4
+##MW=170
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=26
+##LASTX=112
+##FIRSTY=120
+##MAXX=112
+##MINX=26
+##MAXY=9999
+##MINY=30
+##NPOINTS=31
+##PEAK TABLE=(XY..XY)
+26,120 27,801 28,70 29,190
+30,80 31,80 38,90 39,110
+41,100 42,511 43,9999 44,420
+45,90 49,30 50,260 51,430
+52,430 53,4354 54,220 55,70
+60,30 67,40 69,200 70,60
+73,1331 74,110 79,30 97,110
+101,2112 102,80 112,170
+##END=

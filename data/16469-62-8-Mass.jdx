@@ -1,0 +1,32 @@
+##TITLE=Pent-1-yn-3-one
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.Pleshkova, Nesmeyanov Inst.Org.Elem.Cpds, Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=16469-62-8
+##$NIST MASS SPEC NO=283678
+##MOLFORM=C5 H6 O
+##MW=82
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=25
+##LASTX=84
+##FIRSTY=500
+##MAXX=84
+##MINX=25
+##MAXY=9999
+##MINY=10
+##NPOINTS=23
+##PEAK TABLE=(XY..XY)
+25,500 26,1101 27,2302 28,1101
+29,1501 30,30 37,300 38,300
+39,3603 40,120 43,400 50,300
+51,200 52,200 53,9999 54,1702
+55,500 56,200 57,300 81,300
+82,1702 83,100 84,10
+##END=

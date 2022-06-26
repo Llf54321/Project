@@ -1,0 +1,31 @@
+##TITLE=Methyl methylphosphonofluoridate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=VERIFIN - Methodology B1-1979
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=353-88-8
+##$NIST MASS SPEC NO=226117
+##MOLFORM=C2 H6 F O2 P
+##MW=112
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=112
+##FIRSTY=60
+##MAXX=112
+##MINX=28
+##MAXY=9999
+##MINY=60
+##NPOINTS=18
+##PEAK TABLE=(XY..XY)
+28,60 29,100 31,100 36,100
+47,800 49,300 50,100 51,100
+63,100 67,3302 81,2001 82,9999
+83,300 84,400 86,200 97,800
+111,200 112,500
+##END=

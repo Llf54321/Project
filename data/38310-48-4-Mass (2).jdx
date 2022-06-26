@@ -1,0 +1,29 @@
+##TITLE=Tricyclo[3.2.1.0(2,4)]octane, 8-methylene-, (1.alpha.,2.alpha.,4.alpha.,5.alpha.)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=CHBEAM, 111(4)1264(1978); R. W. HOFFMANN ET AL.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=38310-48-4
+##$NIST MASS SPEC NO=66039
+##MOLFORM=C9 H12
+##MW=120
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=120
+##FIRSTY=1800
+##MAXX=120
+##MINX=39
+##MAXY=9999
+##MINY=400
+##NPOINTS=11
+##PEAK TABLE=(XY..XY)
+39,1800 41,1300 65,1400 77,3100
+78,1700 79,5500 91,9999 92,6700
+105,3500 119,900 120,400
+##END=

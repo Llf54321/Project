@@ -1,0 +1,28 @@
+##TITLE=2-Butynenitrile, 4,4,4-trifluoro-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=HCACAV,61(1)357(1978); G. BIERI ET AL
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=66051-48-7
+##$NIST MASS SPEC NO=65544
+##MOLFORM=C4 F3 N
+##MW=119
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=31
+##LASTX=119
+##FIRSTY=2000
+##MAXX=119
+##MINX=31
+##MAXY=9999
+##MINY=400
+##NPOINTS=6
+##PEAK TABLE=(XY..XY)
+31,2000 50,1100 55,400 69,4000
+100,9000 119,9999
+##END=

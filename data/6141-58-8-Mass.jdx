@@ -1,0 +1,29 @@
+##TITLE=3-Furancarboxylic acid, 2-methyl-, methyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=6141-58-8
+##$NIST MASS SPEC NO=3734
+##MOLFORM=C7 H8 O3
+##MW=140
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=141
+##FIRSTY=500
+##MAXX=141
+##MINX=39
+##MAXY=9999
+##MINY=500
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+39,500 43,1902 44,701 50,500
+51,901 52,701 53,801 80,801
+108,1501 109,9999 110,801 125,2302
+140,6005 141,601
+##END=

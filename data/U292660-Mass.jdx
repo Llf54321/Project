@@ -1,0 +1,32 @@
+##TITLE=4-Cyanobenzoic acid, 2-isopropoxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=292660
+##MOLFORM=C17 H15 N O3
+##MW=281
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=282
+##FIRSTY=50
+##MAXX=282
+##MINX=27
+##MAXY=9999
+##MINY=10
+##NPOINTS=27
+##PEAK TABLE=(XY..XY)
+27,50 28,10 39,40 41,80
+43,120 50,60 51,100 52,120
+53,40 63,30 75,140 76,110
+80,60 81,200 101,30 102,1351
+103,190 109,190 110,100 130,9999
+131,781 132,50 135,20 147,60
+239,811 240,130 282,100
+##END=

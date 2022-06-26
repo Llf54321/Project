@@ -1,0 +1,30 @@
+##TITLE=2,3,4-Trifluorobenzoic acid, 4-chlorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308031
+##MOLFORM=C13 H6 Cl F3 O2
+##MW=286
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=288
+##FIRSTY=30
+##MAXX=288
+##MINX=39
+##MAXY=9999
+##MINY=30
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+39,30 62,40 63,90 73,100
+75,80 81,500 99,170 101,50
+112,50 127,40 128,50 130,60
+131,1351 132,110 159,9999 160,701
+161,30 286,631 287,90 288,210
+##END=

@@ -1,0 +1,29 @@
+##TITLE=3-Buten-2-one, 4-(2-iodophenyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=76293-36-2
+##$NIST MASS SPEC NO=146452
+##MOLFORM=C10 H9 I O
+##MW=272
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=51
+##LASTX=272
+##FIRSTY=1221
+##MAXX=272
+##MINX=51
+##MAXY=9999
+##MINY=140
+##NPOINTS=12
+##PEAK TABLE=(XY..XY)
+51,1221 74,390 75,770 76,910
+101,370 102,3252 103,140 130,3853
+131,310 145,9999 146,920 272,770
+##END=

@@ -1,0 +1,29 @@
+##TITLE=2-Butenoic acid, 2-methyl-, 2-methylpropyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=W.Jennings, T.Shibamoto
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=66917-61-1
+##$NIST MASS SPEC NO=285091
+##MOLFORM=C9 H16 O2
+##MW=156
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=29
+##LASTX=102
+##FIRSTY=1191
+##MAXX=102
+##MINX=29
+##MAXY=9999
+##MINY=70
+##NPOINTS=12
+##PEAK TABLE=(XY..XY)
+29,1191 41,1191 55,6276 56,3453
+57,1511 82,70 83,9999 84,490
+85,70 100,480 101,6676 102,70
+##END=

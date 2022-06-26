@@ -1,0 +1,32 @@
+##TITLE=2,6-Difluorobenzoic acid, 4-chlorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307557
+##MOLFORM=C13 H7 Cl F2 O2
+##MW=268
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=270
+##FIRSTY=40
+##MAXX=270
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+28,40 39,30 50,30 62,60
+63,460 64,40 73,100 74,30
+75,70 93,60 94,30 99,140
+101,40 112,70 113,1121 114,90
+127,50 128,50 140,30 141,9999
+142,761 143,40 268,450 269,60
+270,140
+##END=

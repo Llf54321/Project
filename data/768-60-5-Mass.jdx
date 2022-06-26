@@ -1,0 +1,30 @@
+##TITLE=Benzene, 1-ethynyl-4-methoxy-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=768-60-5
+##$NIST MASS SPEC NO=146105
+##MOLFORM=C9 H8 O
+##MW=132
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=61
+##LASTX=133
+##FIRSTY=3252
+##MAXX=133
+##MINX=61
+##MAXY=9999
+##MINY=310
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+61,3252 62,5875 63,6956 64,1821
+76,420 77,970 78,550 79,310
+89,9208 90,1201 117,4894 118,1070
+132,9999 133,1521
+##END=

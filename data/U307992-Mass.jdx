@@ -1,0 +1,32 @@
+##TITLE=2-Furoic acid, 3-methylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307992
+##MOLFORM=C12 H10 O3
+##MW=202
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=204
+##FIRSTY=10
+##MAXX=204
+##MINX=27
+##MAXY=9999
+##MINY=10
+##NPOINTS=27
+##PEAK TABLE=(XY..XY)
+27,10 37,10 38,60 39,440
+40,10 51,50 52,10 53,20
+63,10 65,30 66,20 67,170
+77,80 78,30 79,40 91,40
+95,9999 96,550 97,50 107,50
+108,20 112,10 115,10 174,10
+202,3103 203,420 204,40
+##END=

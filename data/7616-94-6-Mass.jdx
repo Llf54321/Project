@@ -1,0 +1,28 @@
+##TITLE=Perchloryl fluoride
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=7616-94-6
+##$NIST MASS SPEC NO=1238
+##MOLFORM=Cl F O3
+##MW=102
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=19
+##LASTX=104
+##FIRSTY=120
+##MAXX=104
+##MINX=19
+##MAXY=9999
+##MINY=120
+##NPOINTS=12
+##PEAK TABLE=(XY..XY)
+19,120 32,801 35,1712 37,540
+51,1872 53,591 67,5505 69,1782
+83,9999 85,3423 102,4014 104,1301
+##END=

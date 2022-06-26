@@ -1,0 +1,33 @@
+##TITLE=Pentafluoropropanoic acid, 4-benzyloxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308008
+##MOLFORM=C16 H11 F5 O3
+##MW=346
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=347
+##FIRSTY=20
+##MAXX=347
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=29
+##PEAK TABLE=(XY..XY)
+28,20 39,60 41,20 51,30
+52,10 54,10 63,50 64,30
+65,540 66,20 69,50 77,10
+82,10 89,80 90,70 91,9999
+92,781 93,20 109,10 115,10
+119,270 130,10 144,40 147,40
+152,10 153,10 183,30 346,631
+347,100
+##END=

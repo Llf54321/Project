@@ -1,0 +1,31 @@
+##TITLE=Allopurinol di-methyl derivative
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Association of Official Racing Chemists
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=5334-54-3
+##$NIST MASS SPEC NO=137014
+##MOLFORM=C7 H8 N4 O
+##MW=164
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=48
+##LASTX=165
+##FIRSTY=645
+##MAXX=165
+##MINX=48
+##MAXY=9999
+##MINY=90
+##NPOINTS=18
+##PEAK TABLE=(XY..XY)
+48,645 50,589 51,1284 52,1631
+53,943 55,90 67,1136 68,1050
+69,982 80,1028 81,1262 82,1115
+109,1481 122,978 136,1925 163,4346
+164,9999 165,1335
+##END=

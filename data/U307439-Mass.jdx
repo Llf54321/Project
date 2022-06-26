@@ -1,0 +1,33 @@
+##TITLE=Cyclobutanecarboxylic acid, 4-methoxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307439
+##MOLFORM=C12 H14 O3
+##MW=206
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=26
+##LASTX=207
+##FIRSTY=40
+##MAXX=207
+##MINX=26
+##MAXY=9999
+##MINY=40
+##NPOINTS=32
+##PEAK TABLE=(XY..XY)
+26,40 27,230 28,90 29,220
+39,170 41,120 51,50 52,90
+53,160 54,90 55,2813 56,120
+63,50 64,50 65,70 77,60
+80,60 81,150 82,50 83,540
+92,60 95,230 107,50 109,1141
+110,100 123,510 124,9999 125,751
+126,60 178,40 206,1291 207,210
+##END=

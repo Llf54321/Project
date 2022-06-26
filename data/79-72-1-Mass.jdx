@@ -1,0 +1,30 @@
+##TITLE=Benzenesulfonamide, 5-amino-2-methyl-N-phenyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=RADIAN CORP
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=79-72-1
+##$NIST MASS SPEC NO=73677
+##MOLFORM=C13 H14 N2 O2 S
+##MW=262
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=14
+##LASTX=262
+##FIRSTY=30
+##MAXX=262
+##MINX=14
+##MAXY=9999
+##MINY=30
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+14,30 16,30 28,150 32,550
+65,3940 77,3430 78,970 79,1770
+92,2650 93,2350 104,3160 105,9999
+106,7450 262,3120
+##END=

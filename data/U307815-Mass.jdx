@@ -1,0 +1,32 @@
+##TITLE=2-Chlorobenzoic acid, 4-chlorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307815
+##MOLFORM=C13 H8 Cl2 O2
+##MW=266
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=50
+##LASTX=268
+##FIRSTY=100
+##MAXX=268
+##MINX=50
+##MAXY=9999
+##MINY=30
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+50,100 51,60 63,50 73,60
+74,40 75,671 76,170 85,60
+99,120 101,30 104,40 110,30
+111,1712 112,120 113,561 114,30
+127,50 128,30 139,9999 140,801
+141,3373 142,250 266,250 267,30
+268,170
+##END=

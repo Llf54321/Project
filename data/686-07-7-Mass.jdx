@@ -1,0 +1,31 @@
+##TITLE=Carbamodithioic acid, diethyl-, methyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Finnigan MAT: Toxicological Library (LIBR-TX)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=686-07-7
+##$NIST MASS SPEC NO=119481
+##MOLFORM=C6 H13 N S2
+##MW=163
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=45
+##LASTX=165
+##FIRSTY=982
+##MAXX=165
+##MINX=45
+##MAXY=9999
+##MINY=271
+##NPOINTS=19
+##PEAK TABLE=(XY..XY)
+45,982 59,978 60,4694 72,1426
+74,626 79,614 86,1639 88,7568
+90,468 91,4033 106,359 116,6693
+117,535 118,357 134,299 148,271
+163,9999 164,1052 165,877
+##END=

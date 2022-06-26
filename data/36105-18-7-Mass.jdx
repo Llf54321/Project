@@ -1,0 +1,29 @@
+##TITLE=5-Chloro-2'-fluoro-2-diethyaminoethylaminobenzophenone
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=H.Maurer ET AL.J.Chromatogr. 222,409(1981)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=36105-18-7
+##$NIST MASS SPEC NO=280340
+##MOLFORM=C19 H22 Cl F N2 O
+##MW=348
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=44
+##LASTX=350
+##FIRSTY=1672
+##MAXX=350
+##MINX=44
+##MAXY=9999
+##MINY=260
+##NPOINTS=11
+##PEAK TABLE=(XY..XY)
+44,1672 57,260 58,1471 86,9999
+87,2252 109,460 123,490 166,280
+348,1251 349,280 350,430
+##END=

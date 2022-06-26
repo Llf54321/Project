@@ -1,0 +1,33 @@
+##TITLE=Butanoic acid, 2-oxo-, methyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=James Little,Eastman Chem.Co.,Kingsport,TN
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=3952-66-7
+##$NIST MASS SPEC NO=298488
+##MOLFORM=C5 H8 O3
+##MW=116
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=14
+##LASTX=118
+##FIRSTY=20
+##MAXX=118
+##MINX=14
+##MAXY=9999
+##MINY=10
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+14,20 15,611 16,10 26,130
+27,801 28,430 29,5485 30,140
+31,70 41,20 42,80 43,40
+44,10 45,220 55,130 56,540
+57,9999 58,310 59,1081 60,100
+87,10 88,10 101,10 116,1371
+117,70 118,10
+##END=

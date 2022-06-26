@@ -1,0 +1,30 @@
+##TITLE=3-Butenoic acid, 2,2-dimethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=J. F. J. TODD
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=10276-09-2
+##$NIST MASS SPEC NO=41378
+##MOLFORM=C6 H10 O2
+##MW=114
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=114
+##FIRSTY=830
+##MAXX=114
+##MINX=39
+##MAXY=9999
+##MINY=150
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+39,830 41,6590 43,1100 53,780
+55,550 56,590 59,910 69,9999
+73,440 81,150 88,240 96,240
+99,2780 114,1050
+##END=

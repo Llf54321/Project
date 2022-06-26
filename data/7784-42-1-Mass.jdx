@@ -1,0 +1,29 @@
+##TITLE=Arsine
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=LRL 0008
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=7784-42-1
+##$NIST MASS SPEC NO=408
+##MOLFORM=As H3
+##MW=78
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=2
+##LASTX=78
+##FIRSTY=120
+##MAXX=78
+##MINX=2
+##MAXY=9999
+##MINY=10
+##NPOINTS=10
+##PEAK TABLE=(XY..XY)
+2,120 35,10 36,60 37,10
+38,180 39,10 75,3533 76,9999
+77,2382 78,7227
+##END=

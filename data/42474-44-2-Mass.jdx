@@ -1,0 +1,28 @@
+##TITLE=Disulfide, methyl (methylthio)methyl
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=J. MADSEN,DEP. ORG. CHEM.,TECH. UNIV. DENMARK,LYNGBY,DENMARK
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=42474-44-2
+##$NIST MASS SPEC NO=99439
+##MOLFORM=C3 H8 S3
+##MW=140
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=35
+##LASTX=140
+##FIRSTY=1300
+##MAXX=140
+##MINX=35
+##MAXY=9999
+##MINY=600
+##NPOINTS=8
+##PEAK TABLE=(XY..XY)
+35,1300 45,2900 46,1200 47,800
+61,9999 63,600 79,600 140,1300
+##END=

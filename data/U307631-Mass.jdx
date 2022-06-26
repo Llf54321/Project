@@ -1,0 +1,32 @@
+##TITLE=Heptafluorobutyric acid, 2-naphthyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307631
+##MOLFORM=C14 H7 F7 O2
+##MW=340
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=342
+##FIRSTY=100
+##MAXX=342
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+28,100 36,40 44,30 63,50
+65,40 69,140 79,50 89,90
+113,30 114,130 115,3483 116,340
+119,30 124,30 126,30 127,781
+128,100 143,1672 144,190 169,110
+273,40 293,40 339,60 340,9999
+341,1551 342,130
+##END=

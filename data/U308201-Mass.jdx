@@ -1,0 +1,30 @@
+##TITLE=Furan-2-carboxamide, N-(2-fluorophenyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308201
+##MOLFORM=C11 H8 F N O2
+##MW=205
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=207
+##FIRSTY=440
+##MAXX=207
+##MINX=39
+##MAXY=9999
+##MINY=30
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+39,440 51,40 57,70 67,240
+75,50 83,250 84,30 95,9999
+96,550 97,50 110,50 111,80
+112,150 148,80 176,30 177,60
+186,50 205,7697 206,961 207,30
+##END=

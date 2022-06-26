@@ -1,0 +1,34 @@
+##TITLE=4-Fluorobenzoic acid, 2-bromo-4-fluorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=299051
+##MOLFORM=C13 H7 Br F2 O2
+##MW=312
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=314
+##FIRSTY=30
+##MAXX=314
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=35
+##PEAK TABLE=(XY..XY)
+28,30 50,90 51,50 56,30
+57,70 62,30 63,70 68,50
+69,90 74,70 75,511 76,50
+81,130 82,220 83,50 93,30
+94,180 95,2282 96,160 110,50
+122,30 123,9999 124,701 125,40
+161,160 163,150 175,50 189,40
+190,140 191,50 192,130 204,70
+232,60 312,110 314,110
+##END=

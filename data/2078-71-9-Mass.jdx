@@ -1,0 +1,28 @@
+##TITLE=Urea, (2-hydroxyethyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.A.Kutin, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=2078-71-9
+##$NIST MASS SPEC NO=297602
+##MOLFORM=C3 H8 N2 O2
+##MW=104
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=42
+##LASTX=88
+##FIRSTY=4836
+##MAXX=88
+##MINX=42
+##MAXY=9999
+##MINY=449
+##NPOINTS=7
+##PEAK TABLE=(XY..XY)
+42,4836 43,4415 44,2170 59,7234
+60,449 87,9999 88,1209
+##END=

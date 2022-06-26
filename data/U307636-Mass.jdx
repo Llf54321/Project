@@ -1,0 +1,30 @@
+##TITLE=p-Anisic acid, 4-methoxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307636
+##MOLFORM=C15 H14 O4
+##MW=258
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=63
+##LASTX=259
+##FIRSTY=30
+##MAXX=259
+##MINX=63
+##MAXY=9999
+##MINY=30
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+63,30 64,100 76,30 77,561
+78,30 79,30 92,350 95,30
+107,510 108,40 123,80 135,9999
+136,871 137,70 152,40 258,691
+259,110
+##END=

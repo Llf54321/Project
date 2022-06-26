@@ -1,0 +1,32 @@
+##TITLE=Formamide, N-[3-(dimethylamino)propyl]-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=James Little,Eastman Chem.Co.,Kingsport,TN
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=5922-69-0
+##$NIST MASS SPEC NO=288733
+##MOLFORM=C6 H14 N2 O
+##MW=130
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=131
+##FIRSTY=500
+##MAXX=131
+##MINX=27
+##MAXY=9999
+##MINY=50
+##NPOINTS=23
+##PEAK TABLE=(XY..XY)
+27,500 29,2452 30,1982 40,3433
+41,581 42,2122 43,661 44,1742
+45,340 56,410 57,440 58,9999
+59,771 70,360 71,150 72,410
+73,320 84,340 85,200 86,150
+102,170 130,490 131,50
+##END=

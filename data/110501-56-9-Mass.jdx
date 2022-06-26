@@ -1,0 +1,31 @@
+##TITLE=Bis(2-diisopropylaminoethyl) sulfide
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.A.Kutin, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=110501-56-9
+##$NIST MASS SPEC NO=273238
+##MOLFORM=C16 H36 N2 S
+##MW=288
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=128
+##FIRSTY=290
+##MAXX=128
+##MINX=27
+##MAXY=9999
+##MINY=200
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+27,290 30,2382 41,981 42,811
+43,1271 44,1471 56,300 58,200
+70,1081 72,2572 82,490 83,200
+84,500 114,9999 115,791 127,1291
+128,991
+##END=

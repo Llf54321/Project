@@ -1,0 +1,30 @@
+##TITLE=1,8-Dimethylcarbazole, N-trifluoroacetyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Nat. Inst. for Petroleum and Energy Research, Bartlesville, OK
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=328376
+##MOLFORM=C16 H12 F3 N O
+##MW=291
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=69
+##LASTX=291
+##FIRSTY=1521
+##MAXX=291
+##MINX=69
+##MAXY=9999
+##MINY=50
+##NPOINTS=18
+##PEAK TABLE=(XY..XY)
+69,1521 78,110 90,50 98,150
+165,410 166,180 167,230 177,190
+178,310 179,891 191,360 192,1321
+193,821 194,9999 195,1852 207,230
+222,210 291,4554
+##END=

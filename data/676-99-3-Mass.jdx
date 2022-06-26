@@ -1,0 +1,30 @@
+##TITLE=Methylphosphonyldifluoride
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=VERIFIN - Methodology B4-1983
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=676-99-3
+##$NIST MASS SPEC NO=226265
+##MOLFORM=C H3 F2 O P
+##MW=100
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=29
+##LASTX=100
+##FIRSTY=800
+##MAXX=100
+##MINX=29
+##MAXY=9999
+##MINY=30
+##NPOINTS=16
+##PEAK TABLE=(XY..XY)
+29,800 31,800 36,300 44,200
+47,600 50,400 52,900 67,600
+69,2602 71,600 80,4604 81,500
+85,1601 86,30 99,1501 100,9999
+##END=

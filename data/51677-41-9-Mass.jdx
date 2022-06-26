@@ -1,0 +1,28 @@
+##TITLE=Butane, 2-azido-2,3,3-trimethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=51677-41-9
+##$NIST MASS SPEC NO=29026
+##MOLFORM=C7 H15 N3
+##MW=141
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=113
+##FIRSTY=1300
+##MAXX=113
+##MINX=39
+##MAXY=9999
+##MINY=200
+##NPOINTS=11
+##PEAK TABLE=(XY..XY)
+39,1300 41,4200 42,1500 43,2500
+56,4000 57,9999 58,900 83,400
+98,200 99,1000 113,200
+##END=

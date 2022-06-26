@@ -1,0 +1,28 @@
+##TITLE=Ethylamine, 2-((p-bromo-.alpha.-methyl-.alpha.-phenylbenzyl)oxy)-N,N-dimethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=R.E.Ardrey ET AL.Pharmaceutical Mass Spectra,L.,1985
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=3565-72-8
+##$NIST MASS SPEC NO=298715
+##MOLFORM=C18 H22 Br N O
+##MW=347
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=30
+##LASTX=165
+##FIRSTY=100
+##MAXX=165
+##MINX=30
+##MAXY=9999
+##MINY=100
+##NPOINTS=7
+##PEAK TABLE=(XY..XY)
+30,100 42,200 58,9999 59,300
+72,100 103,100 165,100
+##END=

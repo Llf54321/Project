@@ -1,0 +1,31 @@
+##TITLE=Carbonfluoridodithioic acid, trifluoromethyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Dennis Rohrbaugh, CBDCOM/ERDEC, Edgewood, MD
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=371-73-3
+##$NIST MASS SPEC NO=226746
+##MOLFORM=C2 F4 S2
+##MW=164
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=44
+##LASTX=166
+##FIRSTY=1016
+##MAXX=166
+##MINX=44
+##MAXY=9999
+##MINY=24
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+44,1016 46,24 50,320 51,177
+63,9999 64,675 65,478 66,34
+69,5460 70,39 76,1983 77,29
+78,172 82,409 95,1529 97,123
+101,251 164,4932 165,202 166,419
+##END=

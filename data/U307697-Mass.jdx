@@ -1,0 +1,32 @@
+##TITLE=Octanoic acid, 4-methoxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307697
+##MOLFORM=C15 H22 O3
+##MW=250
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=251
+##FIRSTY=50
+##MAXX=251
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=27
+##PEAK TABLE=(XY..XY)
+27,50 29,100 39,50 41,240
+42,40 43,230 53,30 55,190
+57,510 65,30 69,30 77,40
+81,80 83,30 92,40 95,70
+109,741 110,70 121,40 123,130
+124,9999 125,831 126,70 127,70
+166,40 250,300 251,50
+##END=

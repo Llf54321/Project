@@ -1,0 +1,31 @@
+##TITLE=2,6-Dimethylbenzaldehyde
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Dr. Jiri Zamecnik, DCIEM, North York, Canada, GP Library
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1123-56-4
+##$NIST MASS SPEC NO=123914
+##MOLFORM=C9 H10 O
+##MW=134
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=135
+##FIRSTY=5140
+##MAXX=135
+##MINX=39
+##MAXY=9999
+##MINY=830
+##NPOINTS=18
+##PEAK TABLE=(XY..XY)
+39,5140 50,1520 51,4420 53,1580
+63,2510 65,2120 77,6380 78,2420
+79,4310 89,830 91,5130 103,3410
+104,960 105,8920 106,1740 133,9999
+134,9470 135,1740
+##END=

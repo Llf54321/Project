@@ -1,0 +1,31 @@
+##TITLE=2,4-Imidazolidinedione, 3-methyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=James Little,Eastman Chem.Co.,Kingsport,TN
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=6843-45-4
+##$NIST MASS SPEC NO=288527
+##MOLFORM=C4 H6 N2 O2
+##MW=114
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=116
+##FIRSTY=400
+##MAXX=116
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+27,400 28,1682 29,250 30,731
+39,120 40,400 41,891 42,9999
+43,7267 44,340 56,210 70,350
+71,310 86,460 114,4714 115,350
+116,30
+##END=

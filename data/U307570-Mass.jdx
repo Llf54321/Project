@@ -1,0 +1,32 @@
+##TITLE=m-Toluic acid, 3,4-dichlorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307570
+##MOLFORM=C14 H10 Cl2 O2
+##MW=280
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=282
+##FIRSTY=60
+##MAXX=282
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+28,60 39,150 41,50 50,30
+51,60 62,40 63,190 64,40
+65,691 66,30 73,40 89,190
+90,140 91,2592 92,210 99,30
+118,40 119,9999 120,851 121,50
+133,70 135,50 162,80 164,50
+280,130 282,80
+##END=

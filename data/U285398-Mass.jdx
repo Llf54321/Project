@@ -1,0 +1,29 @@
+##TITLE=Methyl n-hexyl ketone-1-phenyl-1,2-ethanediol ketal 2
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=W.Jennings, T.Shibamoto
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=285398
+##MOLFORM=C16 H24 O2
+##MW=248
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=43
+##LASTX=233
+##FIRSTY=9999
+##MAXX=233
+##MINX=43
+##MAXY=9999
+##MINY=70
+##NPOINTS=13
+##PEAK TABLE=(XY..XY)
+43,9999 44,70 72,380 85,1051
+91,270 103,190 104,270 113,490
+121,190 142,70 163,6786 164,691
+233,70
+##END=

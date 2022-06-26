@@ -1,0 +1,31 @@
+##TITLE=3-Phenylpropionic acid, 4-methoxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307783
+##MOLFORM=C16 H16 O3
+##MW=256
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=257
+##FIRSTY=10
+##MAXX=257
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+28,10 51,20 65,90 77,160
+78,50 79,130 81,50 91,1091
+92,90 95,60 103,120 104,100
+105,671 106,50 109,871 110,50
+123,170 124,9999 125,791 126,60
+131,30 133,40 256,550 257,90
+##END=

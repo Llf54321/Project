@@ -1,0 +1,36 @@
+##TITLE=Ethanedioic acid, diethyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Chuck Anderson, Aldrich Chemical Co.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=95-92-1
+##$NIST MASS SPEC NO=107320
+##MOLFORM=C6 H10 O4
+##MW=146
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=13
+##LASTX=147
+##FIRSTY=2
+##MAXX=147
+##MINX=13
+##MAXY=9999
+##MINY=2
+##NPOINTS=38
+##PEAK TABLE=(XY..XY)
+13,2 14,34 15,185 16,12
+17,6 18,24 19,57 25,4
+26,175 27,1655 28,1030 29,9999
+30,548 31,1469 32,31 36,3
+41,79 42,46 43,337 44,76
+45,781 46,61 47,50 56,105
+57,127 58,7 59,60 60,3
+73,226 74,755 75,171 76,6
+87,2 91,6 118,8 119,5
+146,37 147,3
+##END=

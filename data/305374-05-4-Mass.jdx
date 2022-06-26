@@ -1,0 +1,32 @@
+##TITLE=Benzoic acid, 2-chloro-, 4-benzyloxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=305374-05-4
+##$NIST MASS SPEC NO=307822
+##MOLFORM=C20 H15 Cl O3
+##MW=338
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=341
+##FIRSTY=10
+##MAXX=341
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=21
+##PEAK TABLE=(XY..XY)
+28,10 36,30 65,330 75,270
+76,70 91,6506 92,440 111,1261
+112,60 113,430 119,30 135,50
+139,9999 140,721 141,3393 142,200
+156,30 338,2722 339,530 340,951
+341,180
+##END=

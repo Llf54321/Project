@@ -1,0 +1,30 @@
+##TITLE=2,2-Dimethylpropanoic acid, 4-benzyloxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308047
+##MOLFORM=C18 H20 O3
+##MW=284
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=286
+##FIRSTY=30
+##MAXX=286
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+28,30 29,80 36,130 39,30
+41,220 44,70 57,2873 58,60
+65,220 85,500 91,9999 92,721
+110,50 119,50 144,70 200,2863
+201,350 284,2752 285,480 286,30
+##END=

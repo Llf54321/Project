@@ -1,0 +1,33 @@
+##TITLE=l-Norvaline, N-allyloxycarbonyl-, allyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=320758
+##MOLFORM=C12 H19 N O4
+##MW=241
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=26
+##LASTX=198
+##FIRSTY=30
+##MAXX=198
+##MINX=26
+##MAXY=9999
+##MINY=20
+##NPOINTS=31
+##PEAK TABLE=(XY..XY)
+26,30 27,150 28,30 29,80
+30,180 38,30 39,751 40,110
+41,6636 42,250 43,250 44,190
+55,100 58,80 59,20 70,430
+72,140 74,100 81,40 86,20
+95,40 112,4574 113,370 114,50
+116,220 154,90 155,90 156,9999
+157,911 158,110 198,40
+##END=

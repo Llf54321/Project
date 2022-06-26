@@ -1,0 +1,29 @@
+##TITLE=Isothiazole, 4,5-dimethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=27330-47-8
+##$NIST MASS SPEC NO=33196
+##MOLFORM=C5 H7 N S
+##MW=113
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=113
+##FIRSTY=900
+##MAXX=113
+##MINX=39
+##MAXY=9999
+##MINY=450
+##NPOINTS=13
+##PEAK TABLE=(XY..XY)
+39,900 45,1300 53,1000 58,570
+59,1460 69,450 71,2350 80,900
+85,1500 86,800 98,3560 112,3350
+113,9999
+##END=

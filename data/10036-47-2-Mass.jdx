@@ -1,0 +1,28 @@
+##TITLE=Tetrafluorohydrazine
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=10036-47-2
+##$NIST MASS SPEC NO=1335
+##MOLFORM=F4 N2
+##MW=104
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=14
+##LASTX=104
+##FIRSTY=1251
+##MAXX=104
+##MINX=14
+##MAXY=9999
+##MINY=10
+##NPOINTS=11
+##PEAK TABLE=(XY..XY)
+14,1251 19,701 28,160 29,10
+33,9999 34,10 52,5325 53,30
+66,40 85,20 104,10
+##END=

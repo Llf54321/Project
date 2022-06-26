@@ -1,0 +1,33 @@
+##TITLE=3,5-Dimethyl-1-diphenyl(tert-butyl)silyloxybenzene
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307865
+##MOLFORM=C24 H28 O Si
+##MW=360
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=361
+##FIRSTY=10
+##MAXX=361
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=29
+##PEAK TABLE=(XY..XY)
+28,10 36,40 77,50 91,140
+105,140 119,70 165,170 166,170
+179,100 181,140 183,60 195,90
+197,80 199,140 200,30 210,80
+211,50 224,40 225,1571 226,310
+227,70 301,30 302,40 303,9999
+304,2702 305,651 306,90 360,460
+361,120
+##END=

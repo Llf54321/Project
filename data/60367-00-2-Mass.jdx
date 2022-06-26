@@ -1,0 +1,32 @@
+##TITLE=4,8-Secosenecionan-8,11,16-trione, 15,20-dihydro-12-(acetyloxy)-20-chloro-15-hydroxy-4-methyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=E. Roeder, Pharm. Inst., Univ. Bonn, Bonn, W. Ger.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=60367-00-2
+##$NIST MASS SPEC NO=112358
+##MOLFORM=C21 H30 Cl N O8
+##MW=459
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=43
+##LASTX=459
+##FIRSTY=9999
+##MAXX=459
+##MINX=43
+##MAXY=9999
+##MINY=110
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+43,9999 150,4723 152,487 166,1158
+168,7569 238,1256 304,1842 319,2491
+320,1406 336,6787 337,1443 352,238
+355,519 357,170 372,1609 373,315
+374,540 375,110 380,476 396,1088
+408,233 423,585 424,281 459,112
+##END=

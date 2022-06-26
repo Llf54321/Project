@@ -1,0 +1,28 @@
+##TITLE=Pyrazine, 2-ethenyl-6-methyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=13925-09-2
+##$NIST MASS SPEC NO=2155
+##MOLFORM=C7 H8 N2
+##MW=120
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=121
+##FIRSTY=611
+##MAXX=121
+##MINX=27
+##MAXY=9999
+##MINY=150
+##NPOINTS=12
+##PEAK TABLE=(XY..XY)
+27,611 39,2002 40,1732 52,5845
+54,2182 66,400 79,260 94,1341
+105,150 119,2362 120,9999 121,801
+##END=

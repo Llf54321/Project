@@ -1,0 +1,33 @@
+##TITLE=m-Toluic acid, cyclobutyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=292232
+##MOLFORM=C12 H14 O2
+##MW=190
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=26
+##LASTX=190
+##FIRSTY=30
+##MAXX=190
+##MINX=26
+##MAXY=9999
+##MINY=20
+##NPOINTS=30
+##PEAK TABLE=(XY..XY)
+26,30 27,120 28,20 29,50
+39,210 41,80 50,40 51,70
+53,40 55,90 62,30 63,120
+64,40 65,540 66,30 89,180
+90,120 91,2382 92,190 118,30
+119,9999 120,651 121,30 134,90
+135,40 136,90 162,671 163,70
+172,30 190,20
+##END=

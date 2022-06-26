@@ -1,0 +1,27 @@
+##TITLE=Naphthalene, 1-isocyano-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1984-04-9
+##$NIST MASS SPEC NO=4954
+##MOLFORM=C11 H7 N
+##MW=153
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=125
+##LASTX=155
+##FIRSTY=500
+##MAXX=155
+##MINX=125
+##MAXY=9999
+##MINY=60
+##NPOINTS=8
+##PEAK TABLE=(XY..XY)
+125,500 126,2302 127,801 151,300
+152,701 153,9999 154,1301 155,60
+##END=

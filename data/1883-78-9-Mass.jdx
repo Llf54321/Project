@@ -1,0 +1,29 @@
+##TITLE=Furan, 2-[[(1-methylethyl)thio]methyl]-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1883-78-9
+##$NIST MASS SPEC NO=5358
+##MOLFORM=C8 H12 O S
+##MW=156
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=158
+##FIRSTY=701
+##MAXX=158
+##MINX=27
+##MAXY=9999
+##MINY=90
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+27,701 40,330 41,550 43,330
+45,520 47,120 53,1001 59,180
+81,9999 82,550 85,90 113,90
+156,2182 157,200 158,100
+##END=

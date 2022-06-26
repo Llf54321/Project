@@ -1,0 +1,33 @@
+##TITLE=Pentafluoroguanidine
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.Pleshkova, Nesmeyanov Inst.Org.Elem.Cpds, Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=10051-06-6
+##$NIST MASS SPEC NO=284299
+##MOLFORM=C F5 N3
+##MW=149
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=14
+##LASTX=98
+##FIRSTY=1471
+##MAXX=98
+##MINX=14
+##MAXY=9999
+##MINY=10
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+14,1471 15,10 26,1872 27,30
+28,1311 29,10 31,8458 32,100
+33,7196 34,30 40,1381 41,30
+45,1001 46,20 50,1271 51,20
+52,5985 53,20 59,2272 60,40
+64,3914 65,60 78,8277 79,160
+97,9999 98,190
+##END=

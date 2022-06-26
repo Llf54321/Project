@@ -1,0 +1,29 @@
+##TITLE=Iron, tricarbonyl[(1,2,3,4-.eta.)-2,3-dimethyl-1,3-butadiene]-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=31741-56-7
+##$NIST MASS SPEC NO=10524
+##MOLFORM=C9 H10 Fe O3
+##MW=222
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=56
+##LASTX=223
+##FIRSTY=5005
+##MAXX=223
+##MINX=56
+##MAXY=9999
+##MINY=20
+##NPOINTS=13
+##PEAK TABLE=(XY..XY)
+56,5005 96,620 97,20 122,500
+123,30 138,9999 139,701 166,5605
+167,300 194,6806 195,400 222,1601
+223,100
+##END=

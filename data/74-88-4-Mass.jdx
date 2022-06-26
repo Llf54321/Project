@@ -1,0 +1,30 @@
+##TITLE=Methane, iodo-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=NIST Mass Spectrometry Data Center, 1990.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=74-88-4
+##$NIST MASS SPEC NO=118703
+##MOLFORM=C H3 I
+##MW=142
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=12
+##LASTX=143
+##FIRSTY=39
+##MAXX=143
+##MINX=12
+##MAXY=9999
+##MINY=10
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+12,39 13,75 14,130 15,676
+16,10 63,73 71,26 124,13
+127,4306 128,232 139,522 140,473
+141,1737 142,9999 143,122
+##END=

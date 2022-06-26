@@ -1,0 +1,33 @@
+##TITLE=3-Bromobenzoic acid, 5-fluoro-2-nitrophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=292668
+##MOLFORM=C13 H7 Br F N O4
+##MW=339
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=341
+##FIRSTY=20
+##MAXX=341
+##MINX=28
+##MAXY=9999
+##MINY=20
+##NPOINTS=29
+##PEAK TABLE=(XY..XY)
+28,20 30,70 38,30 50,310
+51,60 57,40 63,80 70,40
+74,150 75,601 76,791 77,70
+81,90 82,120 104,110 155,1872
+156,150 157,1832 158,130 183,9999
+184,631 185,9589 186,601 187,30
+200,100 202,100 293,20 339,160
+341,160
+##END=

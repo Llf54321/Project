@@ -1,0 +1,32 @@
+##TITLE=m-Toluic acid, 4-methoxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307568
+##MOLFORM=C15 H14 O3
+##MW=242
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=243
+##FIRSTY=40
+##MAXX=243
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+28,40 39,110 41,90 51,50
+52,50 54,30 63,90 64,40
+65,550 66,30 80,30 81,30
+89,130 90,140 91,2492 92,210
+95,80 109,80 118,60 119,9999
+120,811 121,40 123,130 124,80
+242,1511 243,240
+##END=

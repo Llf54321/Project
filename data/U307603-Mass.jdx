@@ -1,0 +1,31 @@
+##TITLE=4-Chlorobutyric acid, 4-methoxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307603
+##MOLFORM=C11 H13 Cl O3
+##MW=228
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=230
+##FIRSTY=10
+##MAXX=230
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+28,10 39,30 41,210 52,30
+65,40 77,220 79,80 81,100
+92,40 95,100 105,220 107,110
+108,40 109,1802 110,120 123,180
+124,9999 125,871 126,70 135,30
+152,30 228,430 229,40 230,130
+##END=

@@ -1,0 +1,33 @@
+##TITLE=l-Alanine, N-(4-fluorobenzoyl)-, methyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=299603
+##MOLFORM=C11 H12 F N O3
+##MW=225
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=225
+##FIRSTY=30
+##MAXX=225
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=31
+##PEAK TABLE=(XY..XY)
+27,30 28,80 42,130 43,40
+44,80 50,70 51,40 59,40
+68,30 69,70 70,40 74,50
+75,470 76,50 94,140 95,1932
+96,180 102,60 109,120 121,40
+122,70 123,9999 124,681 125,40
+136,70 164,370 165,50 166,4024
+167,390 194,50 225,160
+##END=

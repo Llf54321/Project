@@ -1,0 +1,30 @@
+##TITLE=o-Anisic acid, 4-chlorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307790
+##MOLFORM=C14 H11 Cl O3
+##MW=262
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=51
+##LASTX=262
+##FIRSTY=80
+##MAXX=262
+##MINX=51
+##MAXY=9999
+##MINY=30
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+51,80 63,80 64,140 76,50
+77,1131 78,80 79,100 92,490
+93,30 99,50 105,80 120,120
+127,30 135,9999 136,891 137,70
+262,30
+##END=

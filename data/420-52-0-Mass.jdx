@@ -1,0 +1,31 @@
+##TITLE=Phosphine, (trifluoromethyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.Pleshkova, Nesmeyanov Inst.Org.Elem.Cpds, Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=420-52-0
+##$NIST MASS SPEC NO=284335
+##MOLFORM=C H2 F3 P
+##MW=102
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=31
+##LASTX=103
+##FIRSTY=721
+##MAXX=103
+##MINX=31
+##MAXY=9999
+##MINY=10
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+31,721 32,641 33,130 50,721
+51,831 52,420 62,100 63,120
+69,9999 70,130 81,170 82,140
+83,621 84,10 101,100 102,5465
+103,60
+##END=

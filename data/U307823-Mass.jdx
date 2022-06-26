@@ -1,0 +1,28 @@
+##TITLE=1-Naphthoic acid, 3-methylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307823
+##MOLFORM=C18 H14 O2
+##MW=262
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=75
+##LASTX=263
+##FIRSTY=30
+##MAXX=263
+##MINX=75
+##MAXY=9999
+##MINY=30
+##NPOINTS=11
+##PEAK TABLE=(XY..XY)
+75,30 77,170 101,90 126,250
+127,2943 128,360 155,9999 156,1221
+157,80 262,520 263,100
+##END=

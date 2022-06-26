@@ -1,0 +1,31 @@
+##TITLE=Methyl 3,3-dichloropropenoate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=2257-46-7
+##$NIST MASS SPEC NO=145923
+##MOLFORM=C4 H4 Cl2 O2
+##MW=154
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=55
+##LASTX=156
+##FIRSTY=600
+##MAXX=156
+##MINX=55
+##MAXY=9999
+##MINY=70
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+55,600 57,380 59,670 60,2011
+61,140 62,760 63,1591 65,610
+87,70 95,1371 97,920 119,610
+123,9999 124,530 125,6666 126,220
+127,1451 136,230 154,990 156,770
+##END=

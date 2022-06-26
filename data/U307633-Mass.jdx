@@ -1,0 +1,30 @@
+##TITLE=p-Anisic acid, 3-methylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307633
+##MOLFORM=C15 H14 O3
+##MW=242
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=243
+##FIRSTY=10
+##MAXX=243
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=19
+##PEAK TABLE=(XY..XY)
+28,10 51,30 63,50 64,140
+65,30 76,40 77,721 78,60
+79,70 91,40 92,420 107,601
+108,80 135,9999 136,891 137,70
+152,340 242,270 243,30
+##END=

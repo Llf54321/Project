@@ -1,0 +1,30 @@
+##TITLE=Benzene, 1,1'-(1,2-dimethyl-1,2-ethanediyl)bis-, (R*,S*)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=J. M. PECHINE
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=4613-11-0
+##$NIST MASS SPEC NO=41225
+##MOLFORM=C16 H18
+##MW=210
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=210
+##FIRSTY=280
+##MAXX=210
+##MINX=27
+##MAXY=9999
+##MINY=105
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+27,280 39,195 51,322 65,134
+77,1030 78,284 79,950 89,105
+91,362 103,560 104,2590 105,9999
+106,884 115,117 210,287
+##END=

@@ -1,0 +1,29 @@
+##TITLE=Phosphine, bis(1,1-dimethylethyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=819-19-2
+##$NIST MASS SPEC NO=4270
+##MOLFORM=C8 H19 P
+##MW=146
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=29
+##LASTX=147
+##FIRSTY=2789
+##MAXX=147
+##MINX=29
+##MAXY=9999
+##MINY=53
+##NPOINTS=16
+##PEAK TABLE=(XY..XY)
+29,2789 40,263 41,3263 42,263
+55,421 56,368 57,9999 58,684
+60,632 75,263 89,53 90,737
+91,474 131,53 146,842 147,263
+##END=

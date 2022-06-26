@@ -1,0 +1,31 @@
+##TITLE=p-Toluic acid, 5-fluoro-2-nitrophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=292646
+##MOLFORM=C14 H10 F N O4
+##MW=275
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=227
+##FIRSTY=20
+##MAXX=227
+##MINX=28
+##MAXY=9999
+##MINY=20
+##NPOINTS=23
+##PEAK TABLE=(XY..XY)
+28,20 30,50 39,110 41,40
+50,30 51,60 62,30 63,140
+64,40 65,490 70,30 81,40
+82,60 89,180 90,130 91,1972
+92,160 118,40 119,9999 120,731
+121,40 136,50 227,30
+##END=

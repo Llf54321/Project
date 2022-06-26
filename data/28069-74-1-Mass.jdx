@@ -1,0 +1,30 @@
+##TITLE=3-Hexene, 1-(1-ethoxyethoxy)-, (Z)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=W.Jennings, T.Shibamoto
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=28069-74-1
+##$NIST MASS SPEC NO=284900
+##MOLFORM=C10 H20 O2
+##MW=172
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=29
+##LASTX=127
+##FIRSTY=300
+##MAXX=127
+##MINX=29
+##MAXY=9999
+##MINY=80
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+29,300 41,711 43,80 45,6306
+55,1992 56,90 67,290 73,9999
+74,400 82,290 83,1782 89,110
+103,300 127,90
+##END=

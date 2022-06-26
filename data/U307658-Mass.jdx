@@ -1,0 +1,28 @@
+##TITLE=Trifluoroacetic acid, 4-benzyloxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307658
+##MOLFORM=C15 H11 F3 O3
+##MW=296
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=297
+##FIRSTY=70
+##MAXX=297
+##MINX=39
+##MAXY=9999
+##MINY=30
+##NPOINTS=12
+##PEAK TABLE=(XY..XY)
+39,70 51,40 63,70 64,30
+65,591 69,180 89,100 90,70
+91,9999 92,801 296,691 297,100
+##END=

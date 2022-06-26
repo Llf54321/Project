@@ -1,0 +1,28 @@
+##TITLE=Sulfur tetrafluoride
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=7783-60-0
+##$NIST MASS SPEC NO=1453
+##MOLFORM=F4 S
+##MW=108
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=19
+##LASTX=108
+##FIRSTY=751
+##MAXX=108
+##MINX=19
+##MAXY=9999
+##MINY=40
+##NPOINTS=11
+##PEAK TABLE=(XY..XY)
+19,751 32,671 51,851 53,40
+70,4554 71,40 72,200 89,9999
+90,70 91,430 108,90
+##END=

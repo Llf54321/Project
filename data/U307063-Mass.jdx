@@ -1,0 +1,31 @@
+##TITLE=Benzamide, N-(3-nitrophenyl)-2-methoxy-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307063
+##MOLFORM=C14 H12 N2 O4
+##MW=272
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=273
+##FIRSTY=10
+##MAXX=273
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+28,10 39,40 50,40 51,60
+63,90 64,150 65,70 76,70
+77,931 78,80 79,80 91,50
+92,540 93,50 105,90 120,130
+121,50 135,9999 136,711 137,60
+138,60 242,70 272,801 273,130
+##END=

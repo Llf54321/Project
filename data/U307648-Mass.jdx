@@ -1,0 +1,30 @@
+##TITLE=5-Bromovaleric acid, 2-naphthyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307648
+##MOLFORM=C15 H15 Br O2
+##MW=306
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=309
+##FIRSTY=30
+##MAXX=309
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+27,30 29,50 55,520 89,60
+115,871 116,200 127,140 135,140
+137,110 139,40 143,40 144,9999
+145,1281 146,80 163,60 165,60
+306,310 307,40 308,310 309,40
+##END=

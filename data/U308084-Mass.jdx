@@ -1,0 +1,32 @@
+##TITLE=Propanamide, N,N-bis(2-ethylhexyl)-2-methyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308084
+##MOLFORM=C20 H41 N O
+##MW=311
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=311
+##FIRSTY=40
+##MAXX=311
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=28
+##PEAK TABLE=(XY..XY)
+28,40 36,110 41,60 43,460
+44,310 55,50 57,130 69,60
+71,601 88,30 100,60 101,60
+114,90 128,30 135,30 142,9999
+143,1021 149,641 156,561 170,280
+199,30 200,70 212,1641 213,210
+240,40 268,1261 269,170 311,70
+##END=

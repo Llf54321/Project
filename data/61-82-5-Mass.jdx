@@ -1,0 +1,32 @@
+##TITLE=3-Amino-s-triazole
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=NIST Mass Spectrometry Data Center, 1998.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=61-82-5
+##$NIST MASS SPEC NO=291209
+##MOLFORM=C2 H4 N4
+##MW=84
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=13
+##LASTX=85
+##FIRSTY=30
+##MAXX=85
+##MINX=13
+##MAXY=9999
+##MINY=10
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+13,30 16,10 17,40 26,70
+27,650 28,3500 29,830 30,210
+31,20 38,40 39,20 40,60
+41,410 42,1440 43,1600 52,40
+53,340 54,260 55,100 56,220
+57,3360 58,70 84,9999 85,320
+##END=

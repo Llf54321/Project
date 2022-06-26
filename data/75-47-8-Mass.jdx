@@ -1,0 +1,30 @@
+##TITLE=Methane, triiodo-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Japan AIST/NIMC Database- Spectrum MS-NW-8704
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=75-47-8
+##$NIST MASS SPEC NO=228071
+##MOLFORM=C H I3
+##MW=394
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=63
+##LASTX=395
+##FIRSTY=40
+##MAXX=395
+##MINX=63
+##MAXY=9999
+##MINY=10
+##NPOINTS=16
+##PEAK TABLE=(XY..XY)
+63,40 64,10 127,1859 128,349
+139,499 140,2029 141,60 219,30
+221,30 254,929 255,10 266,139
+267,9999 268,169 394,2589 395,20
+##END=

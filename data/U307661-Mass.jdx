@@ -1,0 +1,32 @@
+##TITLE=1-Adamantanecarboxylic acid, 3,5-dimethylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307661
+##MOLFORM=C19 H24 O2
+##MW=284
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=41
+##LASTX=285
+##FIRSTY=130
+##MAXX=285
+##MINX=41
+##MAXY=9999
+##MINY=30
+##NPOINTS=28
+##PEAK TABLE=(XY..XY)
+41,130 53,40 55,140 65,50
+67,250 69,30 77,280 78,50
+79,791 80,40 81,160 91,390
+92,70 93,731 94,50 105,70
+107,420 121,80 122,260 123,40
+135,9999 136,1021 139,40 163,641
+164,50 256,190 284,280 285,50
+##END=

@@ -1,0 +1,31 @@
+##TITLE=2-Butanol, 1-(dimethylamino)-2-methyl-, benzoate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Finnigan MAT: Toxicological Library (LIBR-TX)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=644-26-8
+##$NIST MASS SPEC NO=120490
+##MOLFORM=C14 H21 N O2
+##MW=235
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=41
+##LASTX=122
+##FIRSTY=480
+##MAXX=122
+##MINX=41
+##MAXY=9999
+##MINY=195
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+41,480 42,764 50,394 51,568
+58,9999 59,377 77,1326 82,210
+84,205 85,203 98,1121 105,1688
+106,210 112,199 113,697 114,195
+122,900
+##END=

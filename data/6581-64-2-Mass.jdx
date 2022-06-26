@@ -1,0 +1,31 @@
+##TITLE=2-Propoxy-tetrahydropyran
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=6581-64-2
+##$NIST MASS SPEC NO=144688
+##MOLFORM=C8 H16 O2
+##MW=144
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=144
+##FIRSTY=490
+##MAXX=144
+##MINX=27
+##MAXY=9999
+##MINY=490
+##NPOINTS=18
+##PEAK TABLE=(XY..XY)
+27,490 29,580 41,2522 42,490
+43,4013 44,800 55,1090 56,3873
+57,1391 67,1010 74,490 85,9999
+86,990 89,1401 101,490 115,690
+143,1291 144,700
+##END=

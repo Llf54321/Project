@@ -1,0 +1,34 @@
+##TITLE=3-Fluorobenzoic acid, 2-chlorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=299057
+##MOLFORM=C13 H8 Cl F O2
+##MW=250
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=252
+##FIRSTY=10
+##MAXX=252
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=33
+##PEAK TABLE=(XY..XY)
+28,10 38,30 39,60 50,90
+51,50 62,40 63,170 64,110
+65,30 68,40 69,80 73,150
+74,80 75,571 76,60 92,40
+94,130 95,2763 96,200 99,180
+101,60 123,9999 124,641 125,30
+127,30 128,180 130,60 157,40
+186,30 215,100 250,390 251,50
+252,130
+##END=

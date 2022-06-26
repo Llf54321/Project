@@ -1,0 +1,30 @@
+##TITLE=Methyl trans-3-chloropropenoate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=144788
+##MOLFORM=C4 H5 Cl O2
+##MW=120
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=41
+##LASTX=122
+##FIRSTY=380
+##MAXX=122
+##MINX=41
+##MAXY=9999
+##MINY=70
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+41,380 53,230 54,140 59,80
+60,150 61,2372 62,70 63,860
+75,80 85,3062 86,150 89,9999
+90,370 91,3242 92,150 120,760
+122,250
+##END=

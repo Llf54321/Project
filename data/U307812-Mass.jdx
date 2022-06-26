@@ -1,0 +1,31 @@
+##TITLE=trans-3-Trifluoromethylcinnamic acid, 3,4-dichlorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307812
+##MOLFORM=C16 H9 Cl2 F3 O2
+##MW=360
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=63
+##LASTX=362
+##FIRSTY=40
+##MAXX=362
+##MINX=63
+##MAXY=9999
+##MINY=30
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+63,40 75,40 91,40 95,40
+101,30 102,220 120,40 133,50
+135,40 145,120 151,1381 152,170
+161,30 169,80 170,80 171,1692
+172,140 199,9999 200,1081 201,60
+341,70 343,70 360,40 362,30
+##END=

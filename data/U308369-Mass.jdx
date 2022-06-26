@@ -1,0 +1,32 @@
+##TITLE=Nicotinic acid, 2-phenylethyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308369
+##MOLFORM=C14 H13 N O2
+##MW=227
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=26
+##LASTX=123
+##FIRSTY=50
+##MAXX=123
+##MINX=26
+##MAXY=9999
+##MINY=30
+##NPOINTS=27
+##PEAK TABLE=(XY..XY)
+26,50 27,90 28,30 39,160
+41,40 44,60 50,270 51,1031
+52,200 53,40 63,90 65,340
+75,40 76,50 77,601 78,2692
+79,370 89,60 91,891 92,90
+102,40 103,480 104,9999 105,1021
+106,2803 107,190 123,60
+##END=

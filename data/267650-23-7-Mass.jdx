@@ -1,0 +1,30 @@
+##TITLE=Tetradecanoic acid, 10,13-dimethyl-, methyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=N.M. Carballeira, Dep. Chem., Univ. Puerto Rico, Puerto Rico
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=267650-23-7
+##$NIST MASS SPEC NO=112137
+##MOLFORM=C17 H34 O2
+##MW=270
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=55
+##LASTX=271
+##FIRSTY=3700
+##MAXX=271
+##MINX=55
+##MAXY=9999
+##MINY=131
+##NPOINTS=16
+##PEAK TABLE=(XY..XY)
+55,3700 57,5700 74,9999 87,6200
+101,700 129,1300 143,2700 157,400
+171,400 185,300 199,700 213,200
+227,600 255,400 270,700 271,131
+##END=

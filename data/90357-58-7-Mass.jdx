@@ -1,0 +1,28 @@
+##TITLE=Acetic acid, hydroxy-, propyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=90357-58-7
+##$NIST MASS SPEC NO=143352
+##MOLFORM=C5 H10 O3
+##MW=118
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=29
+##LASTX=77
+##FIRSTY=900
+##MAXX=77
+##MINX=29
+##MAXY=9999
+##MINY=580
+##NPOINTS=8
+##PEAK TABLE=(XY..XY)
+29,900 31,7376 39,580 41,4073
+42,2181 43,9999 61,2982 77,1491
+##END=

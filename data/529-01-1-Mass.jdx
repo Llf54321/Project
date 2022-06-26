@@ -1,0 +1,28 @@
+##TITLE=2-Cyclohexen-1-one, 3-methyl-6-(1-methylethenyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=529-01-1
+##$NIST MASS SPEC NO=21438
+##MOLFORM=C10 H14 O
+##MW=150
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=150
+##FIRSTY=1341
+##MAXX=150
+##MINX=27
+##MAXY=9999
+##MINY=931
+##NPOINTS=10
+##PEAK TABLE=(XY..XY)
+27,1341 39,3133 41,1591 53,1201
+54,1902 82,9999 91,931 107,1621
+135,1732 150,2943
+##END=

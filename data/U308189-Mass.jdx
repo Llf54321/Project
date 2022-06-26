@@ -1,0 +1,29 @@
+##TITLE=Thiophene-2-carboxamide, N-(2-fluorophenyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308189
+##MOLFORM=C11 H8 F N O S
+##MW=221
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=223
+##FIRSTY=671
+##MAXX=223
+##MINX=39
+##MAXY=9999
+##MINY=30
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+39,671 45,30 57,60 82,60
+83,681 84,50 110,40 111,9999
+112,621 113,460 128,60 221,4484
+222,611 223,250
+##END=

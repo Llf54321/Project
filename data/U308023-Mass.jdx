@@ -1,0 +1,33 @@
+##TITLE=2-Bromopropionic acid, 3-methylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308023
+##MOLFORM=C10 H11 Br O2
+##MW=242
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=245
+##FIRSTY=110
+##MAXX=245
+##MINX=27
+##MAXY=9999
+##MINY=10
+##NPOINTS=31
+##PEAK TABLE=(XY..XY)
+27,110 28,30 39,70 50,10
+51,60 52,40 53,60 55,100
+56,110 65,40 77,340 78,130
+79,270 80,120 89,30 90,120
+91,360 92,20 105,10 106,20
+107,1511 108,9999 109,1111 134,80
+135,210 136,70 137,20 242,841
+243,80 244,821 245,80
+##END=

@@ -1,0 +1,30 @@
+##TITLE=o-Anisic acid, 3,5-dimethylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307791
+##MOLFORM=C16 H16 O3
+##MW=256
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=51
+##LASTX=257
+##FIRSTY=50
+##MAXX=257
+##MINX=51
+##MAXY=9999
+##MINY=30
+##NPOINTS=18
+##PEAK TABLE=(XY..XY)
+51,50 63,30 64,80 76,30
+77,911 78,70 79,80 91,50
+92,370 93,30 105,70 120,100
+121,50 135,9999 136,871 137,70
+256,200 257,30
+##END=

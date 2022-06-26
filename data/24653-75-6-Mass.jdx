@@ -1,0 +1,30 @@
+##TITLE=Mercaptoacetone
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=James Little,Eastman Chem.Co.,Kingsport,TN
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=24653-75-6
+##$NIST MASS SPEC NO=288363
+##MOLFORM=C3 H6 O S
+##MW=90
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=26
+##LASTX=92
+##FIRSTY=280
+##MAXX=92
+##MINX=26
+##MAXY=9999
+##MINY=130
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+26,280 27,581 29,330 42,961
+43,9999 44,410 45,1712 46,731
+47,2853 57,130 58,150 88,200
+90,4534 91,220 92,230
+##END=

@@ -1,0 +1,32 @@
+##TITLE=2,4-Azetidinedione, 3,3-diethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.Pleshkova, Nesmeyanov Inst.Org.Elem.Cpds, Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=42282-85-9
+##$NIST MASS SPEC NO=305996
+##MOLFORM=C7 H11 N O2
+##MW=141
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=141
+##FIRSTY=2322
+##MAXX=141
+##MINX=39
+##MAXY=9999
+##MINY=60
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+39,2322 40,320 41,2342 42,1021
+43,330 44,120 51,220 52,60
+53,661 54,320 55,9549 56,420
+57,70 67,120 69,340 70,420
+71,60 83,9999 84,540 85,60
+98,9028 99,641 100,80 141,140
+##END=

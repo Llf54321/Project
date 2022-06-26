@@ -1,0 +1,30 @@
+##TITLE=5-Diazo-1,3-cyclopentadiene
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.A.Kutin, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1192-27-4
+##$NIST MASS SPEC NO=262215
+##MOLFORM=C5 H4 N2
+##MW=92
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=26
+##LASTX=93
+##FIRSTY=240
+##MAXX=93
+##MINX=26
+##MAXY=9999
+##MINY=210
+##NPOINTS=16
+##PEAK TABLE=(XY..XY)
+26,240 28,430 31,410 32,370
+37,960 38,2330 39,210 46,740
+50,220 60,260 61,890 62,1350
+63,8900 64,3680 92,9999 93,600
+##END=

@@ -1,0 +1,33 @@
+##TITLE=2-Thiopheneacetic acid, 3-methylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308053
+##MOLFORM=C13 H12 O2 S
+##MW=232
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=234
+##FIRSTY=40
+##MAXX=234
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=29
+##PEAK TABLE=(XY..XY)
+28,40 39,110 45,350 51,50
+52,30 53,400 63,40 65,80
+69,70 70,70 71,40 77,170
+78,40 79,110 91,120 95,50
+96,661 97,7427 98,500 99,340
+107,250 108,520 109,40 124,9999
+125,761 126,480 232,731 233,100
+234,30
+##END=

@@ -1,0 +1,32 @@
+##TITLE=Propane, 1,2-bis(difluoroamino)-2-methyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.Pleshkova, Nesmeyanov Inst.Org.Elem.Cpds, Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=16063-24-4
+##$NIST MASS SPEC NO=284324
+##MOLFORM=C4 H8 F4 N2
+##MW=160
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=15
+##LASTX=161
+##FIRSTY=6516
+##MAXX=161
+##MINX=15
+##MAXY=9999
+##MINY=10
+##NPOINTS=23
+##PEAK TABLE=(XY..XY)
+15,6516 16,80 27,4094 28,5005
+29,2893 30,70 33,1932 34,20
+39,3413 40,120 41,9999 42,2042
+43,70 47,2362 48,30 55,4224
+56,7717 57,350 58,10 61,6146
+62,160 160,160 161,10
+##END=

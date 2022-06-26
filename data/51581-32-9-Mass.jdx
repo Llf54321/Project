@@ -1,0 +1,32 @@
+##TITLE=Carbamic acid, dimethyl-, 3-pyridinyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Finnigan MAT: Toxicological Library (LIBR-TX)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=51581-32-9
+##$NIST MASS SPEC NO=119879
+##MOLFORM=C8 H10 N2 O2
+##MW=166
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=50
+##LASTX=167
+##FIRSTY=336
+##MAXX=167
+##MINX=50
+##MAXY=9999
+##MINY=1
+##NPOINTS=23
+##PEAK TABLE=(XY..XY)
+50,336 51,755 52,133 56,735
+66,370 67,72 72,9999 73,680
+74,48 78,262 94,47 95,98
+106,17 109,12 119,23 121,9
+137,26 138,2 147,1 148,1
+149,1 166,1602 167,200
+##END=

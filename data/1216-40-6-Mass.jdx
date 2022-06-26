@@ -1,0 +1,31 @@
+##TITLE=5-(.beta.-Bromoallyl)-5-(1-methylbutyl)barbituric acid
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Finnigan MAT: Toxicological Library (LIBR-TX)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1216-40-6
+##$NIST MASS SPEC NO=119619
+##MOLFORM=C12 H17 Br N2 O3
+##MW=316
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=71
+##LASTX=317
+##FIRSTY=104
+##MAXX=317
+##MINX=71
+##MAXY=9999
+##MINY=99
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+71,104 77,161 79,171 80,115
+95,182 96,141 106,176 121,178
+122,202 123,175 124,1044 155,129
+165,130 166,235 167,9999 168,906
+169,146 237,2671 238,375 317,99
+##END=

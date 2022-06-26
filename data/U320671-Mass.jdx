@@ -1,0 +1,33 @@
+##TITLE=Glycine, N-methyl-N-ethoxycarbonyl-, ethyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=320671
+##MOLFORM=C8 H15 N O4
+##MW=189
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=26
+##LASTX=190
+##FIRSTY=50
+##MAXX=190
+##MINX=26
+##MAXY=9999
+##MINY=10
+##NPOINTS=29
+##PEAK TABLE=(XY..XY)
+26,50 27,460 28,691 29,1732
+30,70 42,941 43,110 44,5525
+45,150 58,10 59,20 60,60
+61,10 72,931 73,30 74,10
+87,20 88,681 89,40 102,30
+115,90 116,9999 117,490 118,40
+143,10 144,340 145,10 189,1061
+190,100
+##END=

@@ -1,0 +1,29 @@
+##TITLE=2-Thiophenecarboxylic acid, 3,4-dichlorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308066
+##MOLFORM=C11 H6 Cl2 O2 S
+##MW=272
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=276
+##FIRSTY=510
+##MAXX=276
+##MINX=39
+##MAXY=9999
+##MINY=30
+##NPOINTS=16
+##PEAK TABLE=(XY..XY)
+39,510 57,50 63,50 82,50
+83,410 84,30 111,9999 112,631
+113,480 133,70 135,40 272,380
+273,40 274,260 275,30 276,50
+##END=

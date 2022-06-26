@@ -1,0 +1,33 @@
+##TITLE=8-Azabicyclo[3.2.1]octane, 3-[(10,11-dihydro-5H-dibenzo[a,d]cyclohepten-5-yl)oxy]-8-methyl-, endo-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Finnigan MAT: Toxicological Library (LIBR-TX)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=604-51-3
+##$NIST MASS SPEC NO=120603
+##MOLFORM=C23 H27 N O
+##MW=333
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=42
+##LASTX=334
+##FIRSTY=3307
+##MAXX=334
+##MINX=42
+##MAXY=9999
+##MINY=294
+##NPOINTS=28
+##PEAK TABLE=(XY..XY)
+42,3307 43,4167 57,928 58,912
+67,1026 82,7287 83,9999 84,1996
+96,3784 97,3248 98,701 112,511
+113,506 115,1120 124,5169 125,1626
+129,693 140,9833 141,1719 165,416
+178,1518 179,411 191,800 192,933
+193,2338 304,294 333,1193 334,310
+##END=

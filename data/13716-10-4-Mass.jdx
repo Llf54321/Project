@@ -1,0 +1,29 @@
+##TITLE=Phosphinous chloride, bis(1,1-dimethylethyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=13716-10-4
+##$NIST MASS SPEC NO=7477
+##MOLFORM=C8 H18 Cl P
+##MW=180
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=183
+##FIRSTY=306
+##MAXX=183
+##MINX=39
+##MAXY=9999
+##MINY=41
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+39,306 41,1888 55,510 56,204
+57,9999 58,867 60,357 81,408
+83,153 124,357 126,102 180,1377
+181,120 182,500 183,41
+##END=

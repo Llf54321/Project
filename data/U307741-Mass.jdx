@@ -1,0 +1,33 @@
+##TITLE=4-Trifluoromethylbenzoic acid, 4-benzyloxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307741
+##MOLFORM=C21 H15 F3 O3
+##MW=372
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=26
+##LASTX=373
+##FIRSTY=20
+##MAXX=373
+##MINX=26
+##MAXY=9999
+##MINY=10
+##NPOINTS=32
+##PEAK TABLE=(XY..XY)
+26,20 28,10 36,30 39,90
+41,40 50,50 51,70 52,30
+54,50 63,80 64,30 65,480
+75,80 76,30 89,80 90,60
+91,9999 92,761 95,170 125,90
+126,100 144,30 145,1792 146,140
+154,50 159,40 173,2642 174,220
+290,30 353,130 372,1051 373,230
+##END=

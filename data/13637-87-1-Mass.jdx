@@ -1,0 +1,29 @@
+##TITLE=Chlorodifluoroamine
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=13637-87-1
+##$NIST MASS SPEC NO=649
+##MOLFORM=Cl F2 N
+##MW=87
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=14
+##LASTX=89
+##FIRSTY=1081
+##MAXX=89
+##MINX=14
+##MAXY=9999
+##MINY=30
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+14,1081 19,701 33,4884 34,30
+35,1261 37,360 49,3713 51,1181
+52,9999 53,50 68,3703 70,1211
+87,5065 89,1611
+##END=

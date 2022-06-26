@@ -1,0 +1,32 @@
+##TITLE=Benzeneacetic acid, .alpha.-methoxy-, (S)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=NIST Mass Spectrometry Data Center, 1994
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=26164-26-1
+##$NIST MASS SPEC NO=136000
+##MOLFORM=C9 H10 O3
+##MW=166
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=15
+##LASTX=122
+##FIRSTY=283
+##MAXX=122
+##MINX=15
+##MAXY=9999
+##MINY=230
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+15,283 38,329 39,932 45,283
+50,887 51,1963 52,465 62,435
+63,950 64,369 65,411 76,232
+77,6288 78,899 79,996 89,734
+90,620 91,3496 92,359 105,1819
+106,230 107,520 121,9999 122,861
+##END=

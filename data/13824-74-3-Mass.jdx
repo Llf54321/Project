@@ -1,0 +1,28 @@
+##TITLE=P2F4
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.Pleshkova, Nesmeyanov Inst.Org.Elem.Cpds, Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=13824-74-3
+##$NIST MASS SPEC NO=284322
+##MOLFORM=F4 P2
+##MW=138
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=19
+##LASTX=138
+##FIRSTY=330
+##MAXX=138
+##MINX=19
+##MAXY=9999
+##MINY=330
+##NPOINTS=7
+##PEAK TABLE=(XY..XY)
+19,330 31,1241 50,2652 69,9999
+88,781 119,1031 138,2953
+##END=

@@ -1,0 +1,29 @@
+##TITLE=Hex-4-yn-3-one
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=10575-41-4
+##$NIST MASS SPEC NO=144039
+##MOLFORM=C6 H8 O
+##MW=96
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=29
+##LASTX=96
+##FIRSTY=510
+##MAXX=96
+##MINX=29
+##MAXY=9999
+##MINY=200
+##NPOINTS=12
+##PEAK TABLE=(XY..XY)
+29,510 37,300 38,500 39,1901
+41,300 43,200 66,200 67,9999
+68,600 81,390 95,200 96,700
+##END=

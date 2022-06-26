@@ -1,0 +1,31 @@
+##TITLE=Cyclohexene, 4-bromo-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Susan Richardson
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=3540-84-9
+##$NIST MASS SPEC NO=288278
+##MOLFORM=C6 H9 Br
+##MW=160
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=93
+##FIRSTY=1802
+##MAXX=93
+##MINX=39
+##MAXY=9999
+##MINY=80
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+39,1802 40,420 41,941 50,170
+51,300 52,80 53,981 54,150
+55,200 65,300 66,190 77,971
+79,1381 81,9999 82,641 91,561
+93,581
+##END=

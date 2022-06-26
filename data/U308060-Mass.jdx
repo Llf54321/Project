@@ -1,0 +1,32 @@
+##TITLE=2-Thiopheneacetic acid, 2-naphthyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308060
+##MOLFORM=C16 H12 O2 S
+##MW=268
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=270
+##FIRSTY=50
+##MAXX=270
+##MINX=39
+##MAXY=9999
+##MINY=20
+##NPOINTS=27
+##PEAK TABLE=(XY..XY)
+39,50 45,240 53,280 63,50
+65,40 69,50 70,40 89,80
+95,20 96,390 97,6015 98,390
+99,250 114,30 115,1061 116,210
+124,5425 125,430 126,290 127,170
+143,60 144,9999 145,1081 146,60
+268,2292 269,390 270,130
+##END=

@@ -1,0 +1,31 @@
+##TITLE=2-Aminoadipic acid, N-trifluoroacetyl-, di-n-butyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=K.Leimer ET AL, J.Chrom., 141,121(1977)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=328293
+##MOLFORM=C16 H26 F3 N O5
+##MW=369
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=41
+##LASTX=314
+##FIRSTY=3603
+##MAXX=314
+##MINX=41
+##MAXY=9999
+##MINY=190
+##NPOINTS=22
+##PEAK TABLE=(XY..XY)
+41,3603 55,2002 56,1201 57,3883
+69,1081 70,871 87,1651 139,2192
+152,7156 153,751 193,420 194,9999
+195,1251 196,350 197,801 212,591
+221,681 268,6786 295,420 296,1762
+297,190 314,470
+##END=

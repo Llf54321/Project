@@ -1,0 +1,28 @@
+##TITLE=1,5-Dimethylbarbituric acid
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=N.P.E. VERMEULEN, DEP. PHARM., LEIDEN UNIV., NETH.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=7391-67-5
+##$NIST MASS SPEC NO=98848
+##MOLFORM=C6 H8 N2 O3
+##MW=156
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=43
+##LASTX=156
+##FIRSTY=800
+##MAXX=156
+##MINX=43
+##MAXY=9999
+##MINY=300
+##NPOINTS=8
+##PEAK TABLE=(XY..XY)
+43,800 56,9999 70,800 85,1200
+99,300 113,500 128,400 156,6200
+##END=

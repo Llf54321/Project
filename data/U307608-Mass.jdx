@@ -1,0 +1,32 @@
+##TITLE=4-Bromobutyric acid, 3,5-dimethylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307608
+##MOLFORM=C12 H15 Br O2
+##MW=270
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=273
+##FIRSTY=40
+##MAXX=273
+##MINX=39
+##MAXY=9999
+##MINY=30
+##NPOINTS=28
+##PEAK TABLE=(XY..XY)
+39,40 41,280 42,30 53,30
+55,30 65,30 77,220 78,50
+79,100 91,150 93,50 94,30
+103,30 105,100 107,851 108,70
+121,601 122,9999 123,1241 124,80
+128,190 130,50 149,280 151,280
+270,380 271,40 272,370 273,40
+##END=

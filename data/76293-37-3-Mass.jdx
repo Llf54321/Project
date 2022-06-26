@@ -1,0 +1,30 @@
+##TITLE=4-(2-Trifluoromethylphenyl)but-3-en-2-one
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=76293-37-3
+##$NIST MASS SPEC NO=146632
+##MOLFORM=C11 H9 F3 O
+##MW=214
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=51
+##LASTX=215
+##FIRSTY=300
+##MAXX=215
+##MINX=51
+##MAXY=9999
+##MINY=220
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+51,300 75,540 102,760 145,6525
+146,770 151,9999 152,1231 169,460
+171,2292 199,5094 200,680 213,230
+214,1861 215,220
+##END=

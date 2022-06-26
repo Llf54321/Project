@@ -1,0 +1,32 @@
+##TITLE=Sarcosine, N-(2-thienylcarbonyl)-, propyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=321462
+##MOLFORM=C11 H15 N O3 S
+##MW=241
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=243
+##FIRSTY=100
+##MAXX=243
+##MINX=27
+##MAXY=9999
+##MINY=20
+##NPOINTS=28
+##PEAK TABLE=(XY..XY)
+27,100 38,20 39,651 40,20
+42,290 43,130 44,120 45,50
+53,20 58,20 83,200 88,100
+111,9999 112,510 113,380 114,20
+130,801 131,20 140,30 154,2202
+155,200 156,100 181,60 182,200
+183,20 241,1141 242,160 243,70
+##END=

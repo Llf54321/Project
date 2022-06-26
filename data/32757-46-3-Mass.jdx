@@ -1,0 +1,30 @@
+##TITLE=Iron, di-.mu.-carbonyldicarbonylbis(.eta.5-2,4-cyclopentadien-1-yl)di-, (Fe-Fe), trans-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=KA70-3069-T
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=32757-46-3
+##$NIST MASS SPEC NO=30121
+##MOLFORM=C14 H10 Fe2 O4
+##MW=354
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=354
+##FIRSTY=8199
+##MAXX=354
+##MINX=28
+##MAXY=9999
+##MINY=250
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+28,8199 56,5599 66,980 81,610
+95,1500 121,9999 149,2200 177,2100
+186,6499 242,1000 270,250 298,290
+326,330 354,310
+##END=

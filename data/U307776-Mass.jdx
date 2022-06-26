@@ -1,0 +1,33 @@
+##TITLE=Phenylthioacetic acid, 4-methoxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307776
+##MOLFORM=C15 H14 O3 S
+##MW=274
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=276
+##FIRSTY=10
+##MAXX=276
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=30
+##PEAK TABLE=(XY..XY)
+28,10 39,40 41,70 45,540
+51,80 52,40 65,140 77,220
+78,50 79,110 80,40 81,40
+91,30 95,220 105,280 108,50
+109,781 110,90 121,200 122,190
+123,2953 124,9999 125,861 126,60
+147,30 150,490 151,40 274,651
+275,110 276,30
+##END=

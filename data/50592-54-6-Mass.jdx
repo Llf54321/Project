@@ -1,0 +1,29 @@
+##TITLE=Cyclohexanone, 2-(3-chloro-2-butenyl)-2-methyl-6,6-diphenyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=50592-54-6
+##$NIST MASS SPEC NO=34095
+##MOLFORM=C23 H25 Cl O
+##MW=352
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=91
+##LASTX=352
+##FIRSTY=5469
+##MAXX=352
+##MINX=91
+##MAXY=9999
+##MINY=610
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+91,5469 103,1850 115,4410 128,610
+129,720 152,830 165,4999 167,4970
+178,3310 179,3540 180,9999 193,3090
+206,9949 233,4590 352,3410
+##END=

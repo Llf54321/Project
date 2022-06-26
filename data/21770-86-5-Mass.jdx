@@ -1,0 +1,35 @@
+##TITLE=Phosphonothioic acid, methyl-, S-(2-(diethylamino)ethyl) O-ethyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=VERIFIN - Methodology B1-1979
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=21770-86-5
+##$NIST MASS SPEC NO=226157
+##MOLFORM=C9 H22 N O2 P S
+##MW=239
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=26
+##LASTX=238
+##FIRSTY=50
+##MAXX=238
+##MINX=26
+##MAXY=9999
+##MINY=10
+##NPOINTS=33
+##PEAK TABLE=(XY..XY)
+26,50 27,200 28,200 29,200
+30,200 41,60 42,400 43,80
+44,300 47,100 54,50 55,50
+56,500 57,100 58,700 59,60
+60,50 61,100 70,200 71,500
+72,200 79,700 84,600 85,70
+86,9999 87,600 99,2201 100,300
+107,200 130,90 139,100 167,100
+238,10
+##END=

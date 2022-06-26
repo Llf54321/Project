@@ -1,0 +1,33 @@
+##TITLE=Acetic acid, (acetyloxy)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=J.Little, Eastman Chem. Comp.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=13831-30-6
+##$NIST MASS SPEC NO=292808
+##MOLFORM=C4 H6 O4
+##MW=118
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=16
+##LASTX=101
+##FIRSTY=10
+##MAXX=101
+##MINX=16
+##MAXY=9999
+##MINY=10
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+16,10 18,30 28,350 29,290
+30,70 31,330 32,80 41,70
+42,550 43,9999 44,260 45,320
+46,20 56,10 58,20 59,280
+60,10 61,40 73,1491 74,370
+75,130 76,20 86,10 88,100
+90,20 101,90
+##END=

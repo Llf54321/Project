@@ -1,0 +1,32 @@
+##TITLE=4-Chlorobutyric acid, 2-naphthyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307605
+##MOLFORM=C14 H13 Cl O2
+##MW=248
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=250
+##FIRSTY=10
+##MAXX=250
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=27
+##PEAK TABLE=(XY..XY)
+28,10 39,30 41,320 55,30
+63,30 65,20 77,150 79,50
+89,50 105,180 107,60 115,751
+116,220 121,90 123,100 127,140
+135,90 143,40 144,9999 145,1211
+146,80 149,450 151,440 152,30
+248,601 249,80 250,190
+##END=

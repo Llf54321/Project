@@ -1,0 +1,31 @@
+##TITLE=o-Toluic acid, 4-nitrophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307460
+##MOLFORM=C14 H11 N O4
+##MW=257
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=227
+##FIRSTY=30
+##MAXX=227
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=22
+##PEAK TABLE=(XY..XY)
+28,30 30,80 38,40 39,190
+41,60 50,50 51,80 52,30
+62,40 63,210 64,110 65,871
+66,40 89,240 90,190 91,3243
+92,280 118,50 119,9999 120,871
+121,50 227,30
+##END=

@@ -1,0 +1,30 @@
+##TITLE=Phosphorus trichloride
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Eric Wils, TNO Prins Maurits Laboratory, The Netherlands.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=7719-12-2
+##$NIST MASS SPEC NO=273564
+##MOLFORM=Cl3 P
+##MW=136
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=31
+##LASTX=140
+##FIRSTY=310
+##MAXX=140
+##MINX=31
+##MAXY=9999
+##MINY=140
+##NPOINTS=13
+##PEAK TABLE=(XY..XY)
+31,310 35,510 36,190 37,140
+50,140 66,641 68,260 101,9999
+103,6706 105,1011 136,4024 138,3843
+140,1141
+##END=

@@ -1,0 +1,30 @@
+##TITLE=1-Cyano-4-diphenyl(tert-butyl)silyloxybenzene
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307867
+##MOLFORM=C23 H23 N O Si
+##MW=357
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=105
+##LASTX=357
+##FIRSTY=40
+##MAXX=357
+##MINX=105
+##MAXY=9999
+##MINY=30
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+105,40 146,30 151,100 177,50
+178,50 181,150 182,30 183,30
+222,1351 223,300 224,70 238,50
+300,9999 301,2813 302,741 303,100
+357,60
+##END=

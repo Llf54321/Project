@@ -1,0 +1,33 @@
+##TITLE=3,5-Dimethyl-1-dimethylisopropylsilyloxybenzene
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307910
+##MOLFORM=C13 H22 O Si
+##MW=222
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=224
+##FIRSTY=10
+##MAXX=224
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=30
+##PEAK TABLE=(XY..XY)
+28,10 36,30 59,50 73,30
+75,160 77,50 79,80 82,60
+91,40 103,40 105,1011 106,90
+109,30 119,80 149,330 150,40
+151,30 163,360 164,100 165,140
+177,150 178,50 179,9999 180,1802
+181,530 182,40 191,40 222,3173
+223,651 224,180
+##END=

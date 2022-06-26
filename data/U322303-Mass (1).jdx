@@ -1,0 +1,32 @@
+##TITLE=2,3-Dimethyl-5,6-dithiabicyclo[2.1.1]hexane, 5,5-dioxide
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=S. Volkovich, Institute of Nutrition, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=322303
+##MOLFORM=C6 H10 O2 S2
+##MW=178
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=15
+##LASTX=180
+##FIRSTY=410
+##MAXX=180
+##MINX=15
+##MAXY=9999
+##MINY=110
+##NPOINTS=28
+##PEAK TABLE=(XY..XY)
+15,410 16,210 29,210 30,110
+39,2112 40,210 41,2012 42,310
+45,4414 46,310 47,140 79,2112
+80,310 97,1211 98,210 99,5305
+100,210 101,310 113,9999 114,1311
+115,1411 145,220 163,510 164,110
+165,210 178,2212 179,210 180,310
+##END=

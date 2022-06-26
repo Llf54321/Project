@@ -1,0 +1,33 @@
+##TITLE=Benzamide, N-(3-chlorophenyl)-4-methyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=306958
+##MOLFORM=C14 H12 Cl N O
+##MW=245
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=248
+##FIRSTY=50
+##MAXX=248
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=30
+##PEAK TABLE=(XY..XY)
+28,50 39,130 41,50 50,30
+51,60 62,30 63,150 64,70
+65,641 66,40 75,40 89,190
+90,180 91,2282 92,200 99,90
+101,30 104,40 105,30 118,50
+119,9999 120,711 121,40 122,30
+127,160 129,50 245,1692 246,260
+247,530 248,80
+##END=

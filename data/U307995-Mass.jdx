@@ -1,0 +1,33 @@
+##TITLE=2-Furoic acid, 4-methoxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307995
+##MOLFORM=C12 H10 O4
+##MW=218
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=38
+##LASTX=220
+##FIRSTY=20
+##MAXX=220
+##MINX=38
+##MAXY=9999
+##MINY=10
+##NPOINTS=29
+##PEAK TABLE=(XY..XY)
+38,20 39,240 41,60 51,30
+52,40 53,20 54,20 63,20
+64,20 65,30 66,10 67,130
+77,20 79,10 80,30 81,10
+82,10 92,20 95,9999 96,530
+97,40 108,10 109,50 111,80
+123,310 124,50 218,3833 219,500
+220,50
+##END=

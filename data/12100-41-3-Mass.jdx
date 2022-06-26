@@ -1,0 +1,33 @@
+##TITLE=Cyclopentadienylmanganesedicarbonyltriphenylphosphine
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Institute of Organic Chemistry, Novosibirsk, USSR 1988
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=12100-41-3
+##$NIST MASS SPEC NO=102512
+##MOLFORM=C25 H20 Mn O2 P
+##MW=438
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=55
+##LASTX=439
+##FIRSTY=2899
+##MAXX=439
+##MINX=55
+##MAXY=9999
+##MINY=69
+##NPOINTS=27
+##PEAK TABLE=(XY..XY)
+55,2899 56,199 65,99 66,99
+77,299 107,299 108,899 109,99
+120,4499 121,149 132,399 152,399
+183,3899 184,599 185,899 186,99
+196,599 238,299 261,399 262,999
+263,139 316,199 382,9999 383,2499
+384,199 438,499 439,69
+##END=

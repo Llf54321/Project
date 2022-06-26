@@ -1,0 +1,29 @@
+##TITLE=Hexanoic acid, 3-oxo-, methyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=30414-54-1
+##$NIST MASS SPEC NO=4141
+##MOLFORM=C7 H12 O3
+##MW=144
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=41
+##LASTX=144
+##FIRSTY=2800
+##MAXX=144
+##MINX=41
+##MAXY=9999
+##MINY=200
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+41,2800 42,2200 43,9999 57,1200
+59,3200 69,2000 71,8999 74,800
+84,800 85,600 101,4000 113,600
+116,1100 129,200 144,1200
+##END=

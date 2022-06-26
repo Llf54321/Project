@@ -1,0 +1,33 @@
+##TITLE=2-Chlorobenzoic acid, cyclobutyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=292275
+##MOLFORM=C11 H11 Cl O2
+##MW=210
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=184
+##FIRSTY=70
+##MAXX=184
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=29
+##PEAK TABLE=(XY..XY)
+28,70 36,50 44,40 50,40
+51,30 55,30 74,50 75,350
+76,110 77,40 85,40 104,40
+110,30 111,1281 112,120 113,420
+114,30 139,9999 140,831 141,3113
+142,260 147,170 154,200 156,170
+157,40 158,30 175,60 182,170
+184,50
+##END=

@@ -1,0 +1,28 @@
+##TITLE=Tolycaine
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Finnigan MAT: Toxicological Library (LIBR-TX)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=3686-58-6
+##$NIST MASS SPEC NO=121019
+##MOLFORM=C15 H22 N2 O3
+##MW=278
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=42
+##LASTX=104
+##FIRSTY=196
+##MAXX=104
+##MINX=42
+##MAXY=9999
+##MINY=92
+##NPOINTS=8
+##PEAK TABLE=(XY..XY)
+42,196 56,212 58,616 72,405
+77,107 86,9999 87,511 104,92
+##END=

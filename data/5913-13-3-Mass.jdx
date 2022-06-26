@@ -1,0 +1,35 @@
+##TITLE=R-(-)-Cyclohexylethylamine
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Chuck Anderson, Aldrich Chemical Co.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=5913-13-3
+##$NIST MASS SPEC NO=108469
+##MOLFORM=C8 H17 N
+##MW=127
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=15
+##LASTX=112
+##FIRSTY=42
+##MAXX=112
+##MINX=15
+##MAXY=9999
+##MINY=3
+##NPOINTS=35
+##PEAK TABLE=(XY..XY)
+15,42 17,21 18,245 27,183
+28,176 29,128 30,274 32,3
+39,292 40,67 41,524 42,319
+43,723 44,9999 45,220 51,40
+53,118 54,111 55,258 56,104
+57,19 65,42 66,9 67,305
+68,65 69,69 70,103 77,51
+79,56 80,20 81,87 82,60
+83,19 95,87 112,38
+##END=

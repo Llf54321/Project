@@ -1,0 +1,32 @@
+##TITLE=Benzoic acid, 4-fluoro-, 4-methoxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=80079-00-1
+##$NIST MASS SPEC NO=307448
+##MOLFORM=C14 H11 F O3
+##MW=246
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=247
+##FIRSTY=10
+##MAXX=247
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=23
+##PEAK TABLE=(XY..XY)
+28,10 39,30 41,70 50,40
+51,40 52,60 54,40 63,30
+64,20 65,30 69,40 75,310
+76,30 80,30 94,80 95,1982
+96,150 109,50 123,9999 124,751
+125,40 246,1281 247,190
+##END=

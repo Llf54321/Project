@@ -1,0 +1,32 @@
+##TITLE=Phosphorocyanidic diamide, tetramethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.A.Kutin, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=14445-60-4
+##$NIST MASS SPEC NO=273478
+##MOLFORM=C5 H12 N3 O P
+##MW=161
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=162
+##FIRSTY=901
+##MAXX=162
+##MINX=28
+##MAXY=9999
+##MINY=200
+##NPOINTS=23
+##PEAK TABLE=(XY..XY)
+28,901 29,200 41,300 42,2192
+43,791 44,9999 45,1181 47,611
+58,410 70,300 71,300 76,300
+90,510 91,500 92,2993 93,300
+108,200 117,2102 118,300 135,400
+160,300 161,1401 162,200
+##END=

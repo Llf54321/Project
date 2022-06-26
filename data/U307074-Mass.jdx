@@ -1,0 +1,32 @@
+##TITLE=Thiophene-2-carboxamide, N-(3-nitrophenyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307074
+##MOLFORM=C11 H8 N2 O3 S
+##MW=248
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=250
+##FIRSTY=10
+##MAXX=250
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+28,10 38,40 39,530 45,40
+50,40 51,30 52,30 57,40
+58,30 63,90 64,90 65,50
+76,40 82,50 83,430 84,40
+91,50 92,50 111,9999 112,510
+113,400 138,30 218,70 248,1601
+249,220 250,90
+##END=

@@ -1,0 +1,31 @@
+##TITLE=Trimethylindium
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=MUS30 A. Mujsce, AT&T Bell Labs., Murray Hill, N.J., USA
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=3385-78-2
+##$NIST MASS SPEC NO=115426
+##MOLFORM=C3 H9 In
+##MW=160
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=15
+##LASTX=146
+##FIRSTY=175
+##MAXX=146
+##MINX=15
+##MAXY=9999
+##MINY=20
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+15,175 113,275 115,5676 116,45
+117,58 125,49 127,106 128,235
+129,113 130,1346 131,40 140,20
+141,25 143,452 144,163 145,9999
+146,254
+##END=

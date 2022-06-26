@@ -1,0 +1,37 @@
+##TITLE=Butanoic acid, 2-methyl-, 2-phenylethyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Chuck Anderson, Aldrich Chemical Co.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=24817-51-4
+##$NIST MASS SPEC NO=118042
+##MOLFORM=C13 H18 O2
+##MW=206
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=15
+##LASTX=106
+##FIRSTY=16
+##MAXX=106
+##MINX=15
+##MAXY=9999
+##MINY=2
+##NPOINTS=42
+##PEAK TABLE=(XY..XY)
+15,16 17,2 18,6 26,30
+27,260 28,133 29,577 30,20
+31,12 38,9 39,198 40,16
+41,471 42,30 44,11 50,39
+51,149 52,35 53,32 55,97
+56,56 57,1970 58,73 63,55
+65,194 66,12 69,6 74,3
+77,434 78,259 79,255 80,6
+85,561 86,31 89,69 91,550
+92,103 102,12 103,178 104,9999
+105,1355 106,90
+##END=

@@ -1,0 +1,31 @@
+##TITLE=2-Methyl-6-methylene-octa-1,7-dien-3-ol
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=22459-10-5
+##$NIST MASS SPEC NO=143282
+##MOLFORM=C10 H16 O
+##MW=152
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=41
+##LASTX=137
+##FIRSTY=9999
+##MAXX=137
+##MINX=41
+##MAXY=9999
+##MINY=300
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+41,9999 43,6515 53,2702 55,2502
+57,1101 67,3012 68,1891 69,2792
+71,2802 79,2091 81,1191 83,900
+84,2191 91,1090 93,990 96,690
+109,490 119,400 123,390 137,300
+##END=

@@ -1,0 +1,31 @@
+##TITLE=Methanone,(2-iodophenyl)-2-pyridinyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=76160-35-5
+##$NIST MASS SPEC NO=147219
+##MOLFORM=C12 H8 I N O
+##MW=309
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=50
+##LASTX=231
+##FIRSTY=680
+##MAXX=231
+##MINX=50
+##MAXY=9999
+##MINY=100
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+50,680 51,1010 52,190 63,190
+74,190 75,400 76,1501 77,800
+78,1291 101,300 126,490 127,1591
+128,590 152,200 153,400 154,690
+155,100 182,9999 203,2392 231,1381
+##END=

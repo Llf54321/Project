@@ -1,0 +1,32 @@
+##TITLE=2-Methylpropionic acid, 3-methylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308014
+##MOLFORM=C11 H14 O2
+##MW=178
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=179
+##FIRSTY=170
+##MAXX=179
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+27,170 39,160 41,300 42,140
+43,4114 44,90 51,70 53,70
+55,30 63,30 65,130 70,2172
+71,2082 72,50 77,480 78,100
+79,440 80,220 90,230 91,340
+107,1772 108,9999 109,651 178,2702
+179,290
+##END=

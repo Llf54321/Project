@@ -1,0 +1,33 @@
+##TITLE=.beta.-Phenylethyl butyrate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=V.Zaikin,Topchiev Inst.Petrochem.Synth.,Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=103-52-6
+##$NIST MASS SPEC NO=282449
+##MOLFORM=C12 H16 O2
+##MW=192
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=106
+##FIRSTY=90
+##MAXX=106
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+27,90 39,100 41,160 43,801
+44,30 50,40 51,130 52,60
+60,30 63,50 65,180 71,1401
+72,70 77,330 78,220 79,230
+89,60 90,30 91,540 92,100
+102,50 103,380 104,9999 105,1712
+106,110
+##END=

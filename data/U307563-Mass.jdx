@@ -1,0 +1,30 @@
+##TITLE=2,6-Difluorobenzoic acid, 2-naphthyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307563
+##MOLFORM=C17 H10 F2 O2
+##MW=284
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=286
+##FIRSTY=20
+##MAXX=286
+##MINX=28
+##MAXY=9999
+##MINY=20
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+28,20 39,30 62,30 63,270
+65,40 89,90 112,40 113,961
+114,120 115,500 116,60 127,30
+140,30 141,9999 142,721 143,60
+144,90 284,2382 285,440 286,40
+##END=

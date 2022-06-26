@@ -1,0 +1,30 @@
+##TITLE=5-Chlorovaleric acid, 4-benzyloxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307982
+##MOLFORM=C18 H19 Cl O3
+##MW=318
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=29
+##LASTX=320
+##FIRSTY=60
+##MAXX=320
+##MINX=29
+##MAXY=9999
+##MINY=20
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+29,60 41,20 55,611 63,30
+65,300 91,9999 92,741 93,110
+109,30 110,70 119,240 121,40
+200,5855 201,811 202,40 318,220
+320,80
+##END=

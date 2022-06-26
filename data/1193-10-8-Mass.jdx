@@ -1,0 +1,33 @@
+##TITLE=2,5-Dihydro-3-methyl-thiophene 1,1-dioxide
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Albert Lebedev, Moscow State University, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1193-10-8
+##$NIST MASS SPEC NO=305594
+##MOLFORM=C5 H8 O2 S
+##MW=132
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=37
+##LASTX=134
+##FIRSTY=150
+##MAXX=134
+##MINX=37
+##MAXY=9999
+##MINY=10
+##NPOINTS=27
+##PEAK TABLE=(XY..XY)
+37,150 38,450 39,3530 40,2490
+41,2200 42,1150 43,110 44,120
+45,200 48,380 49,10 50,370
+51,540 52,260 53,4530 54,180
+63,120 64,690 65,330 66,210
+67,4380 68,9999 69,530 70,10
+132,340 133,20 134,20
+##END=

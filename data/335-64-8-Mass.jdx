@@ -1,0 +1,31 @@
+##TITLE=Perfluorooctanoyl chloride
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=335-64-8
+##$NIST MASS SPEC NO=144027
+##MOLFORM=C8 Cl F15 O
+##MW=432
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=31
+##LASTX=369
+##FIRSTY=1311
+##MAXX=369
+##MINX=31
+##MAXY=9999
+##MINY=290
+##NPOINTS=19
+##PEAK TABLE=(XY..XY)
+31,1311 50,780 63,9999 65,3272
+69,7847 85,1381 87,400 93,800
+100,2692 109,680 119,3383 131,3002
+135,390 169,2982 181,790 219,890
+231,290 281,300 369,2292
+##END=

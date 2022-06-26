@@ -1,0 +1,32 @@
+##TITLE=4-Ethylbenzoic acid, 4-benzyloxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307129
+##MOLFORM=C22 H20 O3
+##MW=332
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=334
+##FIRSTY=10
+##MAXX=334
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+28,10 39,30 51,40 63,40
+65,180 77,310 78,70 79,410
+80,20 89,90 90,90 91,1351
+92,110 103,300 104,120 105,671
+106,60 110,30 131,30 132,60
+133,9999 134,1021 135,70 332,1631
+333,400 334,50
+##END=

@@ -1,0 +1,32 @@
+##TITLE=2-Thiopheneacetic acid, 4-nitrophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308059
+##MOLFORM=C12 H9 N O4 S
+##MW=263
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=265
+##FIRSTY=40
+##MAXX=265
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+28,40 39,100 45,370 51,30
+53,380 63,80 64,30 65,40
+69,70 70,80 71,40 95,60
+96,280 97,9999 98,681 99,470
+109,120 123,40 124,1862 125,571
+126,110 139,60 263,2352 264,320
+265,140
+##END=

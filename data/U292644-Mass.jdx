@@ -1,0 +1,33 @@
+##TITLE=p-Toluic acid, 2-bromo-4-fluorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=292644
+##MOLFORM=C14 H10 Br F O2
+##MW=308
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=310
+##FIRSTY=40
+##MAXX=310
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=29
+##PEAK TABLE=(XY..XY)
+28,40 39,110 41,40 50,40
+51,60 57,30 62,40 63,150
+64,40 65,520 66,30 81,60
+82,90 89,200 90,140 91,2062
+92,160 118,40 119,9999 120,741
+121,40 161,80 163,80 189,30
+190,60 191,30 192,60 308,30
+310,30
+##END=

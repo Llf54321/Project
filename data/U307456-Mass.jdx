@@ -1,0 +1,32 @@
+##TITLE=o-Toluic acid, 3,5-dimethylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307456
+##MOLFORM=C16 H16 O2
+##MW=240
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=241
+##FIRSTY=30
+##MAXX=241
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=28
+##PEAK TABLE=(XY..XY)
+27,30 28,60 39,160 41,60
+51,80 52,30 53,50 63,90
+64,30 65,621 66,30 77,170
+78,40 79,30 89,150 90,140
+91,2392 92,220 93,30 107,70
+118,50 119,9999 120,851 121,140
+122,90 123,60 240,571 241,90
+##END=

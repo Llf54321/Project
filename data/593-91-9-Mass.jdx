@@ -1,0 +1,28 @@
+##TITLE=Bismuthine, trimethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=593-91-9
+##$NIST MASS SPEC NO=12398
+##MOLFORM=C3 H9 Bi
+##MW=254
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=209
+##LASTX=254
+##FIRSTY=9999
+##MAXX=254
+##MINX=209
+##MAXY=9999
+##MINY=136
+##NPOINTS=10
+##PEAK TABLE=(XY..XY)
+209,9999 210,136 222,272 223,816
+224,6802 238,204 239,8298 240,340
+253,204 254,4421
+##END=

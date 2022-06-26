@@ -1,0 +1,31 @@
+##TITLE=Aminoacethydrazide
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=James Little,Eastman Chem.Co.,Kingsport,TN
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=14379-80-7
+##$NIST MASS SPEC NO=288356
+##MOLFORM=C2 H7 N3 O
+##MW=89
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=90
+##FIRSTY=330
+##MAXX=90
+##MINX=27
+##MAXY=9999
+##MINY=140
+##NPOINTS=17
+##PEAK TABLE=(XY..XY)
+27,330 28,3703 29,1231 30,9999
+31,1491 32,3463 41,140 42,400
+43,661 44,611 45,470 46,631
+61,350 72,170 73,360 89,420
+90,150
+##END=

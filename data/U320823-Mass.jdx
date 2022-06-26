@@ -1,0 +1,33 @@
+##TITLE=d-Proline, n-propoxycarbonyl-, hexyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=320823
+##MOLFORM=C15 H27 N O4
+##MW=285
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=26
+##LASTX=285
+##FIRSTY=20
+##MAXX=285
+##MINX=26
+##MAXY=9999
+##MINY=10
+##NPOINTS=30
+##PEAK TABLE=(XY..XY)
+26,20 27,280 28,60 29,150
+39,120 40,30 41,841 42,240
+43,1992 44,140 53,10 55,120
+56,40 57,20 68,230 69,160
+70,4474 71,180 112,210 113,20
+114,1201 115,80 129,30 141,30
+142,40 156,9999 157,781 158,60
+198,130 285,50
+##END=

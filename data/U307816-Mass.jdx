@@ -1,0 +1,31 @@
+##TITLE=2-Chlorobenzoic acid, 3,5-dimethylphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307816
+##MOLFORM=C15 H13 Cl O2
+##MW=260
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=50
+##LASTX=263
+##FIRSTY=40
+##MAXX=263
+##MINX=50
+##MAXY=9999
+##MINY=20
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+50,40 51,40 53,30 65,30
+75,370 76,110 77,180 78,30
+91,110 93,30 104,50 111,1381
+112,90 113,460 114,20 121,80
+139,9999 140,771 141,3403 142,230
+260,1021 261,150 262,330 263,40
+##END=

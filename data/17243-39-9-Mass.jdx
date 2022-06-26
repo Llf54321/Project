@@ -1,0 +1,31 @@
+##TITLE=9,10-Ethanoanthracene-9(10H)-methylamine, N-methyl-, 9,10-dihydro
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Finnigan MAT: Toxicological Library (LIBR-TX)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=17243-39-9
+##$NIST MASS SPEC NO=120512
+##MOLFORM=C18 H19 N
+##MW=249
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=42
+##LASTX=250
+##FIRSTY=1616
+##MAXX=250
+##MINX=42
+##MAXY=9999
+##MINY=188
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+42,1616 44,8723 165,195 178,1559
+179,608 180,965 191,2281 192,905
+203,499 204,410 205,189 206,188
+217,386 218,9999 219,1687 220,789
+221,1971 222,408 249,484 250,296
+##END=

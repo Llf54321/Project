@@ -1,0 +1,28 @@
+##TITLE=Cyanogen bromide
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.A.Kutin, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=506-68-3
+##$NIST MASS SPEC NO=273386
+##MOLFORM=C Br N
+##MW=105
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=26
+##LASTX=107
+##FIRSTY=200
+##MAXX=107
+##MINX=26
+##MAXY=9999
+##MINY=200
+##NPOINTS=7
+##PEAK TABLE=(XY..XY)
+26,200 53,701 54,601 79,711
+81,691 105,9999 107,9499
+##END=

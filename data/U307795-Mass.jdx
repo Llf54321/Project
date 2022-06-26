@@ -1,0 +1,29 @@
+##TITLE=o-Anisic acid, 4-nitrophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307795
+##MOLFORM=C14 H11 N O5
+##MW=273
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=51
+##LASTX=137
+##FIRSTY=70
+##MAXX=137
+##MINX=51
+##MAXY=9999
+##MINY=50
+##NPOINTS=13
+##PEAK TABLE=(XY..XY)
+51,70 63,70 64,120 76,60
+77,1131 78,80 79,90 92,460
+105,50 120,120 135,9999 136,911
+137,70
+##END=

@@ -1,0 +1,33 @@
+##TITLE=1.alpha.,2.beta.,3.alpha.,4.beta.-Tetramethylcyclopentane
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=NIST Mass Spectrometry Data Center, 1990.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=2532-67-4
+##$NIST MASS SPEC NO=114327
+##MOLFORM=C9 H18
+##MW=126
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=14
+##LASTX=126
+##FIRSTY=822
+##MAXX=126
+##MINX=14
+##MAXY=9999
+##MINY=110
+##NPOINTS=27
+##PEAK TABLE=(XY..XY)
+14,822 15,395 27,2650 28,110
+29,1935 39,3559 40,777 41,7238
+42,1641 43,1119 51,514 53,1403
+55,6690 56,5367 57,705 65,479
+67,1010 69,9999 70,5029 71,1515
+77,431 79,332 82,929 83,2408
+84,6763 97,390 126,1601
+##END=

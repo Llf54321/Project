@@ -1,0 +1,29 @@
+##TITLE=Oxaziridine, 2-methyl-3-propyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ORMSBG,10(12)1155(1975); O. THORSTAD
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=58751-77-2
+##$NIST MASS SPEC NO=54807
+##MOLFORM=C5 H11 N O
+##MW=101
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=41
+##LASTX=101
+##FIRSTY=3800
+##MAXX=101
+##MINX=41
+##MAXY=9999
+##MINY=600
+##NPOINTS=9
+##PEAK TABLE=(XY..XY)
+41,3800 42,9999 43,4900 57,5100
+58,2900 59,1300 73,2800 86,1100
+101,600
+##END=

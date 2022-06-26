@@ -1,0 +1,33 @@
+##TITLE=2-Furancarboxamide, N-(4-fluorophenyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307035
+##MOLFORM=C11 H8 F N O2
+##MW=205
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=206
+##FIRSTY=30
+##MAXX=206
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=29
+##PEAK TABLE=(XY..XY)
+28,30 38,80 39,530 51,50
+53,30 57,150 63,50 67,160
+68,30 75,110 81,40 82,70
+83,360 84,70 94,40 95,9999
+96,480 97,40 109,70 110,120
+111,200 112,130 137,30 148,90
+176,40 177,30 204,30 205,5855
+206,631
+##END=

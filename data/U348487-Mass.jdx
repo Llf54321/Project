@@ -1,0 +1,34 @@
+##TITLE=D-Alanine, N-(4-anisoyl)-, isobutyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=V.G. Zaikin, R.S.Borisov, TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=348487
+##MOLFORM=C15 H21 N O4
+##MW=279
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=279
+##FIRSTY=30
+##MAXX=279
+##MINX=27
+##MAXY=9999
+##MINY=20
+##NPOINTS=34
+##PEAK TABLE=(XY..XY)
+27,30 28,30 29,70 39,50
+41,110 42,50 43,50 44,100
+50,20 51,70 56,20 57,60
+63,40 64,70 65,30 76,60
+77,801 78,80 79,40 92,330
+93,30 105,70 120,90 121,90
+134,40 135,9999 136,851 137,70
+146,50 178,2853 179,340 180,20
+206,150 279,50
+##END=

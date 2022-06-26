@@ -1,0 +1,33 @@
+##TITLE=Phenylacetic acid, 4-nitrophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307536
+##MOLFORM=C14 H11 N O4
+##MW=257
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=257
+##FIRSTY=30
+##MAXX=257
+##MINX=28
+##MAXY=9999
+##MINY=20
+##NPOINTS=31
+##PEAK TABLE=(XY..XY)
+28,30 30,80 38,50 39,240
+41,60 50,70 51,110 52,40
+53,20 62,60 63,280 64,140
+65,841 66,40 75,30 76,20
+80,30 89,330 90,460 91,9999
+92,781 93,60 108,50 109,380
+110,30 118,1762 119,1792 120,150
+123,70 139,80 257,30
+##END=

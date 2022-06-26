@@ -1,0 +1,29 @@
+##TITLE=Arsenic trichloride
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Eric Wils, TNO Prins Maurits Laboratory, The Netherlands.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=7784-34-1
+##$NIST MASS SPEC NO=273374
+##MOLFORM=As Cl3
+##MW=180
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=35
+##LASTX=184
+##FIRSTY=1651
+##MAXX=184
+##MINX=35
+##MAXY=9999
+##MINY=320
+##NPOINTS=11
+##PEAK TABLE=(XY..XY)
+35,1651 37,540 75,711 110,991
+112,320 145,9999 147,6616 149,1041
+180,4464 182,4224 184,1351
+##END=

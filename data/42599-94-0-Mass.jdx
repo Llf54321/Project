@@ -1,0 +1,32 @@
+##TITLE=Silane, [[(3.alpha.,5.beta.)-pregn-20-ene-3,17,20,21-tetrayl]tetrakis(oxy)]tetrakis[trimethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=42599-94-0
+##$NIST MASS SPEC NO=33685
+##MOLFORM=C33 H66 O4 Si4
+##MW=638
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=71
+##LASTX=641
+##FIRSTY=571
+##MAXX=641
+##MINX=71
+##MAXY=9999
+##MINY=306
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+71,571 72,487 73,9999 74,1100
+75,4178 76,515 77,849 145,348
+146,376 147,3537 148,696 149,599
+169,2033 170,418 331,4429 332,1629
+333,822 334,390 548,1086 549,543
+550,320 638,1657 639,1072 640,599
+641,306
+##END=

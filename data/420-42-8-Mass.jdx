@@ -1,0 +1,33 @@
+##TITLE=Arsine, (trifluoromethyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.Pleshkova, Nesmeyanov Inst.Org.Elem.Cpds, Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=420-42-8
+##$NIST MASS SPEC NO=284325
+##MOLFORM=C H2 As F3
+##MW=146
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=31
+##LASTX=147
+##FIRSTY=951
+##MAXX=147
+##MINX=31
+##MAXY=9999
+##MINY=10
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+31,951 32,10 33,2302 34,30
+50,250 51,5805 52,60 69,5605
+70,60 75,3653 76,5905 77,1451
+94,3503 95,1852 106,200 107,300
+113,951 125,1651 126,300 127,1451
+128,20 144,3053 145,901 146,9999
+147,120
+##END=

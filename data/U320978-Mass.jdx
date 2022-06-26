@@ -1,0 +1,33 @@
+##TITLE=d-Proline, N-allyloxycarbonyl-, allyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=320978
+##MOLFORM=C12 H17 N O4
+##MW=239
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=239
+##FIRSTY=60
+##MAXX=239
+##MINX=27
+##MAXY=9999
+##MINY=10
+##NPOINTS=31
+##PEAK TABLE=(XY..XY)
+27,60 38,20 39,510 40,70
+41,4144 42,290 43,80 44,50
+54,20 55,110 56,30 57,20
+67,30 68,480 69,230 70,651
+71,40 81,40 82,30 83,10
+96,20 97,30 108,80 110,5155
+111,410 114,190 153,40 154,9999
+155,851 156,70 239,70
+##END=

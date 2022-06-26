@@ -1,0 +1,29 @@
+##TITLE=3-Isoxazolecarboxylic acid, 5-methyl-, methyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=19788-35-3
+##$NIST MASS SPEC NO=3815
+##MOLFORM=C6 H7 N O3
+##MW=141
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=43
+##LASTX=142
+##FIRSTY=4804
+##MAXX=142
+##MINX=43
+##MAXY=9999
+##MINY=200
+##NPOINTS=16
+##PEAK TABLE=(XY..XY)
+43,4804 44,1201 45,200 54,1201
+55,200 59,9999 60,701 68,1001
+69,200 81,400 82,3003 83,400
+110,1001 111,200 141,1001 142,200
+##END=

@@ -1,0 +1,32 @@
+##TITLE=Benzoic acid, p-chloro-, p-methoxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=5410-99-1
+##$NIST MASS SPEC NO=307759
+##MOLFORM=C14 H11 Cl O3
+##MW=262
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=265
+##FIRSTY=20
+##MAXX=265
+##MINX=28
+##MAXY=9999
+##MINY=20
+##NPOINTS=23
+##PEAK TABLE=(XY..XY)
+28,20 41,50 50,40 51,30
+52,30 75,270 76,100 95,110
+104,70 109,30 111,1501 112,100
+113,480 123,180 124,30 139,9999
+140,791 141,3393 142,240 262,2012
+263,320 264,691 265,100
+##END=

@@ -1,0 +1,28 @@
+##TITLE=1H-Imidazole-2-carboxaldehyde, 1-(phenylmethyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=10045-65-5
+##$NIST MASS SPEC NO=7946
+##MOLFORM=C11 H10 N2 O
+##MW=186
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=51
+##LASTX=187
+##FIRSTY=500
+##MAXX=187
+##MINX=51
+##MAXY=9999
+##MINY=500
+##NPOINTS=9
+##PEAK TABLE=(XY..XY)
+51,500 65,1401 91,9999 92,801
+130,500 157,7507 158,1201 186,4304
+187,500
+##END=

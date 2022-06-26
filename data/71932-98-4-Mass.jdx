@@ -1,0 +1,32 @@
+##TITLE=2-Heptyne-4-one
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.Pleshkova, Nesmeyanov Inst.Org.Elem.Cpds, Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=71932-98-4
+##$NIST MASS SPEC NO=283684
+##MOLFORM=C7 H10 O
+##MW=110
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=110
+##FIRSTY=901
+##MAXX=110
+##MINX=27
+##MAXY=9999
+##MINY=10
+##NPOINTS=22
+##PEAK TABLE=(XY..XY)
+27,901 28,20 38,500 39,2002
+40,400 41,801 42,300 43,500
+53,200 54,200 55,200 60,400
+66,500 67,9999 68,701 82,2302
+83,180 84,10 95,1301 96,100
+97,10 110,100
+##END=

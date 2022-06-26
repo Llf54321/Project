@@ -1,0 +1,30 @@
+##TITLE=Phenyl-pentamethyl-disiloxane
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=14920-92-4
+##$NIST MASS SPEC NO=147694
+##MOLFORM=C11 H20 O Si2
+##MW=224
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=73
+##LASTX=211
+##FIRSTY=1010
+##MAXX=211
+##MINX=73
+##MAXY=9999
+##MINY=90
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+73,1010 89,100 90,480 97,1481
+98,90 105,290 135,1301 136,190
+137,100 193,1201 194,200 195,200
+209,9999 210,2312 211,990
+##END=

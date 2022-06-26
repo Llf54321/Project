@@ -1,0 +1,29 @@
+##TITLE=Acetic acid, bromochloro-, methyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=PYTCAS, 18(4)617(1979); F. X. WOOLARD ET AL.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=20428-74-4
+##$NIST MASS SPEC NO=66853
+##MOLFORM=C3 H4 Br Cl O2
+##MW=186
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=59
+##LASTX=190
+##FIRSTY=9999
+##MAXX=190
+##MINX=59
+##MAXY=9999
+##MINY=50
+##NPOINTS=10
+##PEAK TABLE=(XY..XY)
+59,9999 127,6900 129,5800 131,1500
+155,300 157,400 159,100 186,200
+188,100 190,50
+##END=

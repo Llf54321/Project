@@ -1,0 +1,32 @@
+##TITLE=6-Chlorohexanoic acid, 4-methoxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307622
+##MOLFORM=C13 H17 Cl O3
+##MW=256
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=258
+##FIRSTY=20
+##MAXX=258
+##MINX=27
+##MAXY=9999
+##MINY=10
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+27,20 28,10 39,30 41,260
+43,90 55,100 60,30 63,30
+65,30 69,490 77,40 81,70
+83,30 92,30 95,70 108,30
+109,1111 110,70 123,120 124,9999
+125,861 126,60 133,80 256,260
+257,30 258,80
+##END=

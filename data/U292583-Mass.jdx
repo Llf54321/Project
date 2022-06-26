@@ -1,0 +1,33 @@
+##TITLE=2,6-Difluorobenzoic acid, pent-2-en-4-ynyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=292583
+##MOLFORM=C12 H8 F2 O2
+##MW=222
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=222
+##FIRSTY=20
+##MAXX=222
+##MINX=28
+##MAXY=9999
+##MINY=20
+##NPOINTS=29
+##PEAK TABLE=(XY..XY)
+28,20 36,60 38,40 39,270
+44,40 50,60 51,50 53,30
+62,70 63,480 64,120 65,370
+68,30 75,30 81,60 93,60
+94,50 112,50 113,791 114,110
+123,40 140,20 141,9999 142,721
+143,40 158,210 159,60 177,50
+222,90
+##END=

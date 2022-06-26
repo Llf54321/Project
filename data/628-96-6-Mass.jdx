@@ -1,0 +1,30 @@
+##TITLE=Ethylene glycol, dinitrate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=MINISTRY OF TECH., E.R.D.E., WALTHAM ABBEY, UK
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=628-96-6
+##$NIST MASS SPEC NO=4949
+##MOLFORM=C2 H4 N2 O6
+##MW=152
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=14
+##LASTX=76
+##FIRSTY=60
+##MAXX=76
+##MINX=14
+##MAXY=9999
+##MINY=10
+##NPOINTS=13
+##PEAK TABLE=(XY..XY)
+14,60 15,200 27,20 28,520
+29,1400 30,2210 31,310 42,80
+43,110 44,200 46,9999 57,10
+76,1120
+##END=

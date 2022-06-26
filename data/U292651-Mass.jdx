@@ -1,0 +1,31 @@
+##TITLE=p-Methoxybenzoic acid, 2-bromo-4-fluorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=292651
+##MOLFORM=C14 H10 Br F O3
+##MW=324
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=38
+##LASTX=163
+##FIRSTY=30
+##MAXX=163
+##MINX=38
+##MAXY=9999
+##MINY=30
+##NPOINTS=21
+##PEAK TABLE=(XY..XY)
+38,30 50,50 51,30 63,150
+64,210 76,80 77,601 78,50
+81,50 82,50 92,520 93,40
+104,40 107,360 108,30 135,9999
+136,731 137,60 152,190 161,60
+163,60
+##END=

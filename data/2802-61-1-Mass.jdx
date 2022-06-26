@@ -1,0 +1,31 @@
+##TITLE=Pyrimidine,2,4-difluoro-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=2802-61-1
+##$NIST MASS SPEC NO=145665
+##MOLFORM=C4 H2 F2 N2
+##MW=116
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=31
+##LASTX=117
+##FIRSTY=1381
+##MAXX=117
+##MINX=31
+##MAXY=9999
+##MINY=90
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+31,1381 40,980 44,2402 45,100
+46,200 51,800 52,890 69,390
+70,1211 71,3373 73,90 74,90
+75,790 76,490 77,800 78,900
+89,1311 97,700 116,9999 117,490
+##END=

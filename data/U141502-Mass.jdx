@@ -1,0 +1,33 @@
+##TITLE=Acryl glycine, N,O-bis(trimethylsilyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=James Shoemaker, St. Louis Online Library of Metabolic Mass Spectra
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=141502
+##MOLFORM=C11 H23 N O3 Si2
+##MW=273
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=55
+##LASTX=258
+##FIRSTY=1789
+##MAXX=258
+##MINX=55
+##MAXY=9999
+##MINY=40
+##NPOINTS=32
+##PEAK TABLE=(XY..XY)
+55,1789 59,369 60,1409 67,169
+73,9999 74,439 75,859 77,269
+100,70 102,1969 103,80 116,899
+117,40 128,229 133,109 140,119
+141,159 142,70 145,60 147,5179
+148,389 149,99 155,929 156,8889
+157,629 158,70 175,1419 176,99
+183,40 228,99 230,379 258,539
+##END=

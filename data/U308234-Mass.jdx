@@ -1,0 +1,30 @@
+##TITLE=But-2-enamide, N-(2-fluorophenyl)-3-methyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=308234
+##MOLFORM=C11 H12 F N O
+##MW=193
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=194
+##FIRSTY=50
+##MAXX=194
+##MINX=27
+##MAXY=9999
+##MINY=30
+##NPOINTS=19
+##PEAK TABLE=(XY..XY)
+27,50 29,160 39,200 52,30
+53,170 54,50 55,2022 56,50
+82,260 83,9999 84,621 85,30
+91,30 110,40 111,6556 112,460
+130,120 193,5745 194,651
+##END=

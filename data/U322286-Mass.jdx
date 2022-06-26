@@ -1,0 +1,32 @@
+##TITLE=3.4-dimethyl-2,5-dioxo-2,5-dihydrothiophene
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=S. Volkovich, Institute of Nutrition, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=322286
+##MOLFORM=C6 H6 O2 S
+##MW=142
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=14
+##LASTX=144
+##FIRSTY=1812
+##MAXX=144
+##MINX=14
+##MAXY=9999
+##MINY=90
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+14,1812 15,2112 17,210 32,210
+39,9999 40,310 41,1912 42,210
+45,6306 46,210 53,3013 54,6406
+55,510 60,611 61,210 71,1511
+72,210 109,671 110,90 114,90
+119,110 127,911 128,210 142,4314
+143,410 144,410
+##END=

@@ -1,0 +1,30 @@
+##TITLE=Methanone, (2-hydroxyphenyl)(4-hydroxyphenyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=606-12-2
+##$NIST MASS SPEC NO=9974
+##MOLFORM=C13 H10 O3
+##MW=214
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=215
+##FIRSTY=2002
+##MAXX=215
+##MINX=39
+##MAXY=9999
+##MINY=200
+##NPOINTS=18
+##PEAK TABLE=(XY..XY)
+39,2002 40,200 51,500 53,500
+63,701 64,500 65,3103 66,300
+92,901 93,2002 94,701 120,2202
+121,9999 122,801 197,601 213,2202
+214,3803 215,500
+##END=

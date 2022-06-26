@@ -1,0 +1,32 @@
+##TITLE=Methanone, (2-fluorophenyl)-2-pyridinyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=6238-65-9
+##$NIST MASS SPEC NO=145931
+##MOLFORM=C12 H8 F N O
+##MW=201
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=50
+##LASTX=201
+##FIRSTY=900
+##MAXX=201
+##MINX=50
+##MAXY=9999
+##MINY=100
+##NPOINTS=21
+##PEAK TABLE=(XY..XY)
+50,900 51,2622 52,790 63,200
+74,400 75,3333 76,390 77,190
+78,1711 95,6766 123,9999 126,100
+127,190 152,190 153,290 154,290
+172,2712 173,9208 182,1681 200,2392
+201,2282
+##END=

@@ -1,0 +1,29 @@
+##TITLE=Monochloromethyl isopentanoate
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=82504-50-5
+##$NIST MASS SPEC NO=143281
+##MOLFORM=C6 H11 Cl O2
+##MW=150
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=39
+##LASTX=150
+##FIRSTY=3302
+##MAXX=150
+##MINX=39
+##MAXY=9999
+##MINY=490
+##NPOINTS=12
+##PEAK TABLE=(XY..XY)
+39,3302 41,9999 42,2692 43,5565
+49,800 55,490 56,700 57,2792
+69,700 72,1381 85,2992 150,1101
+##END=

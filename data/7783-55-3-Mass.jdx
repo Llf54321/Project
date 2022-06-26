@@ -1,0 +1,28 @@
+##TITLE=Phosphorus trifluoride
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=CBDCOM/ERDEC, Edgewood, MD
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=7783-55-3
+##$NIST MASS SPEC NO=226492
+##MOLFORM=F3 P
+##MW=88
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=19
+##LASTX=88
+##FIRSTY=390
+##MAXX=88
+##MINX=19
+##MAXY=9999
+##MINY=390
+##NPOINTS=5
+##PEAK TABLE=(XY..XY)
+19,390 31,490 50,890 69,9999
+88,4293
+##END=

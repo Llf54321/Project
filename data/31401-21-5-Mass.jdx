@@ -1,0 +1,29 @@
+##TITLE=Ethanesulfinic acid, methyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=W. G. FILBY
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=31401-21-5
+##$NIST MASS SPEC NO=40066
+##MOLFORM=C3 H8 O2 S
+##MW=108
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=110
+##FIRSTY=5200
+##MAXX=110
+##MINX=28
+##MAXY=9999
+##MINY=150
+##NPOINTS=12
+##PEAK TABLE=(XY..XY)
+28,5200 29,8900 35,240 45,2620
+50,5900 65,9999 77,2100 79,640
+80,9200 108,3100 109,530 110,150
+##END=

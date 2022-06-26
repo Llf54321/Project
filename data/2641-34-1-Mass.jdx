@@ -1,0 +1,30 @@
+##TITLE=Propanoyl fluoride, 2,3,3,3-tetrafluoro-2-[1,1,2,3,3,3-hexafluoro-2-(heptafluoropropoxy)propoxy]-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=2641-34-1
+##$NIST MASS SPEC NO=144163
+##MOLFORM=C9 F18 O3
+##MW=498
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=31
+##LASTX=335
+##FIRSTY=1471
+##MAXX=335
+##MINX=31
+##MAXY=9999
+##MINY=390
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+31,1471 47,1201 50,680 59,400
+69,9999 97,2672 100,2081 119,6565
+131,390 147,2191 150,790 169,9068
+213,600 313,1101 335,1691
+##END=

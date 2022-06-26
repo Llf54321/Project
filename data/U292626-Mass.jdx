@@ -1,0 +1,32 @@
+##TITLE=m-Methoxybenzoic acid, 3,5-difluorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=292626
+##MOLFORM=C14 H10 F2 O3
+##MW=264
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=265
+##FIRSTY=10
+##MAXX=265
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+28,10 38,30 50,80 51,70
+62,30 63,250 64,340 74,30
+75,60 76,140 77,921 78,80
+79,40 92,801 93,60 101,140
+104,30 107,1591 108,130 130,60
+135,9999 136,711 137,60 152,20
+264,380 265,50
+##END=

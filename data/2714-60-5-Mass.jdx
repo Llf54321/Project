@@ -1,0 +1,33 @@
+##TITLE=Diphosphine, tetrakis(trifluoromethyl)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.Pleshkova, Nesmeyanov Inst.Org.Elem.Cpds, Moscow
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=2714-60-5
+##$NIST MASS SPEC NO=284330
+##MOLFORM=C4 F12 P2
+##MW=338
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=31
+##LASTX=339
+##FIRSTY=881
+##MAXX=339
+##MINX=31
+##MAXY=9999
+##MINY=10
+##NPOINTS=25
+##PEAK TABLE=(XY..XY)
+31,881 32,10 50,210 62,500
+63,10 69,9999 70,120 81,380
+93,150 100,1431 101,20 119,2292
+120,30 131,1051 132,20 150,250
+169,400 170,10 231,170 269,210
+270,10 319,1221 320,50 338,2232
+339,100
+##END=

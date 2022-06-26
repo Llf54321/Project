@@ -1,0 +1,30 @@
+##TITLE=o-Anisic acid, 2-naphthyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307796
+##MOLFORM=C18 H14 O3
+##MW=278
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=51
+##LASTX=279
+##FIRSTY=30
+##MAXX=279
+##MINX=51
+##MAXY=9999
+##MINY=30
+##NPOINTS=19
+##PEAK TABLE=(XY..XY)
+51,30 63,40 64,60 76,30
+77,901 78,60 79,80 92,390
+105,60 115,270 119,40 120,120
+127,40 135,9999 136,921 137,70
+144,30 278,731 279,140
+##END=

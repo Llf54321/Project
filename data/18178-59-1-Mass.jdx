@@ -1,0 +1,31 @@
+##TITLE=trans-1,2-Bis(trimethylsilyl)ethylene
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Institute of Organic Chemistry, Novosibirsk, USSR 1988
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=18178-59-1
+##$NIST MASS SPEC NO=109961
+##MOLFORM=C8 H20 Si2
+##MW=172
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=45
+##LASTX=174
+##FIRSTY=479
+##MAXX=174
+##MINX=45
+##MAXY=9999
+##MINY=79
+##NPOINTS=18
+##PEAK TABLE=(XY..XY)
+45,479 58,99 59,319 73,9999
+74,779 75,389 83,419 84,209
+98,299 99,1589 100,199 101,79
+157,2829 158,499 159,189 172,1519
+173,329 174,109
+##END=

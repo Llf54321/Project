@@ -1,0 +1,32 @@
+##TITLE=Propane, 1,1,1,3,3,3-hexafluoro-2-trifluoromethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=A.A.Kutin, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=382-24-1
+##$NIST MASS SPEC NO=273315
+##MOLFORM=C4 H F9
+##MW=220
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=31
+##LASTX=202
+##FIRSTY=530
+##MAXX=202
+##MINX=31
+##MAXY=9999
+##MINY=60
+##NPOINTS=23
+##PEAK TABLE=(XY..XY)
+31,530 50,290 51,380 63,280
+69,9999 70,210 74,80 75,110
+81,60 82,1161 93,731 100,100
+112,160 113,5385 114,320 131,200
+132,1932 133,70 150,70 181,330
+200,110 201,4104 202,290
+##END=

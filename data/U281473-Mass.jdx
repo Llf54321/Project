@@ -1,0 +1,29 @@
+##TITLE=2-Acetyl-2,3,5,6-tetrahydro-1,4-thiazine
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=T.Huang ET AL.J.Agr.Food Chem.,46,664(1998)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=281473
+##MOLFORM=C6 H11 N O S
+##MW=145
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=42
+##LASTX=103
+##FIRSTY=1091
+##MAXX=103
+##MINX=42
+##MAXY=9999
+##MINY=571
+##NPOINTS=13
+##PEAK TABLE=(XY..XY)
+42,1091 43,2442 44,781 55,1091
+56,2983 57,831 73,1091 74,4074
+75,751 100,571 101,1061 102,9999
+103,751
+##END=

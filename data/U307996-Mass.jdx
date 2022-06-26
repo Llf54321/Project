@@ -1,0 +1,32 @@
+##TITLE=2-Furoic acid, 4-cyanophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307996
+##MOLFORM=C12 H7 N O3
+##MW=213
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=36
+##LASTX=214
+##FIRSTY=10
+##MAXX=214
+##MINX=36
+##MAXY=9999
+##MINY=10
+##NPOINTS=26
+##PEAK TABLE=(XY..XY)
+36,10 37,20 38,70 39,561
+40,10 51,50 53,20 63,40
+64,50 66,20 67,250 68,10
+75,20 76,10 90,60 91,10
+95,9999 96,561 97,40 102,30
+111,110 112,10 118,10 119,30
+213,651 214,80
+##END=

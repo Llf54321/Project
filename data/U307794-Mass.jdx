@@ -1,0 +1,29 @@
+##TITLE=o-Anisic acid, 3,4-dichlorophenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307794
+##MOLFORM=C14 H10 Cl2 O3
+##MW=296
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=51
+##LASTX=137
+##FIRSTY=80
+##MAXX=137
+##MINX=51
+##MAXY=9999
+##MINY=40
+##NPOINTS=14
+##PEAK TABLE=(XY..XY)
+51,80 63,90 64,120 76,50
+77,1101 78,80 79,90 92,470
+105,80 120,120 133,40 135,9999
+136,901 137,70
+##END=

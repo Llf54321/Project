@@ -1,0 +1,33 @@
+##TITLE=l-Proline, N-(2-thienylcarbonyl)-, methyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=299596
+##MOLFORM=C11 H13 N O3 S
+##MW=239
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=241
+##FIRSTY=40
+##MAXX=241
+##MINX=27
+##MAXY=9999
+##MINY=20
+##NPOINTS=29
+##PEAK TABLE=(XY..XY)
+27,40 28,20 39,601 40,40
+41,180 42,80 44,60 45,50
+53,30 57,70 58,30 59,40
+68,70 69,40 70,50 82,60
+83,330 84,60 111,9999 112,521
+113,390 128,120 153,30 180,4004
+181,410 182,190 239,601 240,80
+241,30
+##END=

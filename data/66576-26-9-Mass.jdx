@@ -1,0 +1,30 @@
+##TITLE=2,3,4-Trimethyl-2-pentanol
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=K.Yu ET AL.,Biomed. Mass Spectrom.,14,639(1987)
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=66576-26-9
+##$NIST MASS SPEC NO=292779
+##MOLFORM=C8 H18 O
+##MW=130
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=40
+##LASTX=115
+##FIRSTY=90
+##MAXX=115
+##MINX=40
+##MAXY=9999
+##MINY=90
+##NPOINTS=15
+##PEAK TABLE=(XY..XY)
+40,90 41,140 43,420 55,470
+57,90 58,280 59,9999 60,90
+66,90 69,90 70,230 71,1501
+73,190 97,370 115,280
+##END=

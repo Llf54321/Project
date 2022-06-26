@@ -1,0 +1,31 @@
+##TITLE=2,3-Dioxabicyclo[2.2.1]heptane
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ASES Database, Dalian Institute, P.R. China
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=279-35-6
+##$NIST MASS SPEC NO=143345
+##MOLFORM=C5 H8 O2
+##MW=100
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=100
+##FIRSTY=2522
+##MAXX=100
+##MINX=27
+##MAXY=9999
+##MINY=100
+##NPOINTS=18
+##PEAK TABLE=(XY..XY)
+27,2522 28,8527 29,4423 37,1111
+41,1481 42,1111 43,9999 44,4423
+54,800 55,3192 56,4023 57,3002
+58,1101 67,500 71,200 72,190
+82,100 100,5014
+##END=

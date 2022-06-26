@@ -1,0 +1,36 @@
+##TITLE=.alpha.,.alpha.-Dichloromethyl methyl ether
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Chuck Anderson, Aldrich Chemical Co.
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=4885-02-3
+##$NIST MASS SPEC NO=108518
+##MOLFORM=C2 H4 Cl2 O
+##MW=114
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=13
+##LASTX=115
+##FIRSTY=73
+##MAXX=115
+##MINX=13
+##MAXY=9999
+##MINY=3
+##NPOINTS=37
+##PEAK TABLE=(XY..XY)
+13,73 14,199 15,2654 16,51
+18,3 28,150 29,2278 30,76
+31,149 32,17 35,362 36,119
+37,114 38,16 43,60 44,51
+47,271 48,553 49,370 50,265
+51,1183 52,16 53,331 60,14
+63,459 65,155 78,35 79,9999
+80,223 81,3229 82,92 83,1603
+84,17 85,1017 87,154 113,76
+115,36
+##END=

@@ -1,0 +1,28 @@
+##TITLE=Diborane(4)tetramine, octamethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=ORMSBG,9(3)289(1974); HANCOCK
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=1630-79-1
+##$NIST MASS SPEC NO=44774
+##MOLFORM=C8 H24 B2 N4
+##MW=198
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=44
+##LASTX=198
+##FIRSTY=2200
+##MAXX=198
+##MINX=44
+##MAXY=9999
+##MINY=700
+##NPOINTS=7
+##PEAK TABLE=(XY..XY)
+44,2200 56,2700 99,9999 111,700
+154,2200 183,800 198,1000
+##END=

@@ -1,0 +1,32 @@
+##TITLE=Isoxazole, 3,5-dimethyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=James Little,Eastman Chem.Co.,Kingsport,TN
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=300-87-8
+##$NIST MASS SPEC NO=288389
+##MOLFORM=C5 H7 N O
+##MW=97
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=27
+##LASTX=99
+##FIRSTY=681
+##MAXX=99
+##MINX=27
+##MAXY=9999
+##MINY=90
+##NPOINTS=23
+##PEAK TABLE=(XY..XY)
+27,681 29,270 39,881 41,841
+42,480 43,3193 52,390 54,4084
+55,2232 57,360 60,260 65,230
+68,280 69,520 71,180 73,290
+81,230 82,8327 83,530 96,210
+97,9999 98,701 99,90
+##END=

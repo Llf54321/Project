@@ -1,0 +1,28 @@
+##TITLE=Sydnone, 3-methyl-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=6939-12-4
+##$NIST MASS SPEC NO=1126
+##MOLFORM=C3 H4 N2 O2
+##MW=100
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=40
+##LASTX=101
+##FIRSTY=1301
+##MAXX=101
+##MINX=40
+##MAXY=9999
+##MINY=100
+##NPOINTS=11
+##PEAK TABLE=(XY..XY)
+40,1301 41,2803 42,9108 43,2602
+44,3003 45,100 59,500 70,1301
+74,901 100,9999 101,400
+##END=

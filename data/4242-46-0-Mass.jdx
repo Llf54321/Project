@@ -1,0 +1,31 @@
+##TITLE=Benzeneacetonitrile, .alpha.-(benzoyloxy)-
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Dennis Rohrbaugh, CBDCOM/ERDEC, Edgewood, MD
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=4242-46-0
+##$NIST MASS SPEC NO=226711
+##MOLFORM=C15 H11 N O2
+##MW=237
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=38
+##LASTX=237
+##FIRSTY=40
+##MAXX=237
+##MINX=38
+##MAXY=9999
+##MINY=40
+##NPOINTS=20
+##PEAK TABLE=(XY..XY)
+38,40 39,1699 50,869 51,4639
+52,229 63,1719 64,239 65,719
+77,9069 78,699 88,60 89,4759
+90,979 105,9999 106,949 114,379
+115,1239 116,4919 117,259 237,1079
+##END=

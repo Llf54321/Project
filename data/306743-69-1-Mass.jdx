@@ -1,0 +1,32 @@
+##TITLE=Benzoic acid, 2-methyl-, 4-benzyloxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=306743-69-1
+##$NIST MASS SPEC NO=307462
+##MOLFORM=C21 H18 O3
+##MW=318
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=319
+##FIRSTY=60
+##MAXX=319
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=24
+##PEAK TABLE=(XY..XY)
+28,60 39,160 41,70 50,30
+51,80 52,30 54,30 57,30
+63,120 64,50 65,821 66,40
+81,30 89,170 90,160 91,3954
+92,330 110,40 118,50 119,9999
+120,831 121,50 318,571 319,120
+##END=

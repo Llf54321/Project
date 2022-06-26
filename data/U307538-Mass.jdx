@@ -1,0 +1,32 @@
+##TITLE=Phenylacetic acid, 4-benzyloxyphenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##$NIST MASS SPEC NO=307538
+##MOLFORM=C21 H18 O3
+##MW=318
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=319
+##FIRSTY=10
+##MAXX=319
+##MINX=28
+##MAXY=9999
+##MINY=10
+##NPOINTS=28
+##PEAK TABLE=(XY..XY)
+28,10 36,20 39,110 41,50
+44,30 51,60 52,20 55,30
+57,30 63,110 64,50 65,611
+66,30 81,40 89,200 90,230
+91,9999 92,791 93,30 109,40
+110,80 118,290 119,60 200,4074
+201,601 202,50 318,180 319,40
+##END=

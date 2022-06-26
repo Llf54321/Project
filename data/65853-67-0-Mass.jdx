@@ -1,0 +1,31 @@
+##TITLE=m-Methoxybenzoic acid, phenyl ester
+##JCAMP-DX=4.24
+##DATA TYPE=MASS SPECTRUM
+##ORIGIN=Zaikin V.G., TIPS RAS, Moscow, Russia
+##OWNER=NIST Mass Spectrometry Data Center
+Collection (C) 2014 copyright by the U.S. Secretary of Commerce
+on behalf of the United States of America. All rights reserved.
+##CAS REGISTRY NO=65853-67-0
+##$NIST MASS SPEC NO=292627
+##MOLFORM=C14 H12 O3
+##MW=228
+##$NIST SOURCE=MSDC
+##XUNITS=M/Z
+##YUNITS=RELATIVE INTENSITY
+##XFACTOR=1
+##YFACTOR=1
+##FIRSTX=28
+##LASTX=229
+##FIRSTY=40
+##MAXX=229
+##MINX=28
+##MAXY=9999
+##MINY=30
+##NPOINTS=19
+##PEAK TABLE=(XY..XY)
+28,40 63,100 64,160 65,60
+76,80 77,571 78,50 79,30
+92,581 93,60 94,50 107,1301
+108,110 135,9999 136,811 137,70
+152,60 228,871 229,140
+##END=
