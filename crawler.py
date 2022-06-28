@@ -1,5 +1,5 @@
 #%%
-from crawler_method import find_data
+from crawler_function import find_data
 from tqdm import tqdm
 #%%
 '''

@@ -18,7 +18,7 @@ def extract_data(data):
     return {name:{'charge_mass_ratio':charge_mass_ratio,'peak_height':peak_height,'formula':formula,'num_atoms':num_atoms}}
 
 #%%
-p = Path("/Users/46003/Desktop/project/data_1") 
+p = Path("/Users/46003/Desktop/project/data") 
  
 FileList=list(p.glob("*Mass.jdx"))
 
@@ -68,6 +68,7 @@ plt.yticks(size=14)
 plt.xticks(size=10)
 
 plt.ylim(bottom=0.)
+plt.savefig("num_of_total_atoms.png")
 plt.show()
 
 
