@@ -1,8 +1,4 @@
-#%%
-'''
-    Read and save the crawled data
-'''
-
+# Read and save the crawled data
 import jcamp
 from pathlib import Path
 from tqdm import tqdm
@@ -14,10 +10,14 @@ def extract_data(data):
     charge_mass_ratio = data['x']
     peak_height = data['y']
     formula = data['molform']
-    num_atoms = data['npoints']
-    return {name:{'charge_mass_ratio':charge_mass_ratio,'peak_height':peak_height,'formula':formula,'num_atoms':num_atoms}}
+    num_fragmenhts = data['npoints']
+    if 'cas registry no' in data.keys():
+        cas = data['cas registry no']
+    else:
+        cas = str(np.nan)
+    nist_mass_spec_num = data['$nist mass spec no']
+    return {name:{'charge_mass_ratio':charge_mass_ratio,'peak_height':peak_height,'formula':formula,'num_fragmenhts':num_fragmenhts,'cas':cas,'nist_mass_spec_num':nist_mass_spec_num}}
 
-#%%
 p = Path("/Users/46003/Desktop/project/data") 
  
 FileList=list(p.glob("*Mass.jdx"))
@@ -30,15 +30,15 @@ for f in tqdm(FileList):
 
 np.save('original_data.npy', data_dict)
 
-#%%
-'''
-    Plot the graph, the number of atoms in the whole collection data against their formula
-'''
+# Plot the graphs
 original_data = np.load('original_data.npy', allow_pickle=True).item()
 
+part_data = {}
+d_total_num_atom = {}
+d_part_atom_num = {}
 d_total_atom_num = {}
-for j in original_data.values():
-    formula = j['formula']
+for j in original_data.keys():
+    formula = original_data[j]['formula']
 
     num_atoms = len(formula.split())
 
@@ -56,11 +56,27 @@ for j in original_data.values():
             d_total_atom_num[l_atom_name[i]] += l_atom_num[i]
         else:
             d_total_atom_num[l_atom_name[i]] = l_atom_num[i]
+    
+    a_num = np.sum(l_atom_num)
+    if a_num <= 20: # Set the limit number of atoms in one molecule
+        part_data[j] = original_data[j]
+        for i in range(num_atoms):
+            if l_atom_name[i] in d_part_atom_num.keys():
+                d_part_atom_num[l_atom_name[i]] += l_atom_num[i]
+            else:
+                d_part_atom_num[l_atom_name[i]] = l_atom_num[i]
+    
+    if a_num not in d_total_num_atom.keys():
+        d_total_num_atom[a_num] = 1
+    else:
+        d_total_num_atom[a_num] += 1
 
-# %%
+np.save('new_data.npy', part_data)
+
+# The number of atoms in the whole collection data against their formula
 import matplotlib.pyplot as plt
 
-fig = plt.figure(figsize=(16,9))
+fig_1 = plt.figure(figsize=(16,9))
 x = d_total_atom_num.keys()
 y = d_total_atom_num.values()
 plt.plot(x,y)
@@ -68,8 +84,29 @@ plt.yticks(size=14)
 plt.xticks(size=10)
 
 plt.ylim(bottom=0.)
-plt.savefig("num_of_total_atoms.png")
+plt.savefig("num_of_atoms_in_whole_collection.png")
 plt.show()
 
+# The number of molecules against the number of atoms in the molecule
+fig_2 = plt.figure(figsize=(16,9))
+x = d_total_num_atom.keys()
+y = d_total_num_atom.values()
+plt.bar(x,y)
+plt.yticks(size=14)
+plt.xticks(size=10)
 
-# %%
+plt.ylim(bottom=0.)
+plt.savefig("num_of_atoms_in_molecule.png")
+plt.show()
+
+# The number of atoms in the part of collection data against their formula
+fig_3 = plt.figure(figsize=(16,9))
+x = d_part_atom_num.keys()
+y = d_part_atom_num.values()
+plt.plot(x,y)
+plt.yticks(size=14)
+plt.xticks(size=10)
+
+plt.ylim(bottom=0.)
+plt.savefig("num_of_atoms_in_part_collection.png")
+plt.show()
