@@ -1,4 +1,4 @@
-from crawler_function import find_data
+from crawler_method import find_data
 from tqdm import tqdm
 from selenium import webdriver
 import os
