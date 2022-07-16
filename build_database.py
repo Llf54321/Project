@@ -8,27 +8,27 @@ def find_tb():
 
 processed_data = np.load('processed_data.npy', allow_pickle=True).item()
 
-rows = []
-for n in list(processed_data.keys()):
-    for i in range(len(processed_data[n]['peak_height'])):
-        b = []
-        b.append(n)
-        b.append(processed_data[n]['cas'])
-        b.append(processed_data[n]['nist_mass_spec_num'])
-        b.append(processed_data[n]['formula'])
-        b.append(processed_data[n]['charge_mass_ratio'][i])
-        b.append(processed_data[n]['peak_height'][i])
-        b.append(processed_data[n]['branch_ratio'][i])
-        c = ''
-        if type(processed_data[n]['optional_fragments'][i]) == list:
-            for f in processed_data[n]['optional_fragments'][i]:
-                c += f + ','
-            c = c[:-1]
+l_rows = []
+for name in list(processed_data.keys()):
+    for i in range(len(processed_data[name]['peak_height'])):
+        a_row = []
+        a_row.append(name)
+        a_row.append(processed_data[name]['cas'])
+        a_row.append(processed_data[name]['nist_mass_spec_num'])
+        a_row.append(processed_data[name]['formula'])
+        a_row.append(processed_data[name]['charge_mass_ratio'][i])
+        a_row.append(processed_data[name]['peak_height'][i])
+        a_row.append(processed_data[name]['branch_ratio'][i])
+        opt_fragment = ''
+        if type(processed_data[name]['optional_fragments'][i]) == list:
+            for a_fragment in processed_data[name]['optional_fragments'][i]:
+                opt_fragment += a_fragment + ','
+            opt_fragment = opt_fragment[:-1]
         else:
-            c = processed_data[n]['optional_fragments'][i]
-        b.append(c)
-        a = tuple(b)
-        rows.append(a)
+            opt_fragment = processed_data[name]['optional_fragments'][i]
+        a_row.append(opt_fragment)
+
+        l_rows.append(tuple(a_row))
 
 conn = sqlite3.connect('data-20.db')
 
@@ -39,6 +39,6 @@ table_name = '''CREATE TABLE name (name TEXT,cas TEXT,nist_mass_spec_num TEXT,fo
 cur.execute(table_name)
 
 
-cur.executemany('INSERT INTO name VALUES (?,?,?,?,?,?,?,?)', rows)
+cur.executemany('INSERT INTO name VALUES (?,?,?,?,?,?,?,?)', l_rows)
 conn.commit()
 

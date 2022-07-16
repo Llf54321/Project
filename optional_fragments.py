@@ -29,14 +29,50 @@ def find_possible_combination(possible_mass, mass_list):
 
     return l_charge_mass_ratio, combination_mass
 
-#%%
-processed_data = {}
-def find_optional_fragments(name):
+def build_cl_br_formula(mass, atom_name):
     subscript = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
+    formula=''
 
-    formula = original_data[name]['formula']
-    num_atoms = len(formula.split())
+    if atom_name == 'Cl':
+        if mass%35 == 0:
+            num_cl37 = 0
+            num_cl35 = mass/35
+        else:
+            num_cl37 = (mass%35)/2
+            num_cl35 = (mass-num_cl37*37)/35
 
+        if num_cl35 != 0:
+            if num_cl35 == 1:
+                formula += '35'.translate(subscript) + 'Cl'
+            else:
+                formula += '35'.translate(subscript) + 'Cl' + str(int(num_cl35))
+        if num_cl37 != 0:
+            if num_cl37 == 1:
+                formula += '37'.translate(subscript) + 'Cl'
+            else:
+                formula += '37'.translate(subscript) + 'Cl' + str(int(num_cl37))
+
+    elif atom_name == 'Br':
+        if mass%79 == 0:
+            num_br81 = 0
+            num_br79 = mass/79
+        else:
+            num_br81 = (mass%79)/2
+            num_br79 = (mass-num_br81*81)/79
+
+        if num_br79 != 0:
+            if num_br79 == 1:
+                formula += '79'.translate(subscript) + 'Br'
+            else:
+                formula += '79'.translate(subscript) + 'Br' + str(int(num_br79))
+        if num_br81 != 0:
+            if num_br81 == 1:
+                formula += '81'.translate(subscript) + 'Br'
+            else:
+                formula += '81'.translate(subscript) + 'Br' + str(int(num_br81))
+
+    return formula
+def find_atom_name_num(formula):
     l_atom_name = []
     l_atom_num = []
     for i in formula.split():
@@ -45,7 +81,15 @@ def find_optional_fragments(name):
             l_atom_num.append(int(re.findall(r'[0-9]+|[^0-9]+',i)[1]))
         except:
             l_atom_num.append(1)
+    return l_atom_name,l_atom_num
+        
+def find_optional_fragments(data,name):
+    subscript = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
 
+    formula = data[name]['formula']
+    num_atoms = len(formula.split())
+    l_atom_name,l_atom_num = find_atom_name_num(formula)
+    
     l_other_mass = []
     l_main_mass = []
     for atom in l_atom_name:
@@ -66,14 +110,14 @@ def find_optional_fragments(name):
                 for k in range(n+1):
                     if k != 0:
                         a_possible_mass.append(n*l_main_mass[i]+2*k)
-            if l_atom_name[i] == 'Br':
+            elif l_atom_name[i] == 'Br':
                 index_br = i
                 for k in range(n+1):
                     if k != 0:
                         a_possible_mass.append(n*l_main_mass[i]+2*k)
         possible_main_mass.append(a_possible_mass)
 
-    l_charge_mass_ratio, combination_mass = find_possible_combination(possible_main_mass, original_data[name]['charge_mass_ratio'])
+    l_charge_mass_ratio, combination_mass = find_possible_combination(possible_main_mass, data[name]['charge_mass_ratio'])
 
     l_cl_formula = []
     l_br_formula = []
@@ -81,50 +125,14 @@ def find_optional_fragments(name):
         for j in range(num_atoms):
             if j == index_cl:
                 if i[j] != 0:
-                    cl_formula=''
-
-                    if i[j]%35 == 0:
-                        num_cl37 = 0
-                        num_cl35 = i[j]/35
-                    else:
-                        num_cl37 = (i[j]%35)/2
-                        num_cl35 = (i[j]-num_cl37*37)/35
-
-                    if num_cl35 != 0:
-                        if num_cl35 == 1:
-                            cl_formula += '35'.translate(subscript) + 'Cl'
-                        else:
-                            cl_formula += '35'.translate(subscript) + 'Cl' + str(int(num_cl35))
-                    if num_cl37 != 0:
-                        if num_cl37 == 1:
-                            cl_formula += '37'.translate(subscript) + 'Cl'
-                        else:
-                            cl_formula += '37'.translate(subscript) + 'Cl' + str(int(num_cl37))
+                    cl_formula = build_cl_br_formula(i[j],'Cl')
                     l_cl_formula.append(cl_formula)
                 else:
                     l_cl_formula.append(0)
 
-            if j == index_br:
+            elif j == index_br:
                 if i[j] != 0:
-                    br_formula=''
-
-                    if i[j]%79 == 0:
-                        num_br81 = 0
-                        num_br79 = i[j]/79
-                    else:
-                        num_br81 = (i[j]%79)/2
-                        num_br79 = (i[j]-num_br81*81)/79
-
-                    if num_br79 != 0:
-                        if num_br79 == 1:
-                            br_formula += '79'.translate(subscript) + 'Br'
-                        else:
-                            br_formula += '79'.translate(subscript) + 'Br' + str(int(num_br79))
-                    if num_br81 != 0:
-                        if num_br81 == 1:
-                            br_formula += '81'.translate(subscript) + 'Br'
-                        else:
-                            br_formula += '81'.translate(subscript) + 'Br' + str(int(num_br81))
+                    br_formula=build_cl_br_formula(i[j],'Br')
                     l_br_formula.append(br_formula)
                 else:
                     l_br_formula.append(0)
@@ -150,7 +158,6 @@ def find_optional_fragments(name):
             d_mass_main_formula[l_charge_mass_ratio[i]] = [a_formula]
         else:
             d_mass_main_formula[l_charge_mass_ratio[i]].append(a_formula)
-    #print(d_mass_main_formula.items())
 
 
 
@@ -169,145 +176,115 @@ def find_optional_fragments(name):
         else:
             if l_other_mass[i] != []:
                 for j in l_other_mass[i]:
-                    minority_mass = j[0]
+                    if j[1] == 0:
+                        continue
+                    else:
+                        minority_mass = j[0]
 
-                    changed_atom = list(np.array(possible_main_mass[i])[1:] - l_main_mass[i] + minority_mass)
-                    changed_atom.insert(0,0)
-                    possible_mass_1 = possible_main_mass.copy()
-                    possible_mass_1[i] = changed_atom
+                        changed_atom = list(np.array(possible_main_mass[i])[1:] - l_main_mass[i] + minority_mass)
+                        changed_atom.insert(0,0)
+                        possible_mass_1 = possible_main_mass.copy()
+                        possible_mass_1[i] = changed_atom
 
-                    l_charge_mass_ratio, combination_mass = find_possible_combination(possible_mass_1, l_rest_mass)
-
-
-                    for k in combination_mass:
-                        for h in range(num_atoms):
-                            if h == i:
-                                if k[i] != 0:
-                                    k[i] = int((k[h]-minority_mass)/l_main_mass[h])
-                            elif h == index_cl:
-                                if k[h] != 0:
-                                    cl_formula=''
-                                    if k[h]%35 == 0:
-                                        num_cl37 = 0
-                                        num_cl35 = k[h]/35
-                                    else:
-                                        num_cl37 = (k[h]%35)/2
-                                        num_cl35 = (k[h]-num_cl37*37)/35
-
-                                    if num_cl35 != 0:
-                                        if num_cl35 == 1:
-                                            cl_formula += '35'.translate(subscript) + 'Cl'
-                                        else:
-                                            cl_formula += '35'.translate(subscript) + 'Cl' + str(int(num_cl35))
-                                    if num_cl37 != 0:
-                                        if num_cl37 == 1:
-                                            cl_formula += '37'.translate(subscript) + 'Cl'
-                                        else:
-                                            cl_formula += '37'.translate(subscript) + 'Cl' + str(int(num_cl37))
-                            elif h == index_br:
-                                if k[h] != 0:
-                                    br_formula=''
-
-                                    if k[h]%79 == 0:
-                                        num_br81 = 0
-                                        num_br79 = k[h]/79
-                                    else:
-                                        num_br81 = (k[h]%79)/2
-                                        num_br79 = (k[h]-num_br81*81)/79
-
-                                    if num_br79 != 0:
-                                        if num_br79 == 1:
-                                            br_formula += '79'.translate(subscript) + 'Br'
-                                        else:
-                                            br_formula += '79'.translate(subscript) + 'Br' + str(int(num_br79))
-                                    if num_br81 != 0:
-                                        if num_br81 == 1:
-                                            br_formula += '81'.translate(subscript) + 'Br'
-                                        else:
-                                            br_formula += '81'.translate(subscript) + 'Br' + str(int(num_br81))
-
-                            else:
-                                k[h] = int(k[h]/l_main_mass[h])
+                        l_charge_mass_ratio, combination_mass = find_possible_combination(possible_mass_1, l_rest_mass)
 
 
-                    for k in range(len(combination_mass)):
-                        a_formula = ''
-                        for h in range(num_atoms):
-                            if h == index_cl and cl_formula != '':
-                                a_formula += cl_formula
-                            elif h == index_br and br_formula != '':
-                                a_formula += br_formula
-                            else:
+                        for k in combination_mass:
+                            for h in range(num_atoms):
                                 if h == i:
-                                    a_formula += str(minority_mass).translate(subscript)+ l_atom_name[h]
-                                if combination_mass[k][h] != 0:
-                                    if combination_mass[k][h] != 1:
-                                        a_formula += (str(l_main_mass[h]).translate(subscript)+ l_atom_name[h]) + str(combination_mass[k][h])
-                                    else:
-                                        a_formula += (str(l_main_mass[h]).translate(subscript)+ l_atom_name[h])
-                        if l_charge_mass_ratio[k] not in d_mass_main_formula.keys():
-                            d_mass_main_formula[l_charge_mass_ratio[k]] = [a_formula]
-                        else:
-                            d_mass_main_formula[l_charge_mass_ratio[k]].append(a_formula)
+                                    if k[i] != 0:
+                                        k[i] = int((k[h]-minority_mass)/l_main_mass[h])
+                                elif h == index_cl:
+                                    if k[h] != 0:
+                                        cl_formula=build_cl_br_formula(k[h],'Cl')
+                                elif h == index_br:
+                                    if k[h] != 0:
+                                        br_formula=build_cl_br_formula(k[h],'Br')
+
+                                else:
+                                    k[h] = int(k[h]/l_main_mass[h])
+
+
+                        for k in range(len(combination_mass)):
+                            a_formula = ''
+                            for h in range(num_atoms):
+                                if h == index_cl and cl_formula != '':
+                                    a_formula += cl_formula
+                                elif h == index_br and br_formula != '':
+                                    a_formula += br_formula
+                                else:
+                                    if h == i:
+                                        a_formula += str(minority_mass).translate(subscript)+ l_atom_name[h]
+                                    if combination_mass[k][h] != 0:
+                                        if combination_mass[k][h] != 1:
+                                            a_formula += (str(l_main_mass[h]).translate(subscript)+ l_atom_name[h]) + str(combination_mass[k][h])
+                                        else:
+                                            a_formula += (str(l_main_mass[h]).translate(subscript)+ l_atom_name[h])
+                            if l_charge_mass_ratio[k] not in d_mass_main_formula.keys():
+                                d_mass_main_formula[l_charge_mass_ratio[k]] = [a_formula]
+                            else:
+                                d_mass_main_formula[l_charge_mass_ratio[k]].append(a_formula)
             
     return d_mass_main_formula, possible_main_mass
 #%%
-for i in tqdm(original_data.keys()):
-    try:
-        total_peak_hegiht = np.sum(original_data[i]['peak_height'])
-        branch_ratio = []
-        l_most_mass = []
-        for j in range(len(original_data[i]['charge_mass_ratio'])):
-            a_ratio = original_data[i]['peak_height'][j]/total_peak_hegiht
-            branch_ratio.append(a_ratio)
-            if a_ratio >= 0.01:      # Set the minimum proportion of branching ratio
-                l_most_mass.append(original_data[i]['charge_mass_ratio'][j])
+processed_data = {}
+for a_name in tqdm(original_data.keys()):
+    l_atoms_name,l_atoms_num = find_atom_name_num(original_data[a_name]['formula'])
+    if 'D' in l_atoms_name:
+        continue
 
-        d_mass_formula, possible_main_mass = find_optional_fragments(i)
+    total_peak_hegiht = np.sum(original_data[a_name]['peak_height'])
+    branch_ratio = []
+    l_most_mass = []
+    for j in range(len(original_data[a_name]['charge_mass_ratio'])):
+        a_ratio = original_data[a_name]['peak_height'][j]/total_peak_hegiht
+        branch_ratio.append(a_ratio)
+        if a_ratio >= 0.01:      # Set the minimum proportion of branching ratio
+            l_most_mass.append(original_data[a_name]['charge_mass_ratio'][j])
 
-        l_rest_mass = []
-        new_l_rest_mass = []
-        for k in l_most_mass:
-            if k not in d_mass_formula.keys():
-                l_rest_mass.append(k)
-        if l_rest_mass != []:
-            new_l_rest_mass = [i*2 for i in l_rest_mass]
+    d_mass_formula, possible_main_mass = find_optional_fragments(original_data,a_name)
 
-            l_charge_mass_ratio, combination_mass = find_possible_combination(possible_main_mass, new_l_rest_mass)
-            
-            if list(set(l_charge_mass_ratio)).sort() == new_l_rest_mass.sort():
-                pass
-            else:
-                print(i, original_data[i]['formula'], l_rest_mass)
+    l_rest_mass = []
+    new_l_rest_mass = []
+    for a_mass in l_most_mass:
+        if a_mass not in d_mass_formula.keys():
+            l_rest_mass.append(a_mass)
+    if l_rest_mass != []:
+        new_l_rest_mass = [i*2 for i in l_rest_mass]
+
+        l_charge_mass_ratio, combination_mass = find_possible_combination(possible_main_mass, new_l_rest_mass)
         
+        if list(set(l_charge_mass_ratio)).sort() == new_l_rest_mass.sort():
+            pass
+        else:
+            print(a_name, original_data[a_name]['formula'], l_rest_mass)
+    
 
 
-        l_optional_fragments = []
-        for m in original_data[i]['charge_mass_ratio']:
-            if m in d_mass_formula.keys():
-                l_optional_fragments.append(d_mass_formula[m])
-            elif m not in l_most_mass:
-                l_optional_fragments.append('not important')
-            else:
-                l_optional_fragments.append('not found')
-        
-        processed_data[i] = original_data[i]
-        processed_data[i]['optional_fragments'] = l_optional_fragments
-        processed_data[i]['branch_ratio'] = branch_ratio
+    l_optional_fragments = []
+    for m in original_data[a_name]['charge_mass_ratio']:
+        if m in d_mass_formula.keys():
+            l_optional_fragments.append(d_mass_formula[m])
+        elif m not in l_most_mass:
+            l_optional_fragments.append('the branch ratio is less than 1%')
+        else:
+            l_optional_fragments.append('double ionisation peak')
+    
+    processed_data[a_name] = original_data[a_name]
+    processed_data[a_name]['optional_fragments'] = l_optional_fragments
+    processed_data[a_name]['branch_ratio'] = branch_ratio
 
-    except:
-        print(i)
  # %%
-find_optional_fragments('Benzene-D6')
-find_optional_fragments('Silicon tetrachloride')
-find_optional_fragments('Methane')
-find_optional_fragments('Borane carbonyl')
-find_optional_fragments('Benzene, chloro-') # C6 H5 Cl [56.0]
-find_optional_fragments('Benzene, 1,2-propadienyl-') #C9 H8 [58.0]
-find_optional_fragments('3,5-Diamino-1,2,4-triazole') #C2 H5 N5 [10.0]
-find_optional_fragments('Naphthalene, 1,2,3,6,7,8-hexachloro-') #C10 H2 Cl6 [79.0, 115.0]
-find_optional_fragments('Benzene,(chloroethynyl)-') #C8 H5 Cl [68.0, 69.0]
-find_optional_fragments('Benzene, 1-bromo-2-fluoro-') #C6 H4 Br F [87.0, 88.0]
+find_optional_fragments(original_data,'Benzene-D6')
+find_optional_fragments(original_data,'Silicon tetrachloride')
+find_optional_fragments(original_data,'Methane')
+find_optional_fragments(original_data,'Borane carbonyl')
+find_optional_fragments(original_data,'Benzene, chloro-') # C6 H5 Cl [56.0]
+find_optional_fragments(original_data,'Benzene, 1,2-propadienyl-') #C9 H8 [58.0]
+find_optional_fragments(original_data,'3,5-Diamino-1,2,4-triazole') #C2 H5 N5 [10.0]
+find_optional_fragments(original_data,'Naphthalene, 1,2,3,6,7,8-hexachloro-') #C10 H2 Cl6 [79.0, 115.0]
+find_optional_fragments(original_data,'Benzene,(chloroethynyl)-') #C8 H5 Cl [68.0, 69.0]
+find_optional_fragments(original_data,'Benzene, 1-bromo-2-fluoro-') #C6 H4 Br F [87.0, 88.0]
 # %%
 np.save('processed_data.npy', processed_data)
 # %%
