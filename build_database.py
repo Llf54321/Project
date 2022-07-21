@@ -2,10 +2,6 @@ import sqlite3
 import numpy as np
 
 
-def find_tb():
-    cur.execute("select * from name limit 0,50")
-    return cur.fetchall()
-
 processed_data = np.load('processed_data.npy', allow_pickle=True).item()
 
 l_rows = []
@@ -14,8 +10,7 @@ for name in list(processed_data.keys()):
         a_row = []
         a_row.append(name)
         a_row.append(processed_data[name]['cas'])
-        a_row.append(processed_data[name]['nist_mass_spec_num'])
-        a_row.append(processed_data[name]['formula'])
+        a_row.append(processed_data[name]['formula'].replace(' ',''))
         a_row.append(processed_data[name]['charge_mass_ratio'][i])
         a_row.append(processed_data[name]['peak_height'][i])
         a_row.append(processed_data[name]['branch_ratio'][i])
@@ -34,11 +29,13 @@ conn = sqlite3.connect('data-20.db')
 
 cur = conn.cursor()
 
-table_name = '''CREATE TABLE name (name TEXT,cas TEXT,nist_mass_spec_num TEXT,formula TEXT, charge_mass_ratio NUMBER, peak_height NUMBER,branch_ratio NUMBER, optional_fragment TEXT)'''
+table = '''CREATE TABLE name (name TEXT,cas TEXT,formula TEXT, charge_mass_ratio NUMBER, peak_height NUMBER,branch_ratio NUMBER, optional_fragment TEXT)'''
 
-cur.execute(table_name)
+cur.execute(table)
 
 
-cur.executemany('INSERT INTO name VALUES (?,?,?,?,?,?,?,?)', l_rows)
+cur.executemany('INSERT INTO name VALUES (?,?,?,?,?,?,?)', l_rows)
 conn.commit()
 
+cur.close()
+conn.close()
