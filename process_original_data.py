@@ -24,8 +24,8 @@ FileList=list(p.glob("*Mass.jdx"))
 
 data_dict={}
 for f in tqdm(FileList):
-    original_data=jcamp.JCAMP_reader(f)
-    extracted_data = extract_data(original_data)
+    a_raw_data=jcamp.JCAMP_reader(f)
+    extracted_data = extract_data(a_raw_data)
     data_dict.update(extracted_data)
 
 np.save('original_data.npy', data_dict)
@@ -33,44 +33,48 @@ np.save('original_data.npy', data_dict)
 # Plot the graphs
 original_data = np.load('original_data.npy', allow_pickle=True).item()
 
-part_data = {}
-d_total_num_atom = {}
-d_part_atom_num = {}
-d_total_atom_num = {}
-for j in original_data.keys():
-    formula = original_data[j]['formula']
+def find_plot_data(data, max_num_atoms):
+    part_data = {}
+    d_total_num_atom = {}
+    d_part_atom_num = {}
+    d_total_atom_num = {}
+    for j in data.keys():
+        formula = data[j]['formula']
 
-    num_atoms = len(formula.split())
+        num_atoms = len(formula.split())
 
-    l_atom_name = []
-    l_atom_num = []
-    for i in formula.split():
-        l_atom_name.append(re.findall(r'[0-9]+|[^0-9]+',i)[0])
-        try:
-            l_atom_num.append(int(re.findall(r'[0-9]+|[^0-9]+',i)[1]))
-        except:
-            l_atom_num.append(1)
+        l_atom_name = []
+        l_atom_num = []
+        for i in formula.split():
+            l_atom_name.append(re.findall(r'[0-9]+|[^0-9]+',i)[0])
+            try:
+                l_atom_num.append(int(re.findall(r'[0-9]+|[^0-9]+',i)[1]))
+            except:
+                l_atom_num.append(1)
 
-    for i in range(num_atoms):
-        if l_atom_name[i] in d_total_atom_num.keys():
-            d_total_atom_num[l_atom_name[i]] += l_atom_num[i]
-        else:
-            d_total_atom_num[l_atom_name[i]] = l_atom_num[i]
-    
-    a_num = np.sum(l_atom_num)
-    if a_num <= 20: # Set the limit number of atoms in one molecule
-        part_data[j] = original_data[j]
         for i in range(num_atoms):
-            if l_atom_name[i] in d_part_atom_num.keys():
-                d_part_atom_num[l_atom_name[i]] += l_atom_num[i]
+            if l_atom_name[i] in d_total_atom_num.keys():
+                d_total_atom_num[l_atom_name[i]] += l_atom_num[i]
             else:
-                d_part_atom_num[l_atom_name[i]] = l_atom_num[i]
-    
-    if a_num not in d_total_num_atom.keys():
-        d_total_num_atom[a_num] = 1
-    else:
-        d_total_num_atom[a_num] += 1
+                d_total_atom_num[l_atom_name[i]] = l_atom_num[i]
+        
+        a_num = np.sum(l_atom_num)
+        if a_num <= max_num_atoms: # Set the limit number of atoms in one molecule
+            part_data[j] = data[j]
+            for i in range(num_atoms):
+                if l_atom_name[i] in d_part_atom_num.keys():
+                    d_part_atom_num[l_atom_name[i]] += l_atom_num[i]
+                else:
+                    d_part_atom_num[l_atom_name[i]] = l_atom_num[i]
+        
+        if a_num not in d_total_num_atom.keys():
+            d_total_num_atom[a_num] = 1
+        else:
+            d_total_num_atom[a_num] += 1
 
+    return part_data, d_total_num_atom, d_part_atom_num, d_total_atom_num
+
+part_data, d_total_num_atom, d_part_atom_num, d_total_atom_num = find_plot_data(original_data, 20)
 np.save('new_data.npy', part_data)
 
 # The number of atoms in the whole collection data against their formula
@@ -84,6 +88,9 @@ plt.yticks(size=14)
 plt.xticks(size=10)
 
 plt.ylim(bottom=0.)
+plt.xlabel('the formula of atom')
+plt.ylabel('the numbe of atom')
+plt.title('The number of atom in whole collection')
 plt.savefig("num_of_atoms_in_whole_collection.png")
 plt.show()
 
@@ -96,6 +103,9 @@ plt.yticks(size=14)
 plt.xticks(size=10)
 
 plt.ylim(bottom=0.)
+plt.xlabel('the number of atom')
+plt.ylabel('the numbe of molecule')
+plt.title('The number of molecule with the particular number of atom')
 plt.savefig("num_of_atoms_in_molecule.png")
 plt.show()
 
@@ -108,5 +118,8 @@ plt.yticks(size=14)
 plt.xticks(size=10)
 
 plt.ylim(bottom=0.)
+plt.xlabel('the formula of atom')
+plt.ylabel('the numbe of atom')
+plt.title('The number of atom in part collection')
 plt.savefig("num_of_atoms_in_part_collection.png")
 plt.show()

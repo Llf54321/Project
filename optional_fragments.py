@@ -3,9 +3,6 @@ import numpy as np
 import re
 from tqdm import tqdm
 
-original_data = np.load('new_data.npy', allow_pickle=True).item()
-mass_abundance = np.load('mass_abundance.npy',allow_pickle=True).item()
-
 def find_possible_combination(possible_mass, mass_list):
     l_charge_mass_ratio = []
     combination_mass = []
@@ -101,63 +98,63 @@ def find_optional_fragments(data,name):
     index_br = -1
 
     possible_main_mass = []
-    for i in range(num_atoms):
+    for index_atoms in range(num_atoms):
         a_possible_mass = []
-        for n in range(l_atom_num[i]+1):
-            a_possible_mass.append(n*l_main_mass[i])
-            if l_atom_name[i] == 'Cl':
-                index_cl = i
+        for n in range(l_atom_num[index_atoms]+1):
+            a_possible_mass.append(n*l_main_mass[index_atoms])
+            if l_atom_name[index_atoms] == 'Cl':
+                index_cl = index_atoms
                 for k in range(n+1):
                     if k != 0:
-                        a_possible_mass.append(n*l_main_mass[i]+2*k)
-            elif l_atom_name[i] == 'Br':
-                index_br = i
+                        a_possible_mass.append(n*l_main_mass[index_atoms]+2*k)
+            elif l_atom_name[index_atoms] == 'Br':
+                index_br = index_atoms
                 for k in range(n+1):
                     if k != 0:
-                        a_possible_mass.append(n*l_main_mass[i]+2*k)
+                        a_possible_mass.append(n*l_main_mass[index_atoms]+2*k)
         possible_main_mass.append(a_possible_mass)
 
     l_charge_mass_ratio, combination_mass = find_possible_combination(possible_main_mass, data[name]['charge_mass_ratio'])
 
     l_cl_formula = []
     l_br_formula = []
-    for i in combination_mass:
-        for j in range(num_atoms):
-            if j == index_cl:
-                if i[j] != 0:
-                    cl_formula = build_cl_br_formula(i[j],'Cl')
+    for a_combination in combination_mass:
+        for index_atoms in range(num_atoms):
+            if index_atoms == index_cl:
+                if a_combination[index_atoms] != 0:
+                    cl_formula = build_cl_br_formula(a_combination[index_atoms],'Cl')
                     l_cl_formula.append(cl_formula)
                 else:
                     l_cl_formula.append(0)
 
-            elif j == index_br:
-                if i[j] != 0:
-                    br_formula=build_cl_br_formula(i[j],'Br')
+            elif index_atoms == index_br:
+                if a_combination[index_atoms] != 0:
+                    br_formula=build_cl_br_formula(a_combination[index_atoms],'Br')
                     l_br_formula.append(br_formula)
                 else:
                     l_br_formula.append(0)
 
             else:
-                i[j] = int(i[j]/l_main_mass[j])
+                a_combination[index_atoms] = int(a_combination[index_atoms]/l_main_mass[index_atoms])
 
     d_mass_main_formula = {}
-    for i in range(len(combination_mass)):
+    for index_combination in range(len(combination_mass)):
         a_formula = ''
-        for j in range(num_atoms):
-            if j == index_cl and l_cl_formula[i] != 0:
-                a_formula += l_cl_formula[i]
-            elif j == index_br and l_br_formula[i] != 0:
-                a_formula += l_br_formula[i]
+        for index_atoms in range(num_atoms):
+            if index_atoms == index_cl and l_cl_formula[index_combination] != 0:
+                a_formula += l_cl_formula[index_combination]
+            elif index_atoms == index_br and l_br_formula[index_combination] != 0:
+                a_formula += l_br_formula[index_combination]
             else:
-                if combination_mass[i][j] != 0:
-                    if combination_mass[i][j] == 1: 
-                        a_formula += (str(l_main_mass[j]).translate(subscript) + l_atom_name[j])
+                if combination_mass[index_combination][index_atoms] != 0:
+                    if combination_mass[index_combination][index_atoms] == 1: 
+                        a_formula += (str(l_main_mass[index_atoms]).translate(subscript) + l_atom_name[index_atoms])
                     else:
-                        a_formula += (str(l_main_mass[j]).translate(subscript) + l_atom_name[j]) + str(combination_mass[i][j])
-        if l_charge_mass_ratio[i] not in d_mass_main_formula.keys():
-            d_mass_main_formula[l_charge_mass_ratio[i]] = [a_formula]
+                        a_formula += (str(l_main_mass[index_atoms]).translate(subscript) + l_atom_name[index_atoms]) + str(combination_mass[index_combination][index_atoms])
+        if l_charge_mass_ratio[index_combination] not in d_mass_main_formula.keys():
+            d_mass_main_formula[l_charge_mass_ratio[index_combination]] = [a_formula]
         else:
-            d_mass_main_formula[l_charge_mass_ratio[i]].append(a_formula)
+            d_mass_main_formula[l_charge_mass_ratio[index_combination]].append(a_formula)
 
 
 
@@ -165,35 +162,35 @@ def find_optional_fragments(data,name):
     # One atom with minorabundance mass in the formula
 
     l_rest_mass = []
-    for i in original_data[name]['charge_mass_ratio']:
-        if i not in d_mass_main_formula.keys():
-            l_rest_mass.append(i)
+    for a_charge_mass_ratio in data[name]['charge_mass_ratio']:
+        if a_charge_mass_ratio not in d_mass_main_formula.keys():
+            l_rest_mass.append(a_charge_mass_ratio)
 
     index_special_atoms = [index_br,index_cl]
-    for i in range(num_atoms):
-        if i in index_special_atoms:
+    for index_atoms in range(num_atoms):
+        if index_atoms in index_special_atoms:
             continue
         else:
-            if l_other_mass[i] != []:
-                for j in l_other_mass[i]:
-                    if j[1] == 0:
+            if l_other_mass[index_atoms] != []:
+                for a_other in l_other_mass[index_atoms]:
+                    if a_other[1] == 0:
                         continue
                     else:
-                        minority_mass = j[0]
+                        minority_mass = a_other[0]
 
-                        changed_atom = list(np.array(possible_main_mass[i])[1:] - l_main_mass[i] + minority_mass)
+                        changed_atom = list(np.array(possible_main_mass[index_atoms])[1:] - l_main_mass[index_atoms] + minority_mass)
                         changed_atom.insert(0,0)
                         possible_mass_1 = possible_main_mass.copy()
-                        possible_mass_1[i] = changed_atom
+                        possible_mass_1[index_atoms] = changed_atom
 
                         l_charge_mass_ratio, combination_mass = find_possible_combination(possible_mass_1, l_rest_mass)
 
 
                         for k in combination_mass:
                             for h in range(num_atoms):
-                                if h == i:
-                                    if k[i] != 0:
-                                        k[i] = int((k[h]-minority_mass)/l_main_mass[h])
+                                if h == index_atoms:
+                                    if k[index_atoms] != 0:
+                                        k[index_atoms] = int((k[h]-minority_mass)/l_main_mass[h])
                                 elif h == index_cl:
                                     if k[h] != 0:
                                         cl_formula=build_cl_br_formula(k[h],'Cl')
@@ -213,7 +210,7 @@ def find_optional_fragments(data,name):
                                 elif h == index_br and br_formula != '':
                                     a_formula += br_formula
                                 else:
-                                    if h == i:
+                                    if h == index_atoms:
                                         a_formula += str(minority_mass).translate(subscript)+ l_atom_name[h]
                                     if combination_mass[k][h] != 0:
                                         if combination_mass[k][h] != 1:
@@ -226,67 +223,60 @@ def find_optional_fragments(data,name):
                                 d_mass_main_formula[l_charge_mass_ratio[k]].append(a_formula)
             
     return d_mass_main_formula, possible_main_mass
-#%%
-processed_data = {}
-for a_name in tqdm(original_data.keys()):
-    l_atoms_name,l_atoms_num = find_atom_name_num(original_data[a_name]['formula'])
-    if 'D' in l_atoms_name:
-        continue
 
-    total_peak_hegiht = np.sum(original_data[a_name]['peak_height'])
-    branch_ratio = []
-    l_most_mass = []
-    for j in range(len(original_data[a_name]['charge_mass_ratio'])):
-        a_ratio = original_data[a_name]['peak_height'][j]/total_peak_hegiht
-        branch_ratio.append(a_ratio)
-        if a_ratio >= 0.01:      # Set the minimum proportion of branching ratio
-            l_most_mass.append(original_data[a_name]['charge_mass_ratio'][j])
+def process_data(data, min_branching_ratio):
+    processed_data = {}
+    for a_name in tqdm(data.keys()):
+        l_atoms_name,l_atoms_num = find_atom_name_num(data[a_name]['formula'])
+        if 'D' in l_atoms_name:
+            continue
 
-    d_mass_formula, possible_main_mass = find_optional_fragments(original_data,a_name)
+        total_peak_hegiht = np.sum(data[a_name]['peak_height'])
+        branch_ratio = []
+        l_most_mass = []
+        for j in range(len(data[a_name]['charge_mass_ratio'])):
+            a_ratio = data[a_name]['peak_height'][j]/total_peak_hegiht
+            branch_ratio.append(a_ratio)
+            if a_ratio >= min_branching_ratio:      # Set the minimum proportion of branching ratio
+                l_most_mass.append(data[a_name]['charge_mass_ratio'][j])
 
-    l_rest_mass = []
-    new_l_rest_mass = []
-    for a_mass in l_most_mass:
-        if a_mass not in d_mass_formula.keys():
-            l_rest_mass.append(a_mass)
-    if l_rest_mass != []:
-        new_l_rest_mass = [i*2 for i in l_rest_mass]
+        d_mass_formula, possible_main_mass = find_optional_fragments(data,a_name)
 
-        l_charge_mass_ratio, combination_mass = find_possible_combination(possible_main_mass, new_l_rest_mass)
+        l_rest_mass = []
+        new_l_rest_mass = []
+        for a_mass in l_most_mass:
+            if a_mass not in d_mass_formula.keys():
+                l_rest_mass.append(a_mass)
+        if l_rest_mass != []:
+            new_l_rest_mass = [i*2 for i in l_rest_mass]
+
+            l_charge_mass_ratio, combination_mass = find_possible_combination(possible_main_mass, new_l_rest_mass)
+            
+            if list(set(l_charge_mass_ratio)).sort() == new_l_rest_mass.sort():
+                pass
+            else:
+                print(a_name, data[a_name]['formula'], l_rest_mass)
         
-        if list(set(l_charge_mass_ratio)).sort() == new_l_rest_mass.sort():
-            pass
-        else:
-            print(a_name, original_data[a_name]['formula'], l_rest_mass)
-    
 
 
-    l_optional_fragments = []
-    for m in original_data[a_name]['charge_mass_ratio']:
-        if m in d_mass_formula.keys():
-            l_optional_fragments.append(d_mass_formula[m])
-        elif m not in l_most_mass:
-            l_optional_fragments.append('the branch ratio is less than 1%')
-        else:
-            l_optional_fragments.append('double ionisation peak')
-    
-    processed_data[a_name] = original_data[a_name]
-    processed_data[a_name]['optional_fragments'] = l_optional_fragments
-    processed_data[a_name]['branch_ratio'] = branch_ratio
+        l_optional_fragments = []
+        for m in data[a_name]['charge_mass_ratio']:
+            if m in d_mass_formula.keys():
+                l_optional_fragments.append(d_mass_formula[m])
+            elif m not in l_most_mass:
+                l_optional_fragments.append('the branch ratio is less than 1%')
+            else:
+                l_optional_fragments.append('possible double ionisation peak')
+        
+        processed_data[a_name] = data[a_name]
+        processed_data[a_name]['optional_fragments'] = l_optional_fragments
+        processed_data[a_name]['branch_ratio'] = branch_ratio
 
- # %%
-find_optional_fragments(original_data,'Benzene-D6')
-find_optional_fragments(original_data,'Silicon tetrachloride')
-find_optional_fragments(original_data,'Methane')
-find_optional_fragments(original_data,'Borane carbonyl')
-find_optional_fragments(original_data,'Benzene, chloro-') # C6 H5 Cl [56.0]
-find_optional_fragments(original_data,'Benzene, 1,2-propadienyl-') #C9 H8 [58.0]
-find_optional_fragments(original_data,'3,5-Diamino-1,2,4-triazole') #C2 H5 N5 [10.0]
-find_optional_fragments(original_data,'Naphthalene, 1,2,3,6,7,8-hexachloro-') #C10 H2 Cl6 [79.0, 115.0]
-find_optional_fragments(original_data,'Benzene,(chloroethynyl)-') #C8 H5 Cl [68.0, 69.0]
-find_optional_fragments(original_data,'Benzene, 1-bromo-2-fluoro-') #C6 H4 Br F [87.0, 88.0]
+    return processed_data
+
 # %%
+original_data = np.load('new_data.npy', allow_pickle=True).item()
+mass_abundance = np.load('mass_abundance.npy',allow_pickle=True).item()
+
+processed_data = process_data(original_data,0.01)
 np.save('processed_data.npy', processed_data)
-# %%
-processed_data = np.load('processed_data.npy', allow_pickle=True).item()
-# %%
