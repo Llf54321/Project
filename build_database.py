@@ -29,12 +29,12 @@ conn = sqlite3.connect('data-20.db')
 
 cur = conn.cursor()
 
-table = '''CREATE TABLE name (name TEXT,cas TEXT,formula TEXT, charge_mass_ratio NUMBER, peak_height NUMBER,branch_ratio NUMBER, optional_fragment TEXT)'''
+table = '''CREATE TABLE main_data (name TEXT,cas TEXT,formula TEXT, charge_mass_ratio NUMBER, peak_height NUMBER,branch_ratio NUMBER, optional_fragment TEXT)'''
 
 cur.execute(table)
 
 
-cur.executemany('INSERT INTO name VALUES (?,?,?,?,?,?,?)', l_rows)
+cur.executemany('INSERT INTO main_data VALUES (?,?,?,?,?,?,?)', l_rows)
 conn.commit()
 
 cur.close()

@@ -20,7 +20,26 @@ l_formula = list(set(formula))
 l_formula.sort(key=formula.index)
 
 # Crawl the data from the website
-def crawl_data(options, l_formula):
+def crawl_data(l_formula):
+    """
+    Scrawl original .jdx files from website.
+
+    parameters
+    -------
+    l_formula: list
+    the list of formula need to be scraped
+    
+    Returns
+    -------
+    not_been_found_f: list
+    the list of formula were not scraped due to some bug
+    """
+    
+    options = webdriver.ChromeOptions()
+    prefs = {'profile.default_content_settings.popups': 0, 'download.default_directory': r'C:\Users\46003\Desktop\project\data'}
+    options.add_experimental_option("prefs", prefs)
+    options.add_argument('blink-settings=imagesEnabled=false')
+
     driver = webdriver.Chrome('F:\chromedriver_win32\chromedriver.exe',options=options)
 
     driver.get("https://webbook.nist.gov/chemistry/form-ser/")
@@ -40,13 +59,8 @@ def crawl_data(options, l_formula):
 
     return not_been_found_f
 
-options = webdriver.ChromeOptions()
-prefs = {'profile.default_content_settings.popups': 0, 'download.default_directory': r'C:\Users\46003\Desktop\project\data'}
-options.add_experimental_option("prefs", prefs)
-options.add_argument('blink-settings=imagesEnabled=false')
 
-
-not_been_found_formula = crawl_data(options, l_formula)
+not_been_found_formula = crawl_data(l_formula)
 
 while not_been_found_formula != []:
-    not_been_found_formula = crawl_data(options, not_been_found_formula)
+    not_been_found_formula = crawl_data(not_been_found_formula)

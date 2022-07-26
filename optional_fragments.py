@@ -4,6 +4,24 @@ import re
 from tqdm import tqdm
 
 def find_possible_combination(possible_mass, mass_list):
+    """
+    Find combinations of multiple series that sum to a specific value
+
+    parameters
+    -------
+    possible_mass: list
+    the possible mass of an atom
+    mass_list: list
+    the list of target mass
+    Returns
+    -------
+    l_charge_mass_ratio: list
+    The list of target mass that has been found
+    combination_mass: list
+    The list of possible combination mass
+    """
+    
+    
     l_charge_mass_ratio = []
     combination_mass = []
     shape = [len(layer) for layer in possible_mass]
@@ -27,6 +45,22 @@ def find_possible_combination(possible_mass, mass_list):
     return l_charge_mass_ratio, combination_mass
 
 def build_cl_br_formula(mass, atom_name):
+    """
+    find the Cl or Br formula based on the mass of Cl or Br
+
+    parameters
+    -------
+    mass: int
+    the mass of Cl or Br in the optional fragment
+    atom_name: str
+    'Cl' or 'Br'
+    Returns
+    -------
+    formula: str
+    the formula of Cl or Br in the optional fragment
+    """
+    
+    
     subscript = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
     formula=''
 
@@ -69,7 +103,24 @@ def build_cl_br_formula(mass, atom_name):
                 formula += '81'.translate(subscript) + 'Br' + str(int(num_br81))
 
     return formula
+
 def find_atom_name_num(formula):
+    """
+    find the atom name and number in the molecule
+
+    parameters
+    -------
+    formula: str
+    the molecule formula
+    Returns
+    -------
+    l_atom_name: list
+    the list of atom names
+    l_atom_num: list
+    the list of atom numbers
+    """
+    
+    
     l_atom_name = []
     l_atom_num = []
     for i in formula.split():
@@ -81,6 +132,24 @@ def find_atom_name_num(formula):
     return l_atom_name,l_atom_num
         
 def find_optional_fragments(data,name):
+    """
+    find the optional fragments of a molecule
+
+    parameters
+    -------
+    data: dict
+    conclude all imformation of original data
+    name: str
+    the molecule name
+    Returns
+    -------
+    d_mass_main_formula: dict
+    charge/mass ratio - optional fragments
+    possible_main_mass: list
+    charge/mass ratio which can be found by atoms with the most abundance
+    """
+    
+    
     subscript = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
 
     formula = data[name]['formula']
@@ -225,6 +294,22 @@ def find_optional_fragments(data,name):
     return d_mass_main_formula, possible_main_mass
 
 def process_data(data, min_branching_ratio):
+    """
+    Find the optional fragments and branching ratio for all molecules
+
+    parameters
+    -------
+    data: dict
+    conclude all imformation of original data
+    min_branching_ratio: float
+    the minimum proportion of branching ratio
+    Returns
+    -------
+    processed_data: dict
+    the original data with optional fragments and branching ratio
+    """
+    
+    
     processed_data = {}
     for a_name in tqdm(data.keys()):
         l_atoms_name,l_atoms_num = find_atom_name_num(data[a_name]['formula'])

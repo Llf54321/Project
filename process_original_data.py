@@ -6,6 +6,19 @@ import numpy as np
 import re
 
 def extract_data(data):
+    """
+    find imformation that we need from the data in .jdx file
+
+    parameters
+    -------
+    data: dict
+    the imformation in .jdx file
+    Returns
+    -------
+    a dict contain the imformation which we need
+    """
+    
+    
     name = data['title']
     charge_mass_ratio = data['x']
     peak_height = data['y']
@@ -16,6 +29,7 @@ def extract_data(data):
     else:
         cas = str(np.nan)
     nist_mass_spec_num = data['$nist mass spec no']
+
     return {name:{'charge_mass_ratio':charge_mass_ratio,'peak_height':peak_height,'formula':formula,'num_fragmenhts':num_fragmenhts,'cas':cas,'nist_mass_spec_num':nist_mass_spec_num}}
 
 p = Path("/Users/46003/Desktop/project/data") 
@@ -34,6 +48,28 @@ np.save('original_data.npy', data_dict)
 original_data = np.load('original_data.npy', allow_pickle=True).item()
 
 def find_plot_data(data, max_num_atoms):
+    """
+    find the data for plotting. find the data which implied a limitation on the number of atoms in the molecule.
+
+    parameters
+    -------
+    data: dict
+    original data contain all information we need
+    max_num_atoms: int
+    the limit number of atoms in one molecule
+    Returns
+    -------
+    part_data: dict
+    the data of molecule with less than max_num_atoms atoms
+    d_total_num_atom: dict
+    The number of atoms in the molecule - the number of molecule
+    d_part_atom_num: dict
+    the formula of atom - the number of atoms in the part of collection
+    d_total_atom_num: dict
+    the formula of atom - the number of atoms in the whole collection
+    """
+    
+    
     part_data = {}
     d_total_num_atom = {}
     d_part_atom_num = {}
