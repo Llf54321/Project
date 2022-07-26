@@ -12,7 +12,7 @@ dict_main_name_total_beb = {}
 
 conn = sqlite3.connect('data-20.db')
 cur = conn.cursor()
-cur.execute("select * from energy_vs_total_beb where energy='80'")
+cur.execute("select * from energy_vs_total_beb where energy='70'")
 for row in tqdm(cur):
     a_original_name = row[0]
     driver.get("https://webbook.nist.gov/chemistry/name-ser/")
@@ -39,7 +39,7 @@ df = pd.DataFrame()
 conn = sqlite3.connect('data-20.db')
 cur = conn.cursor()
 for a_main_name in dict_main_name_total_beb.keys():
-    cur.execute("select name,formula, branch_ratio from name where name='{0}'".format(a_main_name))
+    cur.execute("select name,formula, branch_ratio from main_data where name='{0}'".format(a_main_name))
     rows = cur.fetchall()
     if rows != []:
         a_df = pd.DataFrame(rows, columns=['name','formula','branch_ratio'])
