@@ -95,7 +95,7 @@ add_mass_abundance(4,mass_abundance)
 
 tables = camelot.read_pdf('stable-isotopes.pdf',flavor='stream',pages='5')
 
-for i in range(6,len(tables[0].df[2])):
+for i in range(3,len(tables[0].df[2])):
     x = re.findall(r'[0-9]+|[^0-9]+',tables[0].df[2].values[i])
 
     if x != []:

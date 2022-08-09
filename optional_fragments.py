@@ -59,10 +59,12 @@ def build_cl_br_formula(mass, atom_name):
     formula: str
     the formula of Cl or Br in the optional fragment
     """
-    
-    
+        
     subscript = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
     formula=''
+
+    if atom_name not in ['Cl','Br']:
+        raise ValueError('atom should be Cl or Br.')
 
     if atom_name == 'Cl':
         if mass%35 == 0:
@@ -360,8 +362,9 @@ def process_data(data, min_branching_ratio):
     return processed_data
 
 # %%
-original_data = np.load('new_data.npy', allow_pickle=True).item()
-mass_abundance = np.load('mass_abundance.npy',allow_pickle=True).item()
+if __name__ == '__main__':
+    original_data = np.load('new_data.npy', allow_pickle=True).item()
+    mass_abundance = np.load('mass_abundance.npy',allow_pickle=True).item()
 
-processed_data = process_data(original_data,0.01)
-np.save('processed_data.npy', processed_data)
+    processed_data = process_data(original_data,0.01)
+    np.save('processed_data.npy', processed_data)

@@ -39,10 +39,10 @@ df = pd.DataFrame()
 conn = sqlite3.connect('data-20.db')
 cur = conn.cursor()
 for a_main_name in dict_main_name_total_beb.keys():
-    cur.execute("select name,formula, branch_ratio from main_data where name='{0}'".format(a_main_name))
+    cur.execute("select name,formula,charge_mass_ratio,branch_ratio,optional_fragment from main_data where name='{0}'".format(a_main_name))
     rows = cur.fetchall()
     if rows != []:
-        a_df = pd.DataFrame(rows, columns=['name','formula','branch_ratio'])
+        a_df = pd.DataFrame(rows, columns=['name','formula','charge_mass_ratio','branch_ratio','optional_fragment'])
         a_branch_ratio = np.array(a_df['branch_ratio'])
         a_partial_beb = a_branch_ratio*dict_main_name_total_beb[a_main_name]
         a_df['partial_beb'] = a_partial_beb
@@ -54,18 +54,20 @@ table_name = "partial_beb"
 conn = sqlite3.connect('data-20.db')
 cur = conn.cursor()
 
-fields_name = "name, formula, branch_ratio, partial_beb"
+fields_name = "name, formula, charge_mass_ratio, branch_ratio, partial_beb, optional_fragment"
 
-table = '''CREATE TABLE partial_beb (name TEXT,formula TEXT,branch_ratio NUMBER,partial_beb NUMBER)'''
+table = '''CREATE TABLE partial_beb (name TEXT,formula TEXT,charge_mass_ratio TEXT,branch_ratio NUMBER,partial_beb NUMBER, optional_fragment TEXT)'''
 
 cur.execute(table)
 
 for index, row in df.iterrows():
     a = row["name"]
     b = row['formula']
-    c = row["branch_ratio"]
-    d = row['partial_beb']
-    fields_value = "'{0}', '{1}', {2}, {3}".format(a, b, c,d)
+    c = row['charge_mass_ratio']
+    d = row["branch_ratio"]
+    e = row['partial_beb']
+    f = row['optional_fragment']
+    fields_value = "'{0}', '{1}', '{2}', {3}, {4}, '{5}'".format(a, b, c, d, e, f)
     sql = "Insert Into {0} ({1}) Values({2})".format(table_name, fields_name, fields_value)
 
     cur.execute(sql)
