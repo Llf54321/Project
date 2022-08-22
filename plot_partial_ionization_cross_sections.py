@@ -56,22 +56,3 @@ def plot_energy_vs_total_and_partial_beb(name, save=False):
 
 plot_energy_vs_total_and_partial_beb('Methane',True)
 plot_energy_vs_total_and_partial_beb('Tetrafluoromethane')
-
-# %%
-import sqlite3
-conn = sqlite3.connect('data-20.db')
-cur = conn.cursor()
-cur.execute("select distinct name from partial_beb")
-print('the number of molecule with partial beb at 70eV is' ,len(list(cur)))
-cur.execute("select distinct name from energy_vs_total_beb")
-print('the number of molecule with total beb at many energy level is' ,len(list(cur)))
-cur.execute("select distinct name from appearance_energy_of_all_molecules")
-print('the number of molecule with AE is' ,len(list(cur)))
-cur.execute("select distinct name from main_data")
-print('the number of molecule with original data is' ,len(list(cur)))
-conn.close()
-# %%
-import numpy as np
-original_data = np.load('new_data.npy', allow_pickle=True).item()
-print(len(original_data),"which is less than the data in the table, because there are some molecules with 'D' in the formula.")
-# %%

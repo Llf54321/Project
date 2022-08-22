@@ -45,7 +45,6 @@ for n in tqdm(name_ae.keys()):
             f[-1] = f[-1][:-1]
         else:
             del l_mean_ae[ind]
-            ind += 1
             continue
         main_possible = 0
         for a_formula in f:
@@ -78,21 +77,19 @@ for n in tqdm(name_ae.keys()):
                 continue
             else:
                 a_branch_ratio += a_df[a_df['charge_mass_ratio']==a_possible_mass]['branch_ratio'].values[0]*d_possible_mass[a_possible_mass]/num_optional_fragment
+        if a_branch_ratio == 0:
+            del l_mean_ae[ind]
+            continue
         l_branch_ratio.append(a_branch_ratio)
-
-    if 100 in l_branch_ratio:
-        ind = l_branch_ratio.index(100)
-        del l_branch_ratio[ind]
-        del l_ae[ind]
-
+        ind +=1
 
     total_branching_ratio.extend(l_branch_ratio)
     total_mean_ae.extend(l_mean_ae)
 
 
 #%%
-total_branching_ratio=np.array(total_branching_ratio)
-total_mean_ae=np.array(total_mean_ae)
+branching_ratio=np.array(total_branching_ratio)
+mean_ae=np.array(total_mean_ae)
 # %%
 import matplotlib.pylab as plt
 from numpy import polyfit, poly1d
@@ -130,22 +127,36 @@ def f2(x,a,b):
 def f3(x, a,u, sig):
     result = a*np.exp(-(x - u) ** 2 / (2 * sig ** 2)) / (sig * math.sqrt(2 * math.pi))
     return result
-mean = sum(total_branching_ratio * total_mean_ae) / sum(total_mean_ae)
-sigma = np.sqrt(sum(total_mean_ae * (total_branching_ratio - mean)**2) / sum(total_mean_ae))
-p_est, err_est = curve_fit(f2, total_branching_ratio, total_mean_ae,maxfev=360000)
-print('params:',p_est)
-#print(np.sqrt(err_est.diagonal()) / p_est)
-coeff = polyfit(total_branching_ratio, total_mean_ae, 2)
-#print(coeff)
-plt.figure(figsize=(20,8))
-plt.plot(np.sort(total_branching_ratio), f2(np.sort(total_branching_ratio), *p_est), "k--")
-plt.scatter(total_branching_ratio,total_mean_ae)
-plt.xlabel('branching ratio')
-plt.ylabel('appearance energy')
-plt.show()
+def f4(x,a,b):
+    result = a*x**(-3)+b
+    return result
+def regression(x,y,function):
+    mean = sum(x * y) / sum(y)
+    sigma = np.sqrt(sum(y * (x - mean)**2) / sum(y))
+    p_est, err_est = curve_fit(function, x, y,maxfev=360000)
 
-print('Root Mean Square Error =',compute_rms(total_mean_ae,f2(total_branching_ratio, *p_est)))
-print('R_squared =',r_squared(total_mean_ae,f2(total_branching_ratio, *p_est)))
-r,p = ss.pearsonr(total_branching_ratio,total_mean_ae)
+    plt.figure(figsize=(20,8))
+    plt.plot(np.sort(x), function(np.sort(x), *p_est), "k--")
+    plt.scatter(x,y)
+    plt.xlabel('appearance energy')
+    plt.ylabel('branching ratio')
+    if function == f1:
+        plt.savefig('quadratic regression')
+    elif function == f2:
+        plt.savefig('linear regression')
+    elif function == f3:
+        plt.savefig('Gaussian regression')
+    plt.show()
+    
+    print('params:',p_est)
+    print('Root Mean Square Error =',compute_rms(y,function(x, *p_est)))
+    print('R_squared =',r_squared(y,function(x, *p_est)))
+
+regression(mean_ae,branching_ratio,f1)
+regression(mean_ae,branching_ratio,f2)
+regression(mean_ae,branching_ratio,f3)
+regression(mean_ae,branching_ratio,f4)
+r,p = ss.pearsonr(mean_ae,branching_ratio)
 print('Correlation coefficient =',r,'p-value =',p)
-print('Hence it is negative linear correlation.')
+
+# %%
