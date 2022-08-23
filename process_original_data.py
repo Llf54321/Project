@@ -116,17 +116,39 @@ np.save('new_data.npy', part_data)
 # The number of atoms in the whole collection data against their formula
 import matplotlib.pyplot as plt
 
-fig_1 = plt.figure(figsize=(16,9))
-x = d_total_atom_num.keys()
-y = d_total_atom_num.values()
-plt.plot(x,y)
-plt.yticks(size=14)
-plt.xticks(size=10)
+plt.figure(figsize=(16,9))
+x_1 = ['C','H','N','O']
+y_1 = []
+for element in x_1:
+    y_1.append(d_total_atom_num[element])
 
-plt.ylim(bottom=0.)
-plt.xlabel('the formula of atom')
-plt.ylabel('the numbe of atom')
-plt.title('The number of atom in whole collection')
+x_2 = ['Cl','Br','S','F','Si']
+y_2 = []
+for element in x_2:
+    y_2.append(d_total_atom_num[element])
+
+x_3 = list(d_total_atom_num.keys())
+for element in x_1:
+    x_3.remove(element)
+for element in x_2:
+    x_3.remove(element)
+y_3 = []
+for element in x_3:
+    y_3.append(d_total_atom_num[element])
+
+ax1 = plt.subplot2grid((2,2), (0, 0), colspan=1)
+ax1.bar(x_1,y_1)
+ax1.set_xlabel('the formula of atom')
+ax1.set_ylabel('the numbe of atom')
+ax2 = plt.subplot2grid((2,2), (0, 1), colspan=1)
+ax2.bar(x_2,y_2)
+ax2.set_xlabel('the formula of atom')
+ax2.set_ylabel('the numbe of atom')
+ax3 = plt.subplot2grid((2,2), (1, 0), colspan=2)
+ax3.bar(x_3,y_3)
+ax3.set_xlabel('the formula of atom')
+ax3.set_ylabel('the numbe of atom')
+
 plt.savefig("num_of_atoms_in_whole_collection.png")
 plt.show()
 
@@ -146,16 +168,38 @@ plt.savefig("num_of_atoms_in_molecule.png")
 plt.show()
 
 # The number of atoms in the part of collection data against their formula
-fig_3 = plt.figure(figsize=(16,9))
-x = d_part_atom_num.keys()
-y = d_part_atom_num.values()
-plt.plot(x,y)
-plt.yticks(size=14)
-plt.xticks(size=10)
+plt.figure(figsize=(16,9))
+x_1 = ['C','H','N','O']
+y_1 = []
+for element in x_1:
+    y_1.append(d_part_atom_num[element])
 
-plt.ylim(bottom=0.)
-plt.xlabel('the formula of atom')
-plt.ylabel('the numbe of atom')
-plt.title('The number of atom in part collection')
+x_2 = ['Cl','Br','S','F']
+y_2 = []
+for element in x_2:
+    y_2.append(d_part_atom_num[element])
+
+x_3 = list(d_part_atom_num.keys())
+for element in x_1:
+    x_3.remove(element)
+for element in x_2:
+    x_3.remove(element)
+y_3 = []
+for element in x_3:
+    y_3.append(d_part_atom_num[element])
+
+ax1 = plt.subplot2grid((2,2), (0, 0), colspan=1)
+ax1.bar(x_1,y_1)
+ax1.set_xlabel('the formula of atom')
+ax1.set_ylabel('the numbe of atom')
+ax2 = plt.subplot2grid((2,2), (0, 1), colspan=1)
+ax2.bar(x_2,y_2)
+ax2.set_xlabel('the formula of atom')
+ax2.set_ylabel('the numbe of atom')
+ax3 = plt.subplot2grid((2,2), (1, 0), colspan=2)
+ax3.bar(x_3,y_3)
+ax3.set_xlabel('the formula of atom')
+ax3.set_ylabel('the numbe of atom')
+
 plt.savefig("num_of_atoms_in_part_collection.png")
 plt.show()

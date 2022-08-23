@@ -1,12 +1,11 @@
-# %%
-def plot_other_energy_partial_beb(energy, total_beb_70,df,num,partial_beb_70):
+def other_energy_partial_beb(energy, total_beb_70,df,num,partial_beb_70,x,y):
     import matplotlib.pylab as plt
     import numpy as np
     total_beb = df[df['energy']==int('{0}'.format(energy))]['total_beb'].values
-    x = [int('{0}'.format(energy))]*num
-    y = np.array(partial_beb_70)*total_beb/total_beb_70
+    x.append([int('{0}'.format(energy))]*num)
+    y.append(np.array(partial_beb_70)*total_beb/total_beb_70)
 
-    plt.scatter(x,y,marker='X', color='coral')
+    return x,y
 
 def plot_energy_vs_total_and_partial_beb(name, save=False):
     import sqlite3
@@ -26,20 +25,23 @@ def plot_energy_vs_total_and_partial_beb(name, save=False):
     plt.figure()
     x = x_70
     y = a_df_1['partial_beb'].values
-    plt.scatter(x,y,marker='X', color='coral',label='partial_beb')
+    plt.scatter(x,y,marker='x', color='coral',label='partial_beb')
 
     cur.execute("select energy,beb from energy_vs_total_beb where formula='{0}'".format(a_formula))
     rows = cur.fetchall()
     a_df = pd.DataFrame(rows,columns=['energy','total_beb'])
     
     total_beb_70 = a_df[a_df['energy']==70]['total_beb'].values
-    plot_other_energy_partial_beb(50,total_beb_70,a_df,num_partial_beb,y)
-    plot_other_energy_partial_beb(60,total_beb_70,a_df,num_partial_beb,y)
-    plot_other_energy_partial_beb(80,total_beb_70,a_df,num_partial_beb,y)
-    plot_other_energy_partial_beb(100,total_beb_70,a_df,num_partial_beb,y)
-    plot_other_energy_partial_beb(150,total_beb_70,a_df,num_partial_beb,y)
-    plot_other_energy_partial_beb(250,total_beb_70,a_df,num_partial_beb,y)
+    x_est = []
+    y_est = []
+    other_energy_partial_beb(50,total_beb_70,a_df,num_partial_beb,y,x_est,y_est)
+    other_energy_partial_beb(60,total_beb_70,a_df,num_partial_beb,y,x_est,y_est)
+    other_energy_partial_beb(80,total_beb_70,a_df,num_partial_beb,y,x_est,y_est)
+    other_energy_partial_beb(100,total_beb_70,a_df,num_partial_beb,y,x_est,y_est)
+    other_energy_partial_beb(150,total_beb_70,a_df,num_partial_beb,y,x_est,y_est)
+    other_energy_partial_beb(250,total_beb_70,a_df,num_partial_beb,y,x_est,y_est)
 
+    plt.scatter(x_est,y_est,marker='x', color='blue',label='estimated_partial_beb')
 
     x1 = a_df['energy'].values
     y1 = a_df['total_beb'].values

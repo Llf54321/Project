@@ -1,11 +1,9 @@
-#%%
 import sqlite3
 import pandas as pd
 import numpy as np
 import re
 from tqdm import tqdm
 import scipy.stats as ss
-from sklearn import preprocessing
 
 mass_abundance = np.load('mass_abundance.npy',allow_pickle=True).item()
 name_ae = np.load('name_AE.npy', allow_pickle=True).item()
@@ -87,12 +85,11 @@ for n in tqdm(name_ae.keys()):
     total_mean_ae.extend(l_mean_ae)
 
 
-#%%
+
 branching_ratio=np.array(total_branching_ratio)
 mean_ae=np.array(total_mean_ae)
-# %%
+
 import matplotlib.pylab as plt
-from numpy import polyfit, poly1d
 from scipy.optimize import curve_fit
 import math
 def __sst(y_no_fitting):
@@ -128,7 +125,13 @@ def f3(x, a,u, sig):
     result = a*np.exp(-(x - u) ** 2 / (2 * sig ** 2)) / (sig * math.sqrt(2 * math.pi))
     return result
 def f4(x,a,b):
-    result = a*x**(-3)+b
+    result = a*x**(b)
+    return result
+def f5(x,a):
+    result = a*x
+    return result
+def f6(x,a):
+    result = a*x
     return result
 def regression(x,y,function):
     mean = sum(x * y) / sum(y)
@@ -138,25 +141,45 @@ def regression(x,y,function):
     plt.figure(figsize=(20,8))
     plt.plot(np.sort(x), function(np.sort(x), *p_est), "k--")
     plt.scatter(x,y)
-    plt.xlabel('appearance energy')
-    plt.ylabel('branching ratio')
     if function == f1:
+        plt.xlabel('appearance energy')
+        plt.ylabel('branching ratio')
         plt.savefig('quadratic regression')
     elif function == f2:
+        plt.xlabel('appearance energy')
+        plt.ylabel('branching ratio')
         plt.savefig('linear regression')
     elif function == f3:
+        plt.xlabel('appearance energy')
+        plt.ylabel('branching ratio')
         plt.savefig('Gaussian regression')
+    elif function == f4:
+        plt.xlabel('appearance energy')
+        plt.ylabel('branching ratio')
+        plt.savefig('Power function regression')
+    elif function == f5:
+        plt.xlabel('log_appearance energy')
+        plt.ylabel('log_branching ratio')
+        plt.savefig('loglog linear regression')
+    elif function == f6:
+        plt.xlabel('appearance energy')
+        plt.ylabel('log_branching ratio')
+        plt.savefig('Exponential function regression')
     plt.show()
     
-    print('params:',p_est)
-    print('Root Mean Square Error =',compute_rms(y,function(x, *p_est)))
-    print('R_squared =',r_squared(y,function(x, *p_est)))
+    print('params:',[float(format(x, '.3g')) for x in p_est])
+    print('Root Mean Square Error =',format(compute_rms(y,function(x, *p_est)),'.3g'))
+    print('R_squared =',format(r_squared(y,function(x, *p_est)),'.3g'))
 
 regression(mean_ae,branching_ratio,f1)
 regression(mean_ae,branching_ratio,f2)
 regression(mean_ae,branching_ratio,f3)
 regression(mean_ae,branching_ratio,f4)
+log_mean_ae = np.log(mean_ae)
+log_branching_ratio = np.log(branching_ratio)
+regression(log_mean_ae,log_branching_ratio,f5)
+regression(mean_ae,log_branching_ratio,f6)
 r,p = ss.pearsonr(mean_ae,branching_ratio)
-print('Correlation coefficient =',r,'p-value =',p)
+print('Correlation coefficient =',format(r,'.3g'),'p-value =',format(p,'.3g'))
 
-# %%
+
