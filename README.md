@@ -5,6 +5,7 @@ In this project, mass spectrum, appearance energy and total ionization cross sec
 
 ## Enviroment
 This program is written by Python 3.9.0 on Windows system.
+The Chrome driver path is C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe
 
 ## Required Dependencies
 The dependencies are as followings:
@@ -51,3 +52,4 @@ introduce the files and their functions:
 * table_of_mass_abundances.py: some codes in python used to extract information from stable-isotopes.pdf.
 * test_database.py: some codes in python used to test the program.
 * total_and_partial_ionization_cross_sections_of_Methane.png: a sample of plot_partial_ionization_cross_sections.py
+* pytest_result.png: a screenshot of the pytest result
