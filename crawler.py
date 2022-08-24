@@ -1,7 +1,7 @@
 from crawler_method import find_data
 from tqdm import tqdm
 from selenium import webdriver
-
+import os
 # Obtain the list of formulas
 def obtain_list_of_formulas(species_list):
     """
@@ -80,7 +80,8 @@ def crawl_data(l_formula, path_folder_to_store, chrome_driver_path='C:\Program F
 
 if __name__ == '__main__':
     l_formula = obtain_list_of_formulas('species.txt')
-    not_been_found_formula = crawl_data(l_formula,r'C:\Users\46003\Desktop\project\data','F:\chromedriver_win32\chromedriver.exe')
+    download_path = os.getcwd()+r'\data'
+    not_been_found_formula = crawl_data(l_formula,download_path)
 
     while not_been_found_formula != []:
         not_been_found_formula = crawl_data(not_been_found_formula)

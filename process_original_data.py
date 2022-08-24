@@ -32,7 +32,7 @@ def extract_data(data):
 
     return {name:{'charge_mass_ratio':charge_mass_ratio,'peak_height':peak_height,'formula':formula,'num_fragmenhts':num_fragmenhts,'cas':cas,'nist_mass_spec_num':nist_mass_spec_num}}
 
-p = Path("/Users/46003/Desktop/project/data") 
+p = Path("./data") 
  
 FileList=list(p.glob("*Mass.jdx"))
 
