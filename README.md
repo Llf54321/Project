@@ -7,7 +7,7 @@ In this project, mass spectrum, appearance energy and total ionization cross sec
 This program is written by Python 3.9.0 on Windows system.
 
 ## Required Dependencies
-The dependencies are as following:
+The dependencies are as followings:
 1. numpy
 2. jcamp
 3. selenium
@@ -20,7 +20,7 @@ The dependencies are as following:
 
 ## Instructions
 Download codes:
-'''git
+'''Bash
 git clone https://github.com/Llf54321/Project.git'''
 
 introduce the files and their functions:
