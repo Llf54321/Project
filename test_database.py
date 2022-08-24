@@ -54,7 +54,7 @@ def test_check_element_exists():
     options.add_experimental_option("prefs", prefs)
     options.add_argument('blink-settings=imagesEnabled=false')
 
-    driver = webdriver.Chrome('F:\chromedriver_win32\chromedriver.exe',options=options)
+    driver = webdriver.Chrome('C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe',options=options)
 
     driver.get("https://webbook.nist.gov/cgi/cbook.cgi?Formula=ch3bo&NoIon=on&Units=SI")
     assert check_element_exists(driver, '/html/body/main/p[4]/a[1]') == False
@@ -67,7 +67,7 @@ def test_get_energy_vs_total_beb_table():
     prefs = {'profile.default_content_settings.popups': 0, 'download.default_directory': r'C:\Users\46003\Desktop\project\data'}
     options.add_experimental_option("prefs", prefs)
     options.add_argument('blink-settings=imagesEnabled=false')
-    driver = webdriver.Chrome('F:\chromedriver_win32\chromedriver.exe',options=options)
+    driver = webdriver.Chrome('C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe',options=options)
     a_df = get_energy_vs_total_beb_table(driver,0)
     expected_beb = [0.0, 0.037, 0.1, 0.165, 0.231, 0.296, 0.36, 0.424, 0.583, 0.743, 0.901, 1.057, 1.21, 1.358, 1.503, 1.653, 1.8, 1.943, 2.082, 2.215, 2.344, 2.468, 2.587, 2.702, 2.812, 2.918, 3.019, 3.117, 3.211, 3.548, 3.834, 4.074, 4.289, 4.499, 4.683, 4.842, 4.979, 5.242, 5.416, 5.526, 5.587, 5.614, 5.614, 5.594, 5.561, 5.516, 5.464, 5.405, 5.343, 5.278, 5.211, 5.143, 5.075, 5.006, 4.938, 4.87, 4.803, 4.737, 4.672, 4.546, 4.424, 4.308, 4.197, 4.091, 3.989, 3.893, 3.801, 3.714, 3.63, 3.265, 2.969, 2.725, 2.52, 2.345, 2.195, 2.064, 1.949, 1.847, 1.756, 1.674, 1.6, 1.533, 1.471, 1.415, 1.315, 1.229, 1.155, 1.089, 1.031, 0.98, 0.933, 0.891, 0.853, 0.818, 0.787, 0.757, 0.73, 0.705, 0.682, 0.66, 0.64, 0.621, 0.603, 0.587, 0.461, 0.382]
     

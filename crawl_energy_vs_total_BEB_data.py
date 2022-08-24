@@ -7,7 +7,7 @@ from crawler_method import get_energy_vs_total_beb_table
 options = webdriver.ChromeOptions()
 
 options.add_argument('blink-settings=imagesEnabled=false')
-driver = webdriver.Chrome('F:\chromedriver_win32\chromedriver.exe',options=options)
+driver = webdriver.Chrome('C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe',options=options)
 
 df = pd.DataFrame()
 

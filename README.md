@@ -17,6 +17,7 @@ The dependencies are as followings:
 7. tqdm
 8. scipy
 9. pandas
+10. math
 
 ## Instructions
 Download codes:

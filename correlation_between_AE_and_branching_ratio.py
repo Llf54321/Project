@@ -1,10 +1,15 @@
 import sqlite3
+import re
+import math
 import pandas as pd
 import numpy as np
-import re
 from tqdm import tqdm
 import scipy.stats as ss
+import matplotlib.pylab as plt
+from scipy.optimize import curve_fit
+import math
 
+# find the appearance energy and corresponding branching ratio
 mass_abundance = np.load('mass_abundance.npy',allow_pickle=True).item()
 name_ae = np.load('name_AE.npy', allow_pickle=True).item()
 
@@ -13,6 +18,7 @@ total_branching_ratio=[]
 total_mean_ae=[]
 l_result = []
 for n in tqdm(name_ae.keys()):
+    # Load branch ratio and other relevant data.
     if "'" in n:
         continue
     if n in banned_molecules:
@@ -23,6 +29,7 @@ for n in tqdm(name_ae.keys()):
     rows = cur.fetchall()
     a_df = pd.DataFrame(rows, columns=['charge_mass_ratio','branch_ratio','optional_fragment'])
     conn.close()
+    # Find appearance energy data
     a_df_ae = name_ae[n]
     l_ion = list(a_df_ae['ion'])
     if len(l_ion) == 1:
@@ -31,10 +38,11 @@ for n in tqdm(name_ae.keys()):
     l_mean_ae=[]
     for i in l_ae:
         l_mean_ae.append(float(re.findall(r'-?\d+\.?\d*e?-?\d*?', i)[0]))
-
+    # Find branch ratio
     l_branch_ratio = []
     ind = 0
     for f in l_ion:
+        # Split ions into atomic name and their number list
         d_possible_mass = {}
         if '[' not in f:
             if f == 'MOC3O3+':
@@ -44,6 +52,7 @@ for n in tqdm(name_ae.keys()):
         else:
             del l_mean_ae[ind]
             continue
+        # Find the possible mass using their main isotope 
         main_possible = 0
         for a_formula in f:
             a_atom = re.sub(u'([^\u0041-\u007a])','',a_formula)
@@ -52,7 +61,7 @@ for n in tqdm(name_ae.keys()):
                 a_num = 1
             main_possible += mass_abundance[a_atom]['main'][0][0]*int(a_num)
         d_possible_mass[main_possible] = 1
-
+        # Find the possible masses using their minor isotope
         for a_formula in f:
             a_atom = re.sub(u'([^\u0041-\u007a])','',a_formula)
             a_num = re.sub(u'([^\u0030-\u0039])','',a_formula)
@@ -65,7 +74,7 @@ for n in tqdm(name_ae.keys()):
                         d_possible_mass[a_other[0]-mass_abundance[a_atom]['main'][0][0]+main_possible] = 1
                     else:
                         d_possible_mass[a_other[0]-mass_abundance[a_atom]['main'][0][0]+main_possible] +=1
-
+        # Find their branch ratio
         a_branch_ratio = 0
         for a_possible_mass in d_possible_mass.keys():
             if a_possible_mass not in a_df['charge_mass_ratio'].values:
@@ -84,32 +93,25 @@ for n in tqdm(name_ae.keys()):
     total_branching_ratio.extend(l_branch_ratio)
     total_mean_ae.extend(l_mean_ae)
 
-
-
 branching_ratio=np.array(total_branching_ratio)
 mean_ae=np.array(total_mean_ae)
 
-import matplotlib.pylab as plt
-from scipy.optimize import curve_fit
-import math
-def __sst(y_no_fitting):
-    y_mean = sum(y_no_fitting) / len(y_no_fitting)
-    s_list =[(y - y_mean)**2 for y in y_no_fitting]
+# Regression with five models
+def __sst(original_y):
+    y_mean = sum(original_y) / len(original_y)
+    s_list =[(y - y_mean)**2 for y in original_y]
     sst = sum(s_list)
     return sst
-
-def __ssr(y_fitting, y_no_fitting):
-    y_mean = sum(y_no_fitting) / len(y_no_fitting)
-    s_list =[(y - y_mean)**2 for y in y_fitting]
+def __ssr(new_y, original_y):
+    y_mean = sum(original_y) / len(original_y)
+    s_list =[(y - y_mean)**2 for y in new_y]
     ssr = sum(s_list)
     return ssr
-
-def r_squared(y_no_fitting, y_fitting):
-    SSR = __ssr(y_fitting, y_no_fitting)
-    SST = __sst(y_no_fitting)
+def r_squared(original_y, new_y):
+    SSR = __ssr(new_y, original_y)
+    SST = __sst(original_y)
     rr = 1 - SSR /SST
     return rr
-
 def compute_rms(mu_1, mu_2):
     MSE = np.square(mu_1-mu_2).sum()/len(mu_1)
     RMSE = np.sqrt(MSE)
@@ -133,6 +135,7 @@ def f5(x,a):
 def f6(x,a):
     result = a*x
     return result
+
 def regression(x,y,function):
     mean = sum(x * y) / sum(y)
     sigma = np.sqrt(sum(y * (x - mean)**2) / sum(y))
@@ -145,28 +148,32 @@ def regression(x,y,function):
         plt.xlabel('appearance energy')
         plt.ylabel('branching ratio')
         plt.savefig('quadratic regression')
+        print('quadratic regression:')
     elif function == f2:
         plt.xlabel('appearance energy')
         plt.ylabel('branching ratio')
         plt.savefig('linear regression')
+        print('linear regression:')
     elif function == f3:
         plt.xlabel('appearance energy')
         plt.ylabel('branching ratio')
         plt.savefig('Gaussian regression')
+        print('Gaussian regression:')
     elif function == f4:
         plt.xlabel('appearance energy')
         plt.ylabel('branching ratio')
         plt.savefig('Power function regression')
+        print('Power function regressio:')
     elif function == f5:
         plt.xlabel('log_appearance energy')
         plt.ylabel('log_branching ratio')
         plt.savefig('loglog linear regression')
+        print('loglog linear regression:')
     elif function == f6:
         plt.xlabel('appearance energy')
         plt.ylabel('log_branching ratio')
         plt.savefig('Exponential function regression')
-    plt.show()
-    
+        print('Exponential function regression:')
     print('params:',[float(format(x, '.3g')) for x in p_est])
     print('Root Mean Square Error =',format(compute_rms(y,function(x, *p_est)),'.3g'))
     print('R_squared =',format(r_squared(y,function(x, *p_est)),'.3g'))
@@ -179,6 +186,7 @@ log_mean_ae = np.log(mean_ae)
 log_branching_ratio = np.log(branching_ratio)
 regression(log_mean_ae,log_branching_ratio,f5)
 regression(mean_ae,log_branching_ratio,f6)
+
 r,p = ss.pearsonr(mean_ae,branching_ratio)
 print('Correlation coefficient =',format(r,'.3g'),'p-value =',format(p,'.3g'))
 

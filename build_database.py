@@ -1,7 +1,7 @@
 import sqlite3
 import numpy as np
 
-
+# Prepare data for the table
 processed_data = np.load('processed_data.npy', allow_pickle=True).item()
 
 l_rows = []
@@ -25,17 +25,14 @@ for name in list(processed_data.keys()):
 
         l_rows.append(tuple(a_row))
 
+# Create the database and the table
 conn = sqlite3.connect('data-20.db')
 
 cur = conn.cursor()
-
 table = '''CREATE TABLE main_data (name TEXT,cas TEXT,formula TEXT, charge_mass_ratio NUMBER, peak_height NUMBER,branch_ratio NUMBER, optional_fragment TEXT)'''
-
 cur.execute(table)
-
-
 cur.executemany('INSERT INTO main_data VALUES (?,?,?,?,?,?,?)', l_rows)
-conn.commit()
 
+conn.commit()
 cur.close()
 conn.close()

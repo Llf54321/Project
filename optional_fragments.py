@@ -1,4 +1,3 @@
-#%%
 import numpy as np
 import re
 from tqdm import tqdm
@@ -20,8 +19,7 @@ def find_possible_combination(possible_mass, mass_list):
     combination_mass: list
     The list of possible combination mass
     """
-    
-    
+   
     l_charge_mass_ratio = []
     combination_mass = []
     shape = [len(layer) for layer in possible_mass]
@@ -121,8 +119,7 @@ def find_atom_name_num(formula):
     l_atom_num: list
     the list of atom numbers
     """
-    
-    
+  
     l_atom_name = []
     l_atom_num = []
     for i in formula.split():
@@ -164,7 +161,7 @@ def find_optional_fragments(data,name):
         l_other_mass.append(mass_abundance[atom]['other'])
         l_main_mass.append(mass_abundance[atom]['main'][0][0])
 
-    # All atoms in the formula are the most abundance
+    # All atoms in the formula with the most abundance
     index_cl = -1
     index_br = -1
 
@@ -227,11 +224,7 @@ def find_optional_fragments(data,name):
         else:
             d_mass_main_formula[l_charge_mass_ratio[index_combination]].append(a_formula)
 
-
-
-
     # One atom with minorabundance mass in the formula
-
     l_rest_mass = []
     for a_charge_mass_ratio in data[name]['charge_mass_ratio']:
         if a_charge_mass_ratio not in d_mass_main_formula.keys():
@@ -311,9 +304,9 @@ def process_data(data, min_branching_ratio):
     the original data with optional fragments and branching ratio
     """
     
-    
     processed_data = {}
     for a_name in tqdm(data.keys()):
+        # Find optional fragments of a molecule
         l_atoms_name,l_atoms_num = find_atom_name_num(data[a_name]['formula'])
         if 'D' in l_atoms_name:
             continue
@@ -329,6 +322,7 @@ def process_data(data, min_branching_ratio):
 
         d_mass_formula, possible_main_mass = find_optional_fragments(data,a_name)
 
+        # Check if the rest charge/mass ratio is possible a double peak
         l_rest_mass = []
         new_l_rest_mass = []
         for a_mass in l_most_mass:
@@ -344,8 +338,7 @@ def process_data(data, min_branching_ratio):
             else:
                 print(a_name, data[a_name]['formula'], l_rest_mass)
         
-
-
+        # Summary information
         l_optional_fragments = []
         for m in data[a_name]['charge_mass_ratio']:
             if m in d_mass_formula.keys():
@@ -361,7 +354,6 @@ def process_data(data, min_branching_ratio):
 
     return processed_data
 
-# %%
 if __name__ == '__main__':
     original_data = np.load('new_data.npy', allow_pickle=True).item()
     mass_abundance = np.load('mass_abundance.npy',allow_pickle=True).item()

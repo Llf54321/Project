@@ -1,6 +1,6 @@
 def other_energy_partial_beb(energy, total_beb_70,df,num,partial_beb_70,x,y):
-    import matplotlib.pylab as plt
     import numpy as np
+
     total_beb = df[df['energy']==int('{0}'.format(energy))]['total_beb'].values
     x.append([int('{0}'.format(energy))]*num)
     y.append(np.array(partial_beb_70)*total_beb/total_beb_70)
@@ -11,8 +11,8 @@ def plot_energy_vs_total_and_partial_beb(name, save=False):
     import sqlite3
     import pandas as pd
     import matplotlib.pylab as plt
-    import numpy as np
 
+    # Load the relevant data of the cpecies
     conn = sqlite3.connect('data-20.db')
     cur = conn.cursor()
     cur.execute("select formula,optional_fragment,partial_beb from partial_beb where name='{0}'".format(name))
@@ -22,15 +22,16 @@ def plot_energy_vs_total_and_partial_beb(name, save=False):
     x_70 = [70]*num_partial_beb
     a_df_1 = pd.DataFrame(rows_1,columns=['formula','optional_fragment','partial_beb'])
 
+    cur.execute("select energy,beb from energy_vs_total_beb where formula='{0}'".format(a_formula))
+    rows = cur.fetchall()
+    a_df = pd.DataFrame(rows,columns=['energy','total_beb'])
+
+    # Plot partial ionization cross sections
     plt.figure()
     x = x_70
     y = a_df_1['partial_beb'].values
     plt.scatter(x,y,marker='x', color='coral',label='partial_beb')
 
-    cur.execute("select energy,beb from energy_vs_total_beb where formula='{0}'".format(a_formula))
-    rows = cur.fetchall()
-    a_df = pd.DataFrame(rows,columns=['energy','total_beb'])
-    
     total_beb_70 = a_df[a_df['energy']==70]['total_beb'].values
     x_est = []
     y_est = []
@@ -43,6 +44,7 @@ def plot_energy_vs_total_and_partial_beb(name, save=False):
 
     plt.scatter(x_est,y_est,marker='x', color='blue',label='estimated_partial_beb')
 
+    # Plot total ionization cross section
     x1 = a_df['energy'].values
     y1 = a_df['total_beb'].values
     plt.plot(x1,y1,color='black',label='total_beb')
@@ -56,5 +58,7 @@ def plot_energy_vs_total_and_partial_beb(name, save=False):
         plt.savefig('total_and_partial_ionization_cross_sections_of_{0}'.format(name))
     plt.show()
 
-plot_energy_vs_total_and_partial_beb('Methane',True)
-plot_energy_vs_total_and_partial_beb('Tetrafluoromethane')
+# Examples
+if __name__ == '__main__':
+    plot_energy_vs_total_and_partial_beb('Methane',True)
+    plot_energy_vs_total_and_partial_beb('Tetrafluoromethane')
