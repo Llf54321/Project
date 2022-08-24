@@ -21,7 +21,8 @@ The dependencies are as followings:
 ## Instructions
 Download codes:
 ```Bash
-git clone https://github.com/Llf54321/Project.git```
+git clone https://github.com/Llf54321/Project.git
+```
 
 introduce the files and their functions:
 * data: a folder contained the crawled mass spectrum data files.
