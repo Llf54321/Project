@@ -1,7 +1,6 @@
 from crawler_method import find_data
 from tqdm import tqdm
 from selenium import webdriver
-import os
 
 # Obtain the list of formulas
 with open('species.txt','r',encoding='utf-8') as f:

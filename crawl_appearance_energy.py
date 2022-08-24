@@ -2,7 +2,6 @@ from tqdm import tqdm
 import sqlite3
 from selenium import webdriver
 import pandas as pd
-import re
 from crawler_method import get_AE_table
 
 # find the name list
