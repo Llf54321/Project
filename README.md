@@ -54,7 +54,7 @@ Introduce the steps of the program, the running order of the files and the relev
     1. calculate_partial_BEB.py: some codes in python used to find partial inization cross section data and save them in the database.  
     relevant output is a table in the database.  
 7. analyze data:
-    1. correlation_between_AE_and_branching_ratio.py: some codes in python used to find the correlation between appearance energy and branching ratio.
+    1. correlation_between_AE_and_branching_ratio.py: some codes in python used to find the correlation between appearance energy and branching ratio.  
     relevant outputs are Gaussian regression.png: Gaussian regression model for the correlation, linear regression.png: linear regression model for the correlation, quadratic regression.png: quadratic regression model for the correlation, Exponential function regression.png: check if it is a exponential regression compared to power regression, loglog linear regression.png: check if it is a power regression compared to exponential regression and power function regression: power regression model for the correlation.  
     2. plot_partial_ionization_cross_sections.py: some codes in python used to plot total and partial ionization cross sections.  
     relevant output is total_and_partial_ionization_cross_sections_of_Methane.png: a sample of plot_partial_ionization_cross_sections.py
